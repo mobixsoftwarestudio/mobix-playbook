@@ -10,17 +10,20 @@ Our Project Manager (PM) needs to organise his tasks by the following features:
 
 ## Methodology
 
-        At Mobix we use Scrum Methodology to achieve the goals. Divided by Sprints, we set up expectations with the Team and with the Client to plan and tackle possible challenges that we might need to achieve the goals. As Scrum is an Agile Methodology applied on Software Engineering process, a few events are made with the Team:
+At Mobix we use Scrum Methodology to achieve the goals. Divided by Sprints, we set up expectations with the Team and with the Client to plan and tackle possible challenges that we might need to achieve the goals. As Scrum is an Agile Methodology applied on Software Engineering process, a few events are made with the Team:
 
 
 ### Sprint Planning
 
-        The Team receives the deliverables provided to the Client and PM of the project. At this point we have the UI requirements documented with the high fidelity prototypes and further recommendations of the Client regarding some prioritizations.
-During the planning we analyse each User Story (US) (provided by UX/UI team along with the PM) and set up complexity for each US to balance through the Team's ability to deliver the amount of work.
-Right after we analyse the complexity of each US, we set up the ones that the Team will be able to achieve during the Sprint Cycle (notice that our standards takes up to 10 business days of cycle).
-During the Sprint Cycle, neither the Client or the PM are able to change requirements nor add more deliverables for the Sprint Cycle.
-Thus, we can start to work and align with the Client all the expectations of the next delivery.
+The Team receives the deliverables provided to the Client and PM of the project. At this point we have the UI requirements documented with the high fidelity prototypes and further recommendations of the Client regarding some prioritizations.
 
+During the planning we analyse each User Story (US) (provided by UX/UI team along with the PM) and set up complexity for each US to balance through the Team's ability to deliver the amount of work.
+
+Right after we analyse the complexity of each US, we set up the ones that the Team will be able to achieve during the Sprint Cycle (notice that our standards takes up to 10 business days of cycle).
+
+During the Sprint Cycle, neither the Client or the PM are able to change requirements nor add more deliverables for the Sprint Cycle.
+
+Thus, we can start to work and align with the Client all the expectations of the next delivery.
 
 ### Sprint Daily Meeting
 
@@ -28,10 +31,10 @@ The Team along with the PM set up a moment during the work day to align the info
 During a maximum of 15 minutes, the whole Team needs to update themselves with the current status of their development.
 Normally we follow some guidelines for Daily Meetings: 
 
-    - What i did since the last Daily Meeting
-    - What am i doing now
-    - Which problems i'm facing (being objective, with further details for discussion with someone of the Team able to help)
-    - What i'm gonna do until the next Daily Meeting
+* What i did since the last Daily Meeting
+* What am i doing now? 
+* Which problems am i facing? (being objective, with further details for discussion with someone of the Team able to help)
+* What am i gonna do until the next Daily Meeting?
     
 ### Sprint Delivery
 
@@ -44,10 +47,10 @@ The Sprint Cycle is approved successfully if all the US planned during the plann
 After the Deploy process and the Approval/Disapproval of the Sprint Cycle, the Team needs to review their work during the past cycle and share with each other to improve and align any other problems that is affecting the developers individually and as a team.
 Here are the guidelines for the Retrospective:
 
-- What happened during the Cycle that the team needs to review?
-- What was nice on the Cycle?
-- What needs to improve?
-- What we can do for the next Sprint?
+* What happened during the Cycle that the team needs to review?
+* What was nice on the Cycle?
+* What needs to improve?
+* What we can do for the next Sprint?
 
 ## Repository
 
