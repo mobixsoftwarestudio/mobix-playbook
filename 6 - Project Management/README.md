@@ -52,10 +52,6 @@ Here are the guidelines for the Retrospective:
 * What needs to improve?
 * What we can do for the next Sprint?
 
-## Repository
-
-`Available soon`
-
 ## Tasks Management
 
 We use Asana for task management. We have two different scenarios for task management: 
