@@ -6,6 +6,8 @@
 
 ### Development Kickstart
 
+NOTE: If you want to check tools and process regarding the project management, please [click here](../6%20-%20Project%20Management).
+
 During the kickstart process, we have some requirements that we feel it's mandatory for a healthy project development lifecycle: 
 
 - [x] Amount of hours allocated for the project
@@ -59,7 +61,31 @@ We set up some hours during the week/month in our team's allocation to check our
 
 ### Estimates Guideline
 
-~coming soon~
+During the Sprint Planning ceremony, the whole team decide which user stories will be assigned to the next Sprint. For this to happen perfectly, we set up some estimates guideline to tackle the forecast of the user story deliveries.
+
+For each user story (US), we usually slice it into small tasks to help us decide the complexity point we need to set up:
+
+`User Story: Me, as an user, would like to authenticate into my account to have access to main features.`
+- [ ] 1 : Easy task, with low complexity and fast to delivery.
+- [ ] 2 : Easy task, with low complexity but requires more effort to delivery.
+- [x] 3 : Medium task, with medium complexity with a known effort to delivery.
+- [ ] 5: Medium task, with medium complexity which requires research and effort to delivery.
+- [ ] 8: Hard task, with high complexity which requires research and higher effort to delivery.
+- [ ] 13: Need to review the task and transform it to a user story.
+
+The team assigned to that user story will estimate the effort needed to tackle the above challenge. Each team member will set the amount of points to tackle it and together they will assign officially the points for that US. At this moment, it's highly important for the team to create discussions to understand all possibilities before make it official.
+
+#### How we know the amount of work the team handles?
+
+During the kickstart process, we set a 1 week-sprint to understand the deliveries, team velocity and the unknown challenges the project might create during the development lifecycle. 
+
+In that case, we define a burndown chart with the team's accuracy on solving the tasks.
+
+<p align="center">
+  <img src="https://www.visual-paradigm.com/servlet/editor-content/scrum/scrum-burndown-chart/sites/7/2018/11/burndown-chart-and-emotion.png" height="400">
+</p>
+
+That chart helps a lot our PM and the team to understand how good we are in terms of velocity x effort.
 
 ### QA
 
