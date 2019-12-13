@@ -33,9 +33,12 @@ Regarding to `develop`, we pull all implementations that we do in our team to va
 
 Outside those two main branches, we define the following approach: 
 
-- feature/
-- issue/
-- hotfix/
+- feature
+- issue
+- hotfix
+- release
+
+Each one from the above are set up as folders with the correspondent branches (i.e `feature/my-branch`).
 
 ### Boilerplates
 
