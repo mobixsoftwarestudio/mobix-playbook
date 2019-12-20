@@ -2,7 +2,6 @@
 
 # Table of contents
 
-* [Mobix Software Studio Playbook](README.md)
 * [Our Culture](1-our-culture.md)
 * [Why Choosing Mobix](3-why-choosing-mobix.md)
 * [Hiring and On-Boarding Process](5-hiring-and-on-boarding-process.md)
