@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Mobix Software Studio Playbook](README.md)
-* [README](1-our-culture.md)
+* [Mobix Software Studio Playbook](1-our-culture.md)
 * [README](3-why-choosing-mobix.md)
 * [README](5-hiring-and-on-boarding-process.md)
 * [README](2-what-we-do.md)

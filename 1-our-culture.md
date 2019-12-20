@@ -1,6 +1,4 @@
-# README
-
-## TESTE Mobix Software Studio Playbook
+# Mobix Software Studio Playbook
 
 ## Our Culture
 
