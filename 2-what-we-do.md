@@ -1,10 +1,12 @@
-# Mobix Software Studio Playbook
+# What We Do
 
-# What we do
+## Mobix Software Studio Playbook
 
-## Our Services
+## What we do
 
-> Mobix develops software solutions, tailored to client’s needs.  We dominate in the use of Node, React JS, React Native and Angular and we love working with APIs.
+### Our Services
+
+> Mobix develops software solutions, tailored to client’s needs. We dominate in the use of Node, React JS, React Native and Angular and we love working with APIs.
 
 * Consulting: 
 
@@ -18,7 +20,7 @@ Using design thinking to create interfaces for web and mobile applications, with
 
 We develop custom software with quality, tailoring with agile methodology. Our work delivto your custom code to accommodate your unique needs.
 
-## Our Homemade Products
+### Our Homemade Products
 
 * Remote
 
@@ -37,3 +39,4 @@ Tandera is an AI-based application that uses pattern recognition to track object
 Surfguru is a web platform that delivery wave and wind forecasts to help surfers and its stakeholders to find the best place to practice the sport and convert the market to track their customer to its needs. The platform also allows the user to manage the data to obtain a more deep study about the ocean behaviour and the decision making of ocean traveling.
 
 `Stack used: React, Redux, Redux Saga, Netlify, AWS.`
+
