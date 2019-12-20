@@ -1,8 +1,8 @@
 # Development Practices
 
-### Standards
+## Standards
 
-#### Development Kickstart
+### Development Kickstart
 
 NOTE: If you want to check tools and process regarding the project management, please [click here](6-project-management.md).
 
@@ -18,7 +18,7 @@ During the kickstart process, we have some requirements that we feel it's mandat
 
 The project won't have its kickstart while we have our requirements checked up.
 
-#### Git Flow
+### Git Flow
 
 At Mobix we introduce a configuration model tailoring the best practices of code management. At first, you already know that we use `GitHub` to manage everything.
 
@@ -40,7 +40,7 @@ Outside those two main branches, we define the following approach:
 
 Each one from the above are set up as folders with the correspondent branches \(i.e `feature/my-branch`\).
 
-#### Boilerplates
+### Boilerplates
 
 To kickstart a project at Mobix, we need to evaluate the project complexity as well as the type of architecture.
 
@@ -57,7 +57,7 @@ We set up some hours during the week/month in our team's allocation to check our
 
 * NodeJs Projects: [https://github.com/mobixsoftwarestudio/node-boilerplate](https://github.com/mobixsoftwarestudio/node-boilerplate)
 
-#### Estimates Guideline
+### Estimates Guideline
 
 During the Sprint Planning ceremony, the whole team decide which user stories will be assigned to the next Sprint. For this to happen perfectly, we set up some estimates guideline to tackle the forecast of the user story deliveries.
 
@@ -84,19 +84,19 @@ In that case, we define a burndown chart with the team's accuracy on solving the
 
 That chart helps a lot our PM and the team to understand how good we are in terms of velocity x effort.
 
-#### QA
+### QA
 
 ~coming soon~
 
-#### ADA for Mobile Apps
+### ADA for Mobile Apps
 
 ~coming soon~
 
-#### Continuous Integration
+### Continuous Integration
 
 ~coming soon~
 
-#### Continuous Deploy
+### Continuous Deploy
 
 ~coming soon~
 

@@ -1,6 +1,6 @@
 # What We Do
 
-### Our Services
+## Our Services
 
 > Mobix develops software solutions, tailored to client’s needs. We dominate in the use of Node, React JS, React Native and Angular and we love working with APIs.
 
@@ -16,7 +16,7 @@ Using design thinking to create interfaces for web and mobile applications, with
 
 We develop custom software with quality, tailoring with agile methodology. Our work delivto your custom code to accommodate your unique needs.
 
-### Our Homemade Products
+## Our Homemade Products
 
 * Remote
 

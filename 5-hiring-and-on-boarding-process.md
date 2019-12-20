@@ -2,7 +2,7 @@
 
 Our hiring process is based on open spots and people’s professional and personal development. Hence, we designed a process based on education, learning by doing and career plan.
 
-### Stages
+## Stages
 
 The 4 stages of the hiring process aim at measuring technical prowess, communication skills, and management abilities for UX designer and Developer positions:
 
@@ -13,7 +13,7 @@ The 4 stages of the hiring process aim at measuring technical prowess, communica
 
 At the end of the process, candidates are shortlisted and each new collaborator starts the on-boarding process to acquire knowledge organizationally and technically.
 
-### Open Spots and Requirements
+## Open Spots and Requirements
 
 The open spots are related to the following profiles:
 
@@ -21,7 +21,7 @@ The open spots are related to the following profiles:
 * Full Stack Designer: Works to design, develop, launch web and mobile applications. It’s all about creating experiences that people can use with ease and delight, so a key design skill is learning how to make that experience the best it can be. Expertise in Sketch, Figma, Adobe XD or other tools, experience in guiding clients and designing sprints and strong knowledge of UX and UI design process, methodologies and frameworks are the basis to work as a Full stack Designer.
 * Trainee: This position is designed to last from 6 months to 2 years and it’s based on a training process tailored according to the needs, aiming to jump to Developer as soon as possible.
 
-### On-boarding Process
+## On-boarding Process
 
 Our on-boarding process is designed to maximize learning opportunities, knowledge sharing, and professional development. Reading is awesome and necessary, but true growth is achieved through learning by doing. Hence, the process lasts 1 month in order to be fully integrated on our culture and the topics vary according to the role. The steps are divided in weeks, as following explained.
 
@@ -52,7 +52,7 @@ The Third and Fourth week focus on:
 2. Building the project together with the mentor;
 3. Mentor’s Shadowing.
 
-### Benefits
+## Benefits
 
 For the whole team, the benefits are the same independently of the position:
 
