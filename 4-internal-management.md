@@ -1,4 +1,4 @@
-# Internal Management
+# README
 
 ## Mobix Software Studio Playbook
 

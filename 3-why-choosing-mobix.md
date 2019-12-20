@@ -1,4 +1,4 @@
-# Why Choosing Mobix
+# README
 
 ## Mobix Software Studio Playbook
 

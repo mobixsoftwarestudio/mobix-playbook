@@ -1,4 +1,4 @@
-# Development Practices
+# README
 
 ## Mobix Software Studio Playbook
 
@@ -8,7 +8,7 @@
 
 #### Development Kickstart
 
-NOTE: If you want to check tools and process regarding the project management, please [click here](../6-project-management.md).
+NOTE: If you want to check tools and process regarding the project management, please [click here](6-project-management.md).
 
 During the kickstart process, we have some requirements that we feel it's mandatory for a healthy project development lifecycle:
 
