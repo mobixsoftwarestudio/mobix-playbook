@@ -8,6 +8,9 @@
 * [For the Future](7-for-the-future.md)
 * [Project Management](6-project-management.md)
 * [Internal Management](4-internal-management.md)
-* [Development Practices](0-development-practices.md)
 * [Security and Data](8-security-and-data.md)
+
+## 0 - Development Practices <a id="0-development-practices-1"></a>
+
+* [Development Practices](0-development-practices-1/0-development-practices.md)
 
