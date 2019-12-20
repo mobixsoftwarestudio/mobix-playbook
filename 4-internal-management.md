@@ -1,8 +1,4 @@
-# README
-
-## Mobix Software Studio Playbook
-
-## Internal Management
+# Internal Management
 
 > “Collaboration is a key part of the success of any organization, executed through a clearly defined vision and mission and based on transparency and constant communication” - Dinesh Paliwal.
 

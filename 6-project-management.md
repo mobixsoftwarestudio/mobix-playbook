@@ -1,8 +1,4 @@
-# README
-
-## Mobix Software Studio Playbook
-
-## Project Management
+# Project Management
 
 During the execution of projects, Mobix has a major cycle of Project Management like below:
 

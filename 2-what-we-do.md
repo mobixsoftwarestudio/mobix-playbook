@@ -1,8 +1,4 @@
-# README
-
-## Mobix Software Studio Playbook
-
-## What we do
+# What We Do
 
 ### Our Services
 

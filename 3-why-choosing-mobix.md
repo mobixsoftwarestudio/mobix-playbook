@@ -1,10 +1,6 @@
-# README
+# Why Choosing Mobix
 
-## Mobix Software Studio Playbook
-
-## Why choosing Mobix
-
-> “For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics.
+“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics.
 
 In each kind of relationship, you can learn what are the good practices that matter and those which are the basis of it to guarantee high-quality experiences for our main stakeholders: clients and collaborators. So, we are not only a software studio with experienced developers. We like to tailor outstanding solutions together with the client. We are not choosing projects where we are invaluable in a month and disposable in the next. We want to help products to last. For this reason we designed the standards we offer to our clients and our expectations towards them.
 

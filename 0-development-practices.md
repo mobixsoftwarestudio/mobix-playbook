@@ -1,8 +1,4 @@
-# README
-
-## Mobix Software Studio Playbook
-
-## Development Practices
+# Development Practices
 
 ### Standards
 

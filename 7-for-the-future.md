@@ -1,6 +1,4 @@
-# README
+# For The Future
 
-## Mobix Software Studio Playbook
-
-## For the future
+## 
 

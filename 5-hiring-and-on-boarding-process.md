@@ -1,8 +1,4 @@
-# README
-
-## Mobix Software Studio Playbook
-
-## Hiring and On-Boarding Process
+# Hiring and On-Boarding Process
 
 Our hiring process is based on open spots and people’s professional and personal development. Hence, we designed a process based on education, learning by doing and career plan.
 
