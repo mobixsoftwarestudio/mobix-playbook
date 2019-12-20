@@ -1,14 +1,10 @@
-# README
+# Why Choosing Mobix
 
-## Mobix Software Studio Playbook
-
-## Why choosing Mobix
-
-> “For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics.
+“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics.
 
 In each kind of relationship, you can learn what are the good practices that matter and those which are the basis of it to guarantee high-quality experiences for our main stakeholders: clients and collaborators. So, we are not only a software studio with experienced developers. We like to tailor outstanding solutions together with the client. We are not choosing projects where we are invaluable in a month and disposable in the next. We want to help products to last. For this reason we designed the standards we offer to our clients and our expectations towards them.
 
-### Standards to our Clients
+## Standards to our Clients
 
 * Communication is the key, whenever the client needs it, we must attend to it, explaining and facilitating the understanding and the decision-making process;
 * The whole scope of work should be clear, in order to avoid problems of interpretation, understanding, and expectations;
@@ -26,9 +22,9 @@ In each kind of relationship, you can learn what are the good practices that mat
 * We work with project that lasts at least 3 months/14 weeks, because doing small projects over and over can make developers really good in setups and basic features, but larger projects have more interesting challenges that help developers become experts;
 * Taking chances and building entire products on hunches can lead to idleness and demotivate developers \(no one likes to develop things that never see the light of day\). We focus on the good feeling that is to see your code being used - solving real problems for real people.
 
-### Standards to our Collaborators
+## Standards to our Collaborators
 
-#### Team Standards
+### Team Standards
 
 > Our main tool is based on OKRs of John Doerr, aiming to make our collaborators more committed and accountable towards their tasks by having a long-term perspective. The team develops a physical scoreboard designed to create both public accountability and team engagement.
 

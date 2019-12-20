@@ -1,30 +1,26 @@
-# README
-
-## Mobix Software Studio Playbook
-
-## Our Culture
+# Our Culture
 
 Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empowers them. We believe that passion, collaboration, and ethics will unlock the human potential. Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin or other kind of prejudice. We think that freedom of expression and diversity are about embracing one another’s uniqueness.
 
-### Our Vision
+## Our Vision
 
 * We drive transformation to unlock the human potential for a brighter future.
 
-### Our Mission
+## Our Mission
 
 * Driving technology to craft great solutions for society.
 
-### Our Values
+## Our Values
 
 * Passion, excellence, creativity and empathy.
 
-### Our Behaviours
+## Our Behaviours
 
 “Talent is the multiplier. The more energy and attention you invest in it, the greater the yield” — Marcus Buckingham, Author and business consultant.
 
 We strongly believe that behaviors needed to exceed client expectations, hence we have 3 main conducts that make us stand out and that characterize our actions.
 
-### Our Philosophy
+## Our Philosophy
 
 We are a human-centered company which believes that motivated, passionate and reliable people are the roots to craft outstanding software solutions. Hence, every decision we are about to take actually reflects our philosophy.
 

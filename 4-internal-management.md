@@ -1,14 +1,10 @@
-# README
-
-## Mobix Software Studio Playbook
-
-## Internal Management
+# Internal Management
 
 > “Collaboration is a key part of the success of any organization, executed through a clearly defined vision and mission and based on transparency and constant communication” - Dinesh Paliwal.
 
 We use different tools for communication and management inside Mobix.
 
-### Management
+## Management
 
 * Asana
 
@@ -30,12 +26,12 @@ It’s a project and resource management software that helps us to automate oper
 
 It’s an online scheduling tool that we use to quickly and easily find a date and time to meet within our team, but also with multiple people. So, Doodle aggregates the responses and tells us which option works best for everyone.
 
-### Communication
+## Communication
 
 * Slack: It offers many IRC-like features, including persistent chat rooms \(channels\) organized by topic, private groups, and direct messaging. We use it to communicate within the organization and the teams about working topics. Content, including files, conversations, and people, are all searchable within Slack.
 * Whatsapp: It is free to download messenger app for smartphones. WhatsApp uses the internet to send messages, images, audio or video. We use it for informal communications both in private and in groups.
 
-### OKRs
+## OKRs
 
 We structured an organization that thrives by setting OKRs as the basis of our work.
 

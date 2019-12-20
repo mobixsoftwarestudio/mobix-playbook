@@ -1,8 +1,4 @@
-# README
-
-## Mobix Software Studio Playbook
-
-## Project Management
+# Project Management
 
 During the execution of projects, Mobix has a major cycle of Project Management like below:
 
@@ -10,11 +6,11 @@ During the execution of projects, Mobix has a major cycle of Project Management 
 
 Our Project Manager \(PM\) needs to organise his tasks by the following features:
 
-### Methodology
+## Methodology
 
 At Mobix we use Scrum Methodology to achieve the goals. Divided by Sprints, we set up expectations with the Team and with the Client to plan and tackle possible challenges that we might need to achieve the goals. As Scrum is an Agile Methodology applied on Software Engineering process, a few events are made with the Team:
 
-#### Sprint Planning
+### Sprint Planning
 
 The Team receives the deliverables provided to the Client and PM of the project. At this point we have the UI requirements documented with the high fidelity prototypes and further recommendations of the Client regarding some prioritizations.
 
@@ -26,7 +22,7 @@ During the Sprint Cycle, neither the Client or the PM are able to change require
 
 Thus, we can start to work and align with the Client all the expectations of the next delivery.
 
-#### Sprint Daily Meeting
+### Sprint Daily Meeting
 
 The Team along with the PM set up a moment during the work day to align the information of the Team during the Sprint Cycle. This moment is called Daily Meeting. During a maximum of 15 minutes, the whole Team needs to update themselves with the current status of their development. Normally we follow some guidelines for Daily Meetings:
 
@@ -35,11 +31,11 @@ The Team along with the PM set up a moment during the work day to align the info
 * Which problems am i facing? \(being objective, with further details for discussion with someone of the Team able to help\)
 * What am i gonna do until the next Daily Meeting?
 
-#### Sprint Delivery
+### Sprint Delivery
 
 Considering that the Sprint Cycle is finished, the Team needs to prepare the deploy process and have the quality assurance process approved. After the QA Approval, the task can be set up as Done. In case the task has some bugs or some other issues, the task downgrades its level to QA Failed and the developer needs to tackle that as soon as possible. The Sprint Cycle is approved successfully if all the US planned during the planning were Approved by QA. In either case, the Sprint Cycle will fail.
 
-#### Sprint Retrospective
+### Sprint Retrospective
 
 After the Deploy process and the Approval/Disapproval of the Sprint Cycle, the Team needs to review their work during the past cycle and share with each other to improve and align any other problems that is affecting the developers individually and as a team. Here are the guidelines for the Retrospective:
 
@@ -48,11 +44,11 @@ After the Deploy process and the Approval/Disapproval of the Sprint Cycle, the T
 * What needs to improve?
 * What we can do for the next Sprint?
 
-### Tasks Management
+## Tasks Management
 
 We use Asana for task management. We have two different scenarios for task management:
 
-#### Kanban Oriented
+### Kanban Oriented
 
 When the delivery needs to run in a fast track with the Client, we set up a Kanban Board using some oriented steps:
 
@@ -78,7 +74,7 @@ For each card on the board, we normally put the invision link for the high fidel
 
 The developer is able to select which cards will be inserted on "Sprint Backlog" column, which will participate in the Sprint Cycle and asserts that those cards will be delivered.
 
-#### List Oriented
+### List Oriented
 
 When the delivery has its roadmap created by the UX/UI team, it's created a section on Asana called "Roadmap", with the User Story for each entity set up and ready for evaluation within a Sprint Cycle.
 
