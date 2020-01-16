@@ -6,10 +6,10 @@ Our hiring process is based on open spots and people’s professional and person
 
 The 4 stages of the hiring process aim at measuring technical prowess, communication skills, and management abilities for UX designer and Developer positions:
 
-1. Application form through the career section of our website to appraise the ownership of technical skills, as well as the alignment to our values and behaviours;
-2. Interview: here we have an open conversation with the candidate, that's the best way we found so far to evaluate the professional experience. At the same time, this step focuses on the ability to understand the technical process and common difficulties that can happen along the way;
-3. Task: in this step, we send the specs for a project that needs to be delivered in a week. At this stage, we mainly evaluate abilities, skills and good practices. According to the needs, we may require one more task to fulfill to evaluate candidates’ qualities, such as problem-solving skills.
-4. Group assessment: when we need to appraise leadership, team-work and management qualities, we usually invite the candidates to a group assessment.
+* [x] Application form through the career section of our website to appraise the ownership of technical skills, as well as the alignment to our values and behaviours;
+* [x] Technical Interview: here we have an open conversation with the candidate, that's the best way we found so far to evaluate the professional experience. At the same time, this step focuses on the ability to understand the technical ability on coding by solving some challenges.
+* [x] Project: in this step, we send the specs for a project that needs to be delivered in a week. At this stage, we mainly evaluate abilities, skills and good practices. According to the needs, we may require one more task to fulfill to evaluate candidates’ qualities, such as problem-solving skills.
+* [x] Group assessment: when we need to appraise leadership, team-work and management qualities, we usually invite the candidates to a group assessment. This final step can be applied using pair programming, soft skills challenge, technical presentations.
 
 At the end of the process, candidates are shortlisted and each new collaborator starts the on-boarding process to acquire knowledge organizationally and technically.
 
@@ -23,34 +23,28 @@ The open spots are related to the following profiles:
 
 ## On-boarding Process
 
-Our on-boarding process is designed to maximize learning opportunities, knowledge sharing, and professional development. Reading is awesome and necessary, but true growth is achieved through learning by doing. Hence, the process lasts 1 month in order to be fully integrated on our culture and the topics vary according to the role. The steps are divided in weeks, as following explained.
+Our on-boarding process is designed to maximize learning opportunities, knowledge sharing, and professional development. Reading is awesome and necessary, but true growth is achieved through learning by doing. Hence, the process lasts 1 week in order to be fully integrated on our culture and the topics vary according to the role.
 
-The First week focuses on:
+### Part 1
 
-1. Welcoming meeting, by presenting our organisation, culture and main practices; 
-2. Roles and responsibilities review, including expectations;
-3. Presenting the routine and standards for the team;
-4. Explaining the rules of the physical space;
-5. Explaining the playbook and the career plan;
-6. Tech systems set up and training;
-7. Mentor assignment;
-8. Data checking, work card, keys of the office and other documentation;
-9. Choosing and purchasing the materials needed to perform;
-10. Access to the organisation tools such as Bitbucket, Invision, AWS, Asana, Harvest, Slack, Forecast, WhatsApp.
+* [x] Welcome meeting, by presenting our organisation, culture and main practices; 
+* [x] Roles and responsibilities review, including expectations;
+* [x] Presenting the routine and standards for the team;
+* [x] Explaining the rules of the physical space;
+* [x] Explaining the playbook and the career plan;
+* [x] Tech systems set up and training;
+* [x] Mentor assignment;
+* [x] Data checking, work card, keys of the office and other documentation;
+* [x] Choosing and purchasing the materials needed to perform;
+* [x] Access to the organisation tools such as Bitbucket, Invision, AWS, Asana, Harvest, Slack, Forecast, WhatsApp.
 
-The Second week focuses on gaining technical skills:
+### Part 2
 
-1. Transition and Learning Mobix’s practices;
-2. Reading books;
-3. Attending trainings to perform;
-4. Project assignment;
-5. Induction on the project’s specs and tasks to fulfill;
-
-The Third and Fourth week focus on:
-
-1. Learning by doing;
-2. Building the project together with the mentor;
-3. Mentor’s Shadowing.
+* [x] Transition and Learning Mobix’s practices;
+* [x] Reading books;
+* [x] Attending trainings to perform;
+* [x] Project assignment - one project per day;
+* [x] Tasks to fulfill for each project;
 
 ## Benefits
 
