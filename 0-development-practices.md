@@ -12,7 +12,7 @@ During the kickstart process, we have some requirements that we feel it's mandat
 * [x] Requirements documentation
 * [x] API documentation
 * [x] UI Documentation \(Set up as an Invision, Sketch, Adobe XD, among others\)
-* [x] Mocked board for project management \(Asana Board or Asana List\)
+* [x] Mocked board for project management \(Asana Board\)
 * [x] Estimated dates for Sprint ceremonies \(Sprint Planning, Daily Meetings, Sprint Retrospective\)
 * [x] Repository created in our GitHub account with our standards reviewed and aligned with the team.
 
@@ -50,53 +50,49 @@ We set up some hours during the week/month in our team's allocation to check our
 
 **React Projects**
 
-* ReactJs Projects: [https://github.com/mobixsoftwarestudio/react-boilerplate](https://github.com/mobixsoftwarestudio/react-boilerplate)
-* React Native Projects: ~coming soon~
+* ReactJs: [https://github.com/mobixsoftwarestudio/react-boilerplate](https://github.com/mobixsoftwarestudio/react-boilerplate)
+* React Native using Context: [https://github.com/mobixsoftwarestudio/react-native-context-boilerplate](https://github.com/mobixsoftwarestudio/react-native-context-boilerplate)
+* React Native using Redux: [https://github.com/mobixsoftwarestudio/react-native-redux-boilerplate](https://github.com/mobixsoftwarestudio/react-native-redux-boilerplate)
 
 **Node Projects**
 
 * NodeJs Projects: [https://github.com/mobixsoftwarestudio/node-boilerplate](https://github.com/mobixsoftwarestudio/node-boilerplate)
 
-### Estimates Guideline
+### Continuous Deploy
 
-During the Sprint Planning ceremony, the whole team decide which user stories will be assigned to the next Sprint. For this to happen perfectly, we set up some estimates guideline to tackle the forecast of the user story deliveries.
+#### Netlify
 
-For each user story \(US\), we usually slice it into small tasks to help us decide the complexity point we need to set up:
+A Platform that helps our team to build and deploy a ReactJs project and go live.
 
-`User Story: Me, as an user, would like to authenticate into my account to have access to main features.`
+At this point, each PR made in a ReactJs project is generated a preview visualization into that PR to validate acceptance tests and verify any issue regarding the deploy.
 
-* [ ] 1 : Easy task, with low complexity and fast to delivery.
-* [ ] 2 : Easy task, with low complexity but requires more effort to delivery.
-* [x] 3 : Medium task, with medium complexity with a known effort to delivery.
-* [ ] 5: Medium task, with medium complexity which requires research and effort to delivery.
-* [ ] 8: Hard task, with high complexity which requires research and higher effort to delivery.
-* [ ] 13: Need to review the task and transform it to a user story.
+This helps us to validate our PRs and manage all deliverables that we need to approve before going to production.
 
-The team assigned to that user story will estimate the effort needed to tackle the above challenge. Each team member will set the amount of points to tackle it and together they will assign officially the points for that US. At this moment, it's highly important for the team to create discussions to understand all possibilities before make it official.
+#### Json Server
 
-**How we know the amount of work the team handles?**
+A library that mocks an API to the frontend team to avoid barriers in terms of development. 
 
-During the kickstart process, we set a 1 week-sprint to understand the deliveries, team velocity and the unknown challenges the project might create during the development lifecycle.
+It simply adds an `api.json` file into your project with the expected body of the objects from your desired API and then can be runned locally or even on Heroku.  At Mobix we have set up an integration between those two technologies.
 
-In that case, we define a burndown chart with the team's accuracy on solving the tasks.
+#### Heroku
 
-![](https://www.visual-paradigm.com/servlet/editor-content/scrum/scrum-burndown-chart/sites/7/2018/11/burndown-chart-and-emotion.png)
+A Cloud Platform that helps the team to deploy a server to manage our deliverables without the need of creating big instances.
 
-That chart helps a lot our PM and the team to understand how good we are in terms of velocity x effort.
+It also has integration with our projects, thus everytime we approve a deliverable, we set up a specific branch into our repo to automatically deploy for the team.
+
+## Coming soon:
 
 ### QA
 
-~coming soon~
+#### Unit and Integration Tests
+
+#### Test Engineering
+
+### Continuous Deploy: 
+
+#### Bitrise
+
+#### Appetize
 
 ### ADA for Mobile Apps
-
-~coming soon~
-
-### Continuous Integration
-
-~coming soon~
-
-### Continuous Deploy
-
-~coming soon~
 
