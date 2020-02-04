@@ -94,5 +94,5 @@ It also has integration with our projects, thus everytime we approve a deliverab
 
 #### Appetize
 
-#### ADA for Mobile Apps
+### ADA for Mobile Apps
 
