@@ -8,9 +8,10 @@ NOTE: If you want to check tools and process regarding the project management, p
 
 During the kickstart process, we have some requirements that we feel it's mandatory for a healthy project development lifecycle:
 
-* [x] Amount of hours allocated for the project
+* [x] Amount of hours and resources allocated for the project
 * [x] Requirements documentation
 * [x] API documentation
+* [x] UX Research and documentation
 * [x] UI Documentation \(Set up as an Invision, Sketch, Adobe XD, among others\)
 * [x] Mocked board for project management \(Asana Board\)
 * [x] Estimated dates for Sprint ceremonies \(Sprint Planning, Daily Meetings, Sprint Retrospective\)

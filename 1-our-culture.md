@@ -1,6 +1,6 @@
 # Our Culture
 
-Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empowers them. We believe that passion, collaboration, and ethics will unlock the human potential. Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin or other kind of prejudice. We think that freedom of expression and diversity are about embracing one another’s uniqueness.
+Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empowers them. We believe that passion, collaboration, and ethics will unlock the human potential. Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin or other kind of prejudice. We think that freedom of expression and diversity are about embracing one another’s uniqueness. 
 
 ## Our Vision
 
