@@ -88,9 +88,7 @@ The whole team participates on this event, getting a good and deep thoughts abou
 
 ### CI / CD flow
 
-![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI:CD.png?raw=true "CI/CD Flow")
-
-#### Web Apps
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI:CD.png?raw=true)
 
 [Jenkins](https://www.jenkins.io/) + [Selenium](https://www.selenium.dev/):
 
