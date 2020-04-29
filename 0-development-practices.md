@@ -88,7 +88,9 @@ The whole team participates on this event, getting a good and deep thoughts abou
 
 ### CI / CD flow
 
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI:CD.png?raw=true)
+#### Web Apps
+
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_WebApp.png?raw=true)
 
 [Jenkins](https://www.jenkins.io/) + [Selenium](https://www.selenium.dev/):
 
@@ -99,6 +101,8 @@ The whole team participates on this event, getting a good and deep thoughts abou
 <img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Netlify.png?raw=true" width="120">
 
 #### Mobile Apps
+
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Mobile.png?raw=true)
 
 [Bitrise](https://www.bitrise.io/):
 
@@ -112,7 +116,9 @@ The whole team participates on this event, getting a good and deep thoughts abou
 
 <img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Appetize.png?raw=true" width="120">
 
-#### Devops
+#### Monolith Back End
+
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Monolith.png?raw=true)
 
 [Docker](https://www.docker.com/):
 
@@ -133,11 +139,3 @@ The whole team participates on this event, getting a good and deep thoughts abou
 [Amazon Web Services (AWS)](https://aws.amazon.com/):
 
 <img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/AWS.png?raw=true" width="120">
-
-#### Fake Back End
-
-It is common to face a client that needs to validate his/her product, but with no structure for that. Also doing a pipeline of development may loose the opportunity window for his/her business, so we need to make it fast.
-To tackle this challenge, we have implemented an approach to mock an API to the frontend team to avoid barriers in terms of back end demands.
-
-We only need to add a `api.json` file into the project with the expected data structure that it's supposed to be your desired API and then can be runned out with a continuous deploy and it's online in a few minutes.
-
