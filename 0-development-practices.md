@@ -37,14 +37,14 @@ We set up some hours during the week/month in our team's allocation to check our
 
 **React Projects**
 
-* [https://github.com/mobixsoftwarestudio/react-typescript-boilerplate](React JS using Typescript)
-* [https://github.com/mobixsoftwarestudio/react-native-context-boilerplate](React Native using Context)
-* [https://github.com/mobixsoftwarestudio/react-native-redux-boilerplate](React Native using Redux)
+* [React JS using Typescript](https://github.com/mobixsoftwarestudio/react-typescript-boilerplate)
+* [React Native using Context](https://github.com/mobixsoftwarestudio/react-native-context-boilerplate)
+* [React Native using Redux](https://github.com/mobixsoftwarestudio/react-native-redux-boilerplate)
 
 **Node Projects**
 
-* [https://github.com/mobixsoftwarestudio/node-boilerplate](NodeJs for Web API)
-* [https://github.com/mobixsoftwarestudio/node-ms-boilerplate](NodeJs for Microservices)
+* [NodeJs for Web API](https://github.com/mobixsoftwarestudio/node-boilerplate)
+* [NodeJs for Microservices](https://github.com/mobixsoftwarestudio/node-ms-boilerplate)
 
 ### Git Flow
 
@@ -83,7 +83,7 @@ We also have a culture of Code Review for each PR, where we verify code practice
 
 Technical debts are one of the most important topics around software development. The need to tackle and avoid debts into our code is one of the things we keep on track to improve our projects.
 
-We use [https://codeclimate.com/](Code Climate) to check all maintainability/code smells and test coverage report in the project and set up a moment during the Sprint cycle to check all comments regarding our code and tests. 
+We use [Code Climate](https://codeclimate.com/) to check all maintainability/code smells and test coverage report in the project and set up a moment during the Sprint cycle to check all comments regarding our code and tests. 
 The whole team participates on this event, getting a good and deep thoughts about the way we are coding.
 
 ### CI / CD flow
