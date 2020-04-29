@@ -88,7 +88,7 @@ The whole team participates on this event, getting a good and deep thoughts abou
 
 ### CI / CD flow
 
-#### Web Apps
+#### WEB APPS
 
 ![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_WebApp.png?raw=true)
 
@@ -100,7 +100,7 @@ The whole team participates on this event, getting a good and deep thoughts abou
 
 <img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Netlify.png?raw=true" width="120">
 
-#### Mobile Apps
+#### MOBILE APPS
 
 ![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Mobile.png?raw=true)
 
@@ -116,7 +116,7 @@ The whole team participates on this event, getting a good and deep thoughts abou
 
 <img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Appetize.png?raw=true" width="120">
 
-#### Monolith Back End
+#### MONOLITH BACK END
 
 ![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Monolith.png?raw=true)
 
@@ -124,18 +124,27 @@ The whole team participates on this event, getting a good and deep thoughts abou
 
 <img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Docker.png?raw=true" width="120">
 
-[Kubernetes](https://kubernetes.io/):
+[Jest](https://jestjs.io/):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Kubernetes.png?raw=true" width="120">
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Jest.png?raw=true" width="120">
 
 [Heroku](https://www.heroku.com/):
 
 <img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Heroku.png?raw=true" width="120">
 
-[Digital Ocean](https://www.digitalocean.com/):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Digital_Ocean.png?raw=true" width="120">
+#### MICROSERVICES BACK END
 
-[Amazon Web Services (AWS)](https://aws.amazon.com/):
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Microservice.png?raw=true)
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/AWS.png?raw=true" width="120">
+[Kubernetes](https://kubernetes.io/):
+
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Kubernetes.png?raw=true" width="120">
+
+[Ansible](https://www.ansible.com/):
+
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Ansible.png?raw=true" width="120">
+
+[Docker Hub](https://hub.docker.com/):
+
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Docker_Hub.png?raw=true" width="120">
