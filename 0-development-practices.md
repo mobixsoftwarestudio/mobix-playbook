@@ -2,84 +2,102 @@
 
 ## Standards
 
-### Development Kickstart
-
-NOTE: If you want to check tools and process regarding the project management, please [click here](6-project-management.md).
+### Project Kickstart
 
 During the kickstart process, we have some requirements that we feel it's mandatory for a healthy project development lifecycle:
 
-* [x] Amount of hours and resources allocated for the project
-* [x] Requirements documentation
-* [x] API documentation
-* [x] UX Research and documentation
-* [x] UI Documentation \(Set up as an Invision, Sketch, Adobe XD, among others\)
-* [x] Mocked board for project management \(Asana Board\)
-* [x] Estimated dates for Sprint ceremonies \(Sprint Planning, Daily Meetings, Sprint Retrospective\)
-* [x] Repository created in our GitHub account with our standards reviewed and aligned with the team.
+* [x] Amount of hours per week/month and which people are going to participate
+* [x] Requirements documentation / API documentation
+* [x] UI Documentation
+* [x] Project board for management (modules and features set up based on requirements)
+* [x] Project board for development
+* [x] Repository created in our GitHub account with our standards.
 
 The project won't have its kickstart while we have our requirements checked up.
 
-### Git Flow
+### Development Ground Rules
 
-At Mobix we introduce a configuration model tailoring the best practices of code management. At first, you already know that we use `GitHub` to manage everything.
+As a mandatory behavior, all developers need to attend to the following implementation process:
 
-Tailoring the project structure, we define two main branches:
-
-* master
-* develop
-
-Where `master` pulls the _production_ version of the software. In that scenario, the version we deploy and go live is tagged with the specific version into that branch.
-
-Regarding to `develop`, we pull all implementations that we do in our team to validate the sprints and present to the client while we don't pull it for production. It's also the branch we use for client's approval within the sprint presentation.
-
-Outside those two main branches, we define the following approach:
-
-* feature
-* issue
-* hotfix
-* release
-
-Each one from the above are set up as folders with the correspondent branches \(i.e `feature/my-branch`\).
+* [x] start coding
+* [x] e2e implementation (test scenarios needs to be mapped on planning at Asana's)
+* [x] run tests locally
+* [x] validate implementation
+* [x] pre-commit analysis before sendint to repo
+* [x] open a pull request
+* [x] check if CI/CD passed
 
 ### Boilerplates
 
 To kickstart a project at Mobix, we need to evaluate the project complexity as well as the type of architecture.
 
-On regular projects we develop, we usually avoid to start from scratch - which means we have our patterns set up and we keep our standards for each project we develop. Thus, we can keep a good maintanance and also share with our developers community our practices and keep always seeking for improvements.
+On regular projects we develop, we avoid to start from scratch - we have our standards for each project we develop. Thus, we can keep a good maintanance and also share internally our practices and keep always the culture of improvements.
 
-We set up some hours during the week/month in our team's allocation to check our boilerplates by evaluating some good practices we implement in some projects that we would like to keep in further challenges.
+We set up some hours during the week/month in our team's allocation to check our boilerplates. Usually we share some good practices we used in some projects with our clients and put it together for future challenges.
 
 **React Projects**
 
-* ReactJs: [https://github.com/mobixsoftwarestudio/react-boilerplate](https://github.com/mobixsoftwarestudio/react-boilerplate)
-* React Native using Context: [https://github.com/mobixsoftwarestudio/react-native-context-boilerplate](https://github.com/mobixsoftwarestudio/react-native-context-boilerplate)
-* React Native using Redux: [https://github.com/mobixsoftwarestudio/react-native-redux-boilerplate](https://github.com/mobixsoftwarestudio/react-native-redux-boilerplate)
+* [React JS using Typescript](https://github.com/mobixsoftwarestudio/react-typescript-boilerplate)
+* [React Native using Context](https://github.com/mobixsoftwarestudio/react-native-context-boilerplate)
+* [React Native using Redux](https://github.com/mobixsoftwarestudio/react-native-redux-boilerplate)
 
 **Node Projects**
 
-* NodeJs Projects: [https://github.com/mobixsoftwarestudio/node-boilerplate](https://github.com/mobixsoftwarestudio/node-boilerplate)
+* [NodeJs for Web API](https://github.com/mobixsoftwarestudio/node-boilerplate)
+* [NodeJs for Microservices](https://github.com/mobixsoftwarestudio/node-ms-boilerplate)
 
-### Continuous Deploy
+### Git Flow
 
-#### Netlify
+#### Branch Standards
 
-A Platform that helps our team to build and deploy a ReactJs project and go live.
+At Mobix we introduce a configuration model tailoring the best practices of code configuration.
 
-At this point, each PR made in a ReactJs project is generated a preview visualization into that PR to validate acceptance tests and verify any issue regarding the deploy.
+Tailoring the project structure, we define two main branches:
 
-This helps us to validate our PRs and manage all deliverables that we need to approve before going to production.
+* master
+* homolog
+* develop
 
-#### Json Server
+Where `master` tags the _production_ version of the software. In that scenario, the version we deploy and go live is tagged with its specific version.
 
-A library that mocks an API to the frontend team to avoid barriers in terms of development. 
+`homolog` delivers the current version of the project to validate our results with our client. We also keep our track on QA assessment before going live.
 
-It simply adds an `api.json` file into your project with the expected body of the objects from your desired API and then can be runned locally or even on Heroku.  At Mobix we have set up an integration between those two technologies.
+Regarding to `develop`, we merge all implementations that we do in our team to validate the sprint.
 
-#### Heroku
+Outside those two main branches, we define the following approach:
 
-A Cloud Platform that helps the team to deploy a server to manage our deliverables without the need of creating big instances.
+* feature - for new implementations
+* issue - for bug fixes or small adjustments 
+* hotfix - for critical fixes 
+* release - to tag a version for going live
 
-It also has integration with our projects, thus everytime we approve a deliverable, we set up a specific branch into our repo to automatically deploy for the team.
+#### Pull Requests (PRs)
+
+We use Pull Requests as standard for software development.
+
+For each Pull Request opened, we apply CI/CD as a preview integration an delivery. We validate not only what was implemented, but also check if the tests were done correctly.
+
+We also have a culture of Code Review for each PR, where we verify code practices and check quality and performances that we might need to improve.
+
+#### Technical Debts
+
+Technical debts are one of the most important topics around software development. The need to tackle and avoid debts into our code is one of the things we keep on track to improve our projects.
+
+We use [Code Climate](https://codeclimate.com/) to check all maintainability/code smells and test coverage report in the project and set up a moment during the Sprint cycle to check all comments regarding our code and tests. 
+The whole team participates on this event, getting a good and deep thoughts about the way we are coding.
+
+### CI / CD flow
+
+#### Web Apps
+
+#### Mobile Apps
+
+#### Fake Back End (CD)
+
+It is common to face a client that needs to validate his/her product, but with no structure for that. Also doing a pipeline of development may loose the opportunity window for his/her business, so we need to make it fast.
+To tackle this challenge, we have implemented an approach to mock an API to the frontend team to avoid barriers in terms of back end demands.
+
+It simply adds an `api.json` file into the project with the expected data structure that it's supposed to be your desired API and then can be runned out with a continuous deploy and it's online in a few minutes.
 
 ## Coming soon:
 
@@ -88,12 +106,6 @@ It also has integration with our projects, thus everytime we approve a deliverab
 #### Unit and Integration Tests
 
 #### Test Engineering
-
-### Continuous Deploy: 
-
-#### Bitrise
-
-#### Appetize
 
 ### ADA for Mobile Apps
 
