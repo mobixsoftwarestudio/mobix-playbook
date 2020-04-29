@@ -73,9 +73,12 @@ Outside those two main branches, we define the following approach:
 
 #### Pull Requests (PRs)
 
-We use Pull Requests as standard for software development.
+For each Pull Request opened, we apply CI/CD as a preview integration a delivery. We validate not only what was implemented, but also check if the tests were done correctly. 
 
-For each Pull Request opened, we apply CI/CD as a preview integration an delivery. We validate not only what was implemented, but also check if the tests were done correctly.
+Our PR has the following template:
+
+* [x] Feature description: Insert here a brief description of your PR
+* [x] Asana task: Insert here an <<link>URL> from Asana's
 
 We also have a culture of Code Review for each PR, where we verify code practices and check quality and performances that we might need to improve.
 
