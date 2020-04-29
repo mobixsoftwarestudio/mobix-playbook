@@ -92,39 +92,49 @@ The whole team participates on this event, getting a good and deep thoughts abou
 
 #### Web Apps
 
-[Jenkins](https://www.jenkins.io/) + [Selenium](https://www.selenium.dev/)
-![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Jenkins_Selenium.png?raw=true "Jenkins + Selenium")
+[Jenkins](https://www.jenkins.io/) + [Selenium](https://www.selenium.dev/):
 
-[Netlify](https://www.netlify.com/)
-![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Netlify.png?raw=true "Netlify")
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Jenkins_Selenium.png?raw=true" width="120">
+
+[Netlify](https://www.netlify.com/):
+
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Netlify.png?raw=true" width="120">
 
 #### Mobile Apps
 
-[Bitrise](https://www.bitrise.io/)
-![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Bitrise.png?raw=true "Bitrise")
+[Bitrise](https://www.bitrise.io/):
 
-[Detox](https://github.com/wix/Detox)
-![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Bitrise.png?raw=true "Detox")
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Bitrise.png?raw=true" width="120">
 
-[Appetize](https://appetize.io/)
-![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Appetize.png?raw=true "Appetize")
+[Detox](https://github.com/wix/Detox):
+
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Detox.png?raw=true" width="120">
+
+[Appetize](https://appetize.io/):
+
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Appetize.png?raw=true" width="120">
 
 #### Devops
 
-[Docker](https://www.docker.com/)
-![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Docker.png?raw=true "Docker")
+[Docker](https://www.docker.com/):
 
-[Kubernetes](https://kubernetes.io/) (in case of microservices architecture)
-![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Kubernetes.png?raw=true "Kubernetes")
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Docker.png?raw=true" width="120">
 
-[Heroku](https://www.heroku.com/)
-![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Heroku.png?raw=true "Heroku")
+[Kubernetes](https://kubernetes.io/):
 
-[Digital Ocean](https://www.digitalocean.com/)
-![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Digital_Ocean.png?raw=true "Digital Ocean")
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Kubernetes.png?raw=true" width="120">
 
-[Amazon Web Services (AWS)](https://aws.amazon.com/)
-![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/AWS.png?raw=true "AWS")
+[Heroku](https://www.heroku.com/):
+
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Heroku.png?raw=true" width="120">
+
+[Digital Ocean](https://www.digitalocean.com/):
+
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Digital_Ocean.png?raw=true" width="120">
+
+[Amazon Web Services (AWS)](https://aws.amazon.com/):
+
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/AWS.png?raw=true" width="120">
 
 #### Fake Back End
 
