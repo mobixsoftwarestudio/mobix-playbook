@@ -88,24 +88,48 @@ The whole team participates on this event, getting a good and deep thoughts abou
 
 ### CI / CD flow
 
+![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI:CD.png?raw=true "CI/CD Flow")
+
 #### Web Apps
+
+[Jenkins](https://www.jenkins.io/) + [Selenium](https://www.selenium.dev/)
+![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Jenkins_Selenium.png?raw=true "Jenkins + Selenium")
+
+[Netlify](https://www.netlify.com/)
+![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Netlify.png?raw=true "Netlify")
 
 #### Mobile Apps
 
-#### Fake Back End (CD)
+[Bitrise](https://www.bitrise.io/)
+![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Bitrise.png?raw=true "Bitrise")
+
+[Detox](https://github.com/wix/Detox)
+![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Bitrise.png?raw=true "Detox")
+
+[Appetize](https://appetize.io/)
+![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Appetize.png?raw=true "Appetize")
+
+#### Devops
+
+[Docker](https://www.docker.com/)
+![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Docker.png?raw=true "Docker")
+
+[Kubernetes](https://kubernetes.io/) (in case of microservices architecture)
+![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Kubernetes.png?raw=true "Kubernetes")
+
+[Heroku](https://www.heroku.com/)
+![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Heroku.png?raw=true "Heroku")
+
+[Digital Ocean](https://www.digitalocean.com/)
+![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Digital_Ocean.png?raw=true "Digital Ocean")
+
+[Amazon Web Services (AWS)](https://aws.amazon.com/)
+![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/AWS.png?raw=true "AWS")
+
+#### Fake Back End
 
 It is common to face a client that needs to validate his/her product, but with no structure for that. Also doing a pipeline of development may loose the opportunity window for his/her business, so we need to make it fast.
 To tackle this challenge, we have implemented an approach to mock an API to the frontend team to avoid barriers in terms of back end demands.
 
-It simply adds an `api.json` file into the project with the expected data structure that it's supposed to be your desired API and then can be runned out with a continuous deploy and it's online in a few minutes.
-
-## Coming soon:
-
-### QA
-
-#### Unit and Integration Tests
-
-#### Test Engineering
-
-### ADA for Mobile Apps
+We only need to add a `api.json` file into the project with the expected data structure that it's supposed to be your desired API and then can be runned out with a continuous deploy and it's online in a few minutes.
 
