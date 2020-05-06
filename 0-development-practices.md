@@ -101,7 +101,7 @@ The whole team participates on this event, getting a good and deep thoughts abou
 
 [Netlify](https://www.netlify.com/):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Netlify.png?raw=true" width="120">
+<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Netlify.png?raw=true" href="http://www.netlify.com" width="120">
 
 #### MOBILE APPS
 
