@@ -1,28 +1,38 @@
 # Our Culture
 
-Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empowers them. We believe that passion, collaboration, and ethics will unlock the human potential. Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin or other kind of prejudice. We think that freedom of expression and diversity are about embracing one another’s uniqueness. 
+Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empowers them. 
 
-## Our Vision
+We believe that passion, collaboration, and ethics will unlock the human potential.
 
-* We drive transformation to unlock the human potential for a brighter future.
+Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin or other kind of prejudice. 
 
-## Our Mission
+We think that freedom of expression and diversity are about embracing one another’s uniqueness
 
-* Driving technology to craft great solutions for society.
+## Our **Golden Circle**
 
-## Our Values
+**Why**
 
-* Passion, excellence, creativity and empathy.
+* Drive transformation to unlock the human potential
+
+**How**
+
+* Passion, excellence, creativity and empathy
+
+**What**
+
+* Tailoring software applications
 
 ## Our Behaviours
 
-“Talent is the multiplier. The more energy and attention you invest in it, the greater the yield” — Marcus Buckingham, Author and business consultant.
+“**Talent is the multiplier. The more energy and attention you invest in it, the greater the yield**” — Marcus Buckingham, Author and business consultant.
 
 We strongly believe that behaviors needed to exceed client expectations, hence we have 3 main conducts that make us stand out and that characterize our actions.
 
+![](https://lh4.googleusercontent.com/EwUeCmTK5fR0SWI3vXlDMZ5y7X-e71gihbMrNqjNy1P5qdN1BXCPUgUrF_621PbYXnJZPe_xrbC0B3B3XSLt_E3UPVP5v9zdlT6wkxoIjHZm7shR-hn9ml0VOJfcE9_-k0BYcZdx)
+
 ## Our Philosophy
 
-We are a human-centered company which believes that motivated, passionate and reliable people are the roots to craft outstanding software solutions. Hence, every decision we are about to take actually reflects our philosophy.
+We are a **human-centered company** which believes that motivated, passionate and reliable people are the roots to craft outstanding software solutions. Hence, every decision we are about to take actually reflects our philosophy.
 
 * Empathy with all the people involved with us;
 * The whole team, including the client, should be aware of everything going on in the project, good or bad;
@@ -38,6 +48,8 @@ We are a human-centered company which believes that motivated, passionate and re
 * Interactive prototypes over static documentation;
 * What users need over what users want;
 * User insights over assumptions;
+* Simplicity beats complexity;
+* Code quality is a primal in terms of software engineering, so we focus on avoiding technical debts and refactoring is a must on our work, and it's been treated as a feature in the backlog.
 * Pragmatism over user-centred design pureism;
 * There is no such thing as better language or there is only one way to solve things. Each project is unique in tools and technologies;
 * Community is one of the most important features of a programming language, keep this in mind when choosing one;
@@ -45,7 +57,7 @@ We are a human-centered company which believes that motivated, passionate and re
 * Code should be clean and tested so programmers feel happy and confident to work on;
 * Code should have a good performance and always following the best practices.
 
-### Our Commitments
+## Our **Commitments**
 
 * To keep a welcoming, safe, healthy workplace so we all get the best experiences from it. 
 * To engage everyone in an open communication in the workplace.
@@ -58,3 +70,6 @@ We are a human-centered company which believes that motivated, passionate and re
 * To keep transparency and honesty with our collaborators and clients.
 * To offer as much coffee break as people wish, so we all work in our best.
 
+## No estimates
+
+* 

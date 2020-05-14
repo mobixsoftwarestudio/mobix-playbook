@@ -9,5 +9,4 @@
 * [Internal Management](4-internal-management.md)
 * [Hiring and On-Boarding Process](5-hiring-and-on-boarding-process.md)
 * [Project Management](6-project-management.md)
-* [For The Future](7-for-the-future.md)
 

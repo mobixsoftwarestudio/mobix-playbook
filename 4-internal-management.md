@@ -28,8 +28,13 @@ It’s an online scheduling tool that we use to quickly and easily find a date a
 
 ## Communication
 
-* Slack: It offers many IRC-like features, including persistent chat rooms \(channels\) organized by topic, private groups, and direct messaging. We use it to communicate within the organization and the teams about working topics. Content, including files, conversations, and people, are all searchable within Slack.
-* Whatsapp: It is free to download messenger app for smartphones. WhatsApp uses the internet to send messages, images, audio or video. We use it for informal communications both in private and in groups.
+* Slack:
+
+It offers many IRC-like features, including persistent chat rooms \(channels\) organized by topic, private groups, and direct messaging. We use it to communicate within the organization and the teams about working topics. Content, including files, conversations, and people, are all searchable within Slack.
+
+* Whatsapp:
+
+It is free to download messenger app for smartphones. WhatsApp uses the internet to send messages, images, audio or video. We use it for informal communications both in private and in groups.
 
 ## OKRs
 

@@ -68,7 +68,7 @@ For each user story \(US\), we usually slice it into small tasks to help us deci
 
 * [ ] 1 : Easy task, with low complexity and fast to delivery.
 * [ ] 2 : Easy task, with low complexity but requires more effort to delivery.
-* [x] 3 : Medium task, with medium complexity with a known effort to delivery.
+* [ ] 3 : Medium task, with medium complexity with a known effort to delivery.
 * [ ] 5: Medium task, with medium complexity which requires research and effort to delivery.
 * [ ] 8: Hard task, with high complexity which requires research and higher effort to delivery.
 * [ ] 13: Need to review the task and transform it to a user story.
