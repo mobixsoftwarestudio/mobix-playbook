@@ -1,8 +1,10 @@
 # Why Choosing Mobix
 
-“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics.
+> _“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics._
 
-In each kind of relationship, you can learn what are the good practices that matter and those which are the basis of it to guarantee high-quality experiences for our main stakeholders: clients and collaborators. So, we are not only a software studio with experienced developers. We like to tailor outstanding solutions together with the client. We are not choosing projects where we are invaluable in a month and disposable in the next. We want to help products to last. For this reason we designed the standards we offer to our clients and our expectations towards them.
+In each kind of relationship, you can learn what are the good practices that matter and those which are the basis of it to guarantee high-quality experiences for our main stakeholders: clients and collaborators. So, we are not only a software studio with experienced developers.
+
+We like to tailor outstanding solutions together with the client. We are not choosing projects where we are invaluable in a month and disposable in the next. We want to help products to last. For this reason we designed the standards we offer to our clients and our expectations towards them.
 
 ## Standards to our Clients
 
@@ -114,13 +116,13 @@ The outcome of the meeting should be to:
 
   Once the analysis is done, the quarter review report is presented to our collaborators in order to make them aware of our direction as well as gain feedback and ideas from them.
 
-**Career Development Plan**
+## **Career Development Plan**
 
 `Available soon`
 
-**Education**
+## **Education**
 
-> “An investment in knowledge pays the best interest” - Benjamin Franklin.
+> _“An investment in knowledge pays the best interest” - Benjamin Franklin._
 
 We strongly believe that education makes us more agile when taking decisions. For this reason, we tailored our education cycle by using the following spaces:
 

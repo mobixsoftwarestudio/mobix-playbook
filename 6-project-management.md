@@ -44,6 +44,13 @@ After the Deploy process and the Approval/Disapproval of the Sprint Cycle, the T
 * What needs to improve?
 * What we can do for the next Sprint?
 
+### **DAKI Exercise**
+
+* **D** for Drop: When team members want to drop or remove something that bothers them. For example, a team wants to remove \(drop\) weekly meeting with their manager because of micromanaging.
+* **A** for Add: What does the team want to add to improve the process? Perhaps adding a weekly breakfast for the whole team or a company to share feelings/feedback with the rest of the people.
+* **K** for Keep: When team members want to keep something. For example, the team decides to keep a stand up meeting with a song chosen by a team member.
+* **I** for Improve: Something that a team wants to improve. A good example is when a team reduces the technical debt from a legacy code to avoid fixing bugs all day long.
+
 ## Tasks Management
 
 We use Asana for task management. We have two different scenarios for task management:

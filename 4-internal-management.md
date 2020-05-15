@@ -6,33 +6,33 @@ We use different tools for communication and management inside Mobix.
 
 ## Management
 
-* Asana
+#### **Asana**
 
 It’s a web and mobile application designed that we use to help teams organize, track, and manage projects and tasks in one tool. Teams can create projects, assign work to teammates, specify deadlines, and communicate about tasks directly in Asana. It also includes reporting tools, file attachments, calendars, and more.
 
-* GSuite
+#### **GSuite**
 
 It's a set of cloud computing, productivity and collaboration tools, software and products developed by Google, G Suite comprises Gmail, Hangouts, Calendar, and Currents for communication; Drive for storage; Docs, Sheets, Slides, Keep, Forms, and Sites for productivity and collaboration;
 
-* Harvest:
+#### **Harvest**
 
 It’s a simple time tracking, fast online invoicing, and powerful reporting software that simplifies employee timesheets and billing. Harvest collates the raw timesheet data into a visual summary of where our team’s time is going.
 
-* Forecast: 
+#### **Forecast**
 
 It’s a project and resource management software that helps us to automate operations, empower people and leverage insights to drive businesses.
 
-* Doodle: 
+#### **Doodle**
 
 It’s an online scheduling tool that we use to quickly and easily find a date and time to meet within our team, but also with multiple people. So, Doodle aggregates the responses and tells us which option works best for everyone.
 
 ## Communication
 
-* Slack:
+#### **Slack**
 
 It offers many IRC-like features, including persistent chat rooms \(channels\) organized by topic, private groups, and direct messaging. We use it to communicate within the organization and the teams about working topics. Content, including files, conversations, and people, are all searchable within Slack.
 
-* Whatsapp:
+#### **Whatsapp**
 
 It is free to download messenger app for smartphones. WhatsApp uses the internet to send messages, images, audio or video. We use it for informal communications both in private and in groups.
 

@@ -1,30 +1,38 @@
-# Our Culture
+# Culture
 
-Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empowers them. 
+Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empowers them.
 
-We believe that passion, collaboration, and ethics will unlock the human potential.
+**We believe that passion, collaboration, and ethics will unlock the human potential.**
 
-Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin or other kind of prejudice. 
+**Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin or other kind of prejudice.**
 
-We think that freedom of expression and diversity are about embracing one another’s uniqueness
+**We think that freedom of expression and diversity are about embracing one another’s uniqueness**
+
+> _“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics._
+
+In each kind of relationship, you can learn what are the good practices that matter and those which are the basis of it to guarantee high-quality experiences for our main stakeholders: clients and collaborators. 
+
+We are not only a software studio with experienced developers. We love to tailor outstanding solutions together with the client. We are not choosing projects where we are invaluable in a month and disposable in the next. We want to help products to last. For this reason we designed the standards we offer to our clients and our expectations towards them.
 
 ## Our **Golden Circle**
 
-**Why**
+#### **Why**
 
-* Drive transformation to unlock the human potential
+Drive transformation to unlock the human potential
 
-**How**
+#### **How**
 
-* Passion, excellence, creativity and empathy
+Passion, excellence, creativity and empathy
 
-**What**
+#### **What**
 
-* Tailoring software applications
+Tailoring software applications
 
 ## Our Behaviours
 
-“**Talent is the multiplier. The more energy and attention you invest in it, the greater the yield**” — Marcus Buckingham, Author and business consultant.
+> _“Talent is the multiplier. The more energy and attention you invest in it, the greater the yield” — Marcus Buckingham, Author and business consultant._
+
+#### The Pillars
 
 We strongly believe that behaviors needed to exceed client expectations, hence we have 3 main conducts that make us stand out and that characterize our actions.
 
@@ -32,7 +40,7 @@ We strongly believe that behaviors needed to exceed client expectations, hence w
 
 ## Our Philosophy
 
-We are a **human-centered company** which believes that motivated, passionate and reliable people are the roots to craft outstanding software solutions. Hence, every decision we are about to take actually reflects our philosophy.
+We are a **human-centered organization** which believes that motivated, passionate and reliable people are the roots to craft outstanding software solutions. Hence, every decision we are about to take actually reflects our philosophy.
 
 * Empathy with all the people involved with us;
 * The whole team, including the client, should be aware of everything going on in the project, good or bad;
@@ -70,6 +78,121 @@ We are a **human-centered company** which believes that motivated, passionate an
 * To keep transparency and honesty with our collaborators and clients.
 * To offer as much coffee break as people wish, so we all work in our best.
 
+## Standards to our Clients
+
+* Communication is the key, whenever the client needs it, we must attend to it, explaining and facilitating the understanding and the decision-making process;
+* The whole scope of work should be clear, in order to avoid problems of interpretation, understanding, and expectations;
+* We will listen effectively to our clients’ requests and promptly take the necessary actions to assist them;
+* We will keep our clients informed of unexpected delays in service;
+* We will greet and fulfill our responsibilities with our clients courteously and professionally;
+* We always put ourselves into clients' position to tailor for them a suitable and excellent solution;
+* We provide outstanding service that fits in the RATER standards. RATER stands for: Reliability, Assurance, Tangibles, Empathy, Responsiveness; 
+* We will make the communication as fast as we can to attend the clients questions, especially if working with us remotely;
+* In case the client is working remotely with us, we like to do conference calls daily to align our expectations and any other kind of information that we need to put the project on track;
+* In order to deliver a high-quality experience both for clients and collaborators, the working hours allocated per employee are 32h/week;
+* We will align the technical requirements of the project with the client for a kickstart, so we can prepare its expectations for the first deliveries and the other milestones of the project;
+* We craft solution-oriented codes. How far we will be allowed to iterate is up to the client, but we value clients that want us to get involved in the product impact of software features;
+* We want, primarily, to deliver end-to-end quality for software products. We built a software development process to guarantee that. And we get that the client’s context might emphasize other concerns;
+* We work with project that lasts at least 3 months/14 weeks, because doing small projects over and over can make developers really good in setups and basic features, but larger projects have more interesting challenges that help developers become experts;
+* Taking chances and building entire products on hunches can lead to idleness and demotivate developers \(no one likes to develop things that never see the light of day\). We focus on the good feeling that is to see your code being used - solving real problems for real people.
+
+
+
 ## No estimates
 
-* 
+```text
+Available soon
+```
+
+## Standards to our Collaborators
+
+### Team Standards
+
+> Our main tool is based on OKRs of John Doerr, aiming to make our collaborators more committed and accountable towards their tasks by having a long-term perspective. The team develops a physical scoreboard designed to create both public accountability and team engagement.
+
+**Keep a Compelling Scoreboard**
+
+> “People play differently when they’re keeping score. If you doubt this, watch any group of teenagers playing basketball and see how the game changes the minute scorekeeping begins. The kind of scoreboard that will drive the highest levels of engagement with your team will be one that is designed solely for \(and often by\) the players”. Chris McChesney, Co-author of the 4 disciplines of execution.
+
+For this reason, we have a simple scoreboard that is updated weekly by our collaborators everytime they contribute to reach the goals.
+
+**Weekly Accounting Meeting**
+
+Every monday at 11:00 am we do a company-wide meeting so our collaborators can tell the whole company what they've been doing and what can be improved. The meeting is based on a card the collaborators should fill to be prepared for the meeting. Hence, each one reports on the bad, good and things to maintain; moreover, they will express a feeling about how the project is going and they will explain why. Finally, they present the solutions found to tackle the problems. During the meeting, they can ask teammates to give feedback to solve the issue.
+
+**Monthly Team Activities**
+
+The last weekend of the month, we like to do some activities aimed to bonding with the team and to fostering trustworthiness. As stated in our commitments, we invest all the possible resources of the company to host those spaces.
+
+Examples of activities are: karting, escape room, active painting, company adventure, happy hour on the beach.
+
+**Bi-Quarterly O2O**
+
+Twice a quarter we like to encompass a more high-end discussion between managers and collaborators. Instead of the regular questions about the day-to-day of the project, each coachee is encouraged by the manager to follow these 5-stages process for the personal and professional development:
+
+**Set the GOAL**
+
+Establish the goal that are SMART \(Specific, Measurable, Attainable, Realistic & Time based\). It should be aligned with the operational and career goal.
+
+Useful questions to start:
+
+* What do you think are your strengths?
+* What do you think are your weaknesses?
+* Where do you want to be in ten or more years?
+
+**Understand the REALITY**
+
+Useful questions:
+
+* What is happening now? \(Why, how, what, who?\)
+* How often?
+* What kind of results is this producing?
+* Have you already taken any steps towards your goal?
+
+**Search the possible OPTIONS**
+
+Useful questions:
+
+* What else could I do?
+* How could I remove the obstacles I perceive right now? What concrete action steps can I take?
+* What are the pros & cons of the options I’m describing?
+* What your manager can do to help you?
+
+**Find your WAY FORWARD**
+
+Useful questions:
+
+* What will you do now, and when? What else will you do?
+* What could stop you moving forward? How will you overcome this?
+* How can you keep yourself motivated?
+
+**Quarter Review**
+
+Effective leaders maximize the performance of their teams and companies by developing great aspirations \(mission, vision, and values\) and solid long-term goals, and then rigorously executing while iterating on those goals over time. The leader guides this process at regular intervals \(weekly, monthly, quarterly, and annually\). A systematic approach for execution will help you realize your goals.
+
+Conducting quarterly operating reviews is a practice that helps managers:
+
+* Understand the current state of their company and markets;
+* Identify and prioritize the best goals/initiatives for the following quarter \(i.e., the goals that will keep your company moving forward at the highest velocity toward your long-term goals\).
+
+  The objective is met through the quarterly review meeting where a department head:
+
+* Shares key successes;
+* Describes the current state of the unit/markets/goals;
+* Identifies obstacles and impediments and ways to remove them;
+* Suggests ways to improve;
+* Solicits advice from others;
+
+**Discusses a list of possible goals for the upcoming quarter.**
+
+The overall goal is to develop a list of the best possible goals for the following quarter based on the pre-work for the meeting and the discussion during the meeting.
+
+The outcome of the meeting should be to:
+
+* Align each operating unit on quarterly goals with the current state of your markets, other operating units, and the company’s long-term goals;
+* Focus each operating unit on the most important goals to accomplish the following quarter and minimize other activities that distract from the focal points;
+* Ensure that each unit is clear on its goals; has the appropriate resources, confidence, and conviction to realize those goals; and has taken responsibility for achieving those goals;
+* Maximize the opportunity for each unit to accomplish its most important goal.
+
+  Once the analysis is done, the quarter review report is presented to our collaborators in order to make them aware of our direction as well as gain feedback and ideas from them.
+
