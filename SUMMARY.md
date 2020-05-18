@@ -9,4 +9,5 @@
 * [Development Practices](0-development-practices.md)
 * [Human Resources](5-hiring-and-on-boarding-process.md)
 * [Iniciatives](iniciatives.md)
+* [Our References](our-references.md)
 
