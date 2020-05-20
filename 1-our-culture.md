@@ -18,7 +18,7 @@ We are not only a software studio with experienced developers. We love to tailor
 
 #### **Why**
 
-Drive transformation to unlock the human potential
+Driving technology to the future
 
 #### **How**
 
