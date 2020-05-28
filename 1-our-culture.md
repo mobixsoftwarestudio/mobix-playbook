@@ -196,3 +196,51 @@ The outcome of the meeting should be to:
 
   Once the analysis is done, the quarter review report is presented to our collaborators in order to make them aware of our direction as well as gain feedback and ideas from them.
 
+## What inspires us
+
+### Books:
+
+Becoming a super hero is a fairly straight forward process:
+
+4Disciplines of execution: [https://drive.google.com/open?id=15G4JuQFqE67Hz\_0yvPq1yK8pIojlu6xm](https://drive.google.com/open?id=15G4JuQFqE67Hz_0yvPq1yK8pIojlu6xm)
+
+The 17 skills leaders need to stand out: [https://www.amazon.com/Harvard-Business-Review-Managers-Handbook-ebook/dp/B01I8S1LV2](https://www.amazon.com/Harvard-Business-Review-Managers-Handbook-ebook/dp/B01I8S1LV2)
+
+Hooked: [https://drive.google.com/open?id=1DkGHb0c9Wzy1RGIVF3I562B5Qgd8dffk](https://drive.google.com/open?id=1DkGHb0c9Wzy1RGIVF3I562B5Qgd8dffk)
+
+Power oof the habit: [https://drive.google.com/open?id=1MBuhBtaOz\_nxW1AtN6Uvo3Pwv2-XYBz-](https://drive.google.com/open?id=1MBuhBtaOz_nxW1AtN6Uvo3Pwv2-XYBz-)
+
+Product Roadmaps: [https://drive.google.com/open?id=1igpAZKBk6iqZktD0LD32mLXl87F\_UTJu](https://drive.google.com/open?id=1igpAZKBk6iqZktD0LD32mLXl87F_UTJu)
+
+Rework: [https://drive.google.com/open?id=0B-dER2DTh\_xVV1ZoOUtJSldTSzA](https://drive.google.com/open?id=0B-dER2DTh_xVV1ZoOUtJSldTSzA)
+
+Fast and slow: [https://drive.google.com/open?id=1qAdNo2-dc\_2GZKfyCpusoITEKJnhPgcH](https://drive.google.com/open?id=1qAdNo2-dc_2GZKfyCpusoITEKJnhPgcH)
+
+Sprint: [https://drive.google.com/open?id=1cLakOOxP4phxdxubuJeTZTNnUTOkPj8b](https://drive.google.com/open?id=1cLakOOxP4phxdxubuJeTZTNnUTOkPj8b)
+
+Spin Selling: [https://drive.google.com/open?id=1lXT5a0xIawQokBnWIywbgL-kz5qzXDkD](https://drive.google.com/open?id=1lXT5a0xIawQokBnWIywbgL-kz5qzXDkD)
+
+The Design of everyday things: [https://drive.google.com/open?id=1lv5a\_2jSZbXNnr0MwB73YLYQ8RpG1FSo](https://drive.google.com/open?id=1lv5a_2jSZbXNnr0MwB73YLYQ8RpG1FSo)
+
+The Four: [https://drive.google.com/open?id=1GEhSD7DsHKHSDqSvjLlutmiAYcSzG7Dy](https://drive.google.com/open?id=1GEhSD7DsHKHSDqSvjLlutmiAYcSzG7Dy)
+
+The hard things about hard things: [https://drive.google.com/open?id=1YmKsP9cEmUWr\_dhzDeMN5HPTTCmqUyBM](https://drive.google.com/open?id=1YmKsP9cEmUWr_dhzDeMN5HPTTCmqUyBM)
+
+The Manager's Path: [https://drive.google.com/open?id=1MSyp2\_NpSSLllvVe\_dMp3-5WVG5tDy8F](https://drive.google.com/open?id=1MSyp2_NpSSLllvVe_dMp3-5WVG5tDy8F)
+
+The Product Book: [https://drive.google.com/open?id=1wUT-qa1TT1CamUjmFADKjSD6hsBI-tEq](https://drive.google.com/open?id=1wUT-qa1TT1CamUjmFADKjSD6hsBI-tEq)
+
+The signal and the noise: [https://drive.google.com/open?id=1f6U9tDRE2cF1qWzH5ORq4hLAXUTGGv5x](https://drive.google.com/open?id=1f6U9tDRE2cF1qWzH5ORq4hLAXUTGGv5x)
+
+Cleancode: [https://drive.google.com/open?id=1IY7vs6XpXxfDUAffY43CcDuLiFZPtBnx](https://drive.google.com/open?id=1IY7vs6XpXxfDUAffY43CcDuLiFZPtBnx)
+
+Value proposition Design: [https://drive.google.com/open?id=1fqEB-IB-AZ76b9yO93Qq3ojHdjl7u2ml](https://drive.google.com/open?id=1fqEB-IB-AZ76b9yO93Qq3ojHdjl7u2ml)
+
+Don't make me think: [https://drive.google.com/open?id=1vt9KcW5FViwHhxDiz4mBCdkrg\_XSO9W6](https://drive.google.com/open?id=1vt9KcW5FViwHhxDiz4mBCdkrg_XSO9W6)
+
+### Playbooks:
+
+YCombinator: [https://playbook.samaltman.com/](https://playbook.samaltman.com/)
+
+Google: [https://rework.withgoogle.com/](https://rework.withgoogle.com/)
+
