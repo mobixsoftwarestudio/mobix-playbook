@@ -198,13 +198,13 @@ The outcome of the meeting should be to:
 
 ## What inspires us
 
-### Books:
+### Books
 
-Becoming a super hero is a fairly straight forward process:
+On this tireless process of gain knowledge fastest, as we can we came up with those references that make your essence.
 
 4Disciplines of execution: [https://drive.google.com/open?id=15G4JuQFqE67Hz\_0yvPq1yK8pIojlu6xm](https://drive.google.com/open?id=15G4JuQFqE67Hz_0yvPq1yK8pIojlu6xm)
 
-The 17 skills leaders need to stand out: [https://www.amazon.com/Harvard-Business-Review-Managers-Handbook-ebook/dp/B01I8S1LV2](https://www.amazon.com/Harvard-Business-Review-Managers-Handbook-ebook/dp/B01I8S1LV2)
+The 17 skills leaders need to stand out: [https://drive.google.com/open?id=1sSVbdpg9JJl3\_wex6304NMfRT7B7l3a7](https://drive.google.com/open?id=1sSVbdpg9JJl3_wex6304NMfRT7B7l3a7)
 
 Hooked: [https://drive.google.com/open?id=1DkGHb0c9Wzy1RGIVF3I562B5Qgd8dffk](https://drive.google.com/open?id=1DkGHb0c9Wzy1RGIVF3I562B5Qgd8dffk)
 
@@ -238,7 +238,7 @@ Value proposition Design: [https://drive.google.com/open?id=1fqEB-IB-AZ76b9yO93Q
 
 Don't make me think: [https://drive.google.com/open?id=1vt9KcW5FViwHhxDiz4mBCdkrg\_XSO9W6](https://drive.google.com/open?id=1vt9KcW5FViwHhxDiz4mBCdkrg_XSO9W6)
 
-### Playbooks:
+### Playbooks
 
 YCombinator: [https://playbook.samaltman.com/](https://playbook.samaltman.com/)
 
