@@ -4,7 +4,6 @@
 * [Culture](1-our-culture.md)
 * [What We Do](2-what-we-do.md)
 * [Our process](our-process.md)
-* [Why Choosing Mobix](3-why-choosing-mobix.md)
 * [Internal Management](4-internal-management.md)
 * [Project Management](6-project-management.md)
 * [Development Practices](0-development-practices.md)
