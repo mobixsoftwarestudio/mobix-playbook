@@ -1,6 +1,6 @@
 # Human Resources
 
-Our hiring process is based on open spots and people’s professional and personal development. Hence, we designed a process based on education, learning by doing and career plan.
+Our hiring process is based on open spots and people’s professional and personal development. Hence, we designed a process based on education, learning by doing, and career plan.
 
 ## Open Spots and Requirements
 
@@ -8,7 +8,7 @@ The open spots are related to the following profiles:
 
 ### [Developer](https://www.mobixtec.com/#joinus)
 
-Works to develop large web apps, communicate with the team and clients as well as with the design team to review features. Moreover, it’s oriented to fulfill the tasks based on agile development. Discussing architecture, developing in React /Node/React Native/JS and defending processes that implement quality are the central tasks for this spot.
+Works to develop large web apps, communicate with the team and clients as well as with the design team to review features. Moreover, it’s oriented to fulfill the tasks based on agile development. Discussing architecture, developing in React /Node/React Native/JS, and defending processes that implement quality are the central tasks for this spot.
 
 **Purpose:**
 
