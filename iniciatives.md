@@ -18,7 +18,9 @@ Available soon
 Available soon
 ```
 
+### Partnership with universities
 
+Available soon
 
 
 
