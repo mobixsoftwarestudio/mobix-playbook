@@ -1,18 +1,18 @@
 # Culture
 
-Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empowers them.
+Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empower them.
 
-**We believe that passion, collaboration, and ethics will unlock the human potential.**
+**We believe that passion, collaboration, and ethics will unlock human potential.**
 
-**Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin or other kind of prejudice.**
+**Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin, or other kinds of prejudice.**
 
-**We think that freedom of expression and diversity are about embracing one another’s uniqueness**
+**We think that freedom of expression and diversity is about embracing one another’s uniqueness**
 
 > _“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics._
 
 In each kind of relationship, you can learn what are the good practices that matter and those which are the basis of it to guarantee high-quality experiences for our main stakeholders: clients and collaborators. 
 
-We are not only a software studio with experienced developers. We love to tailor outstanding solutions together with the client. We are not choosing projects where we are invaluable in a month and disposable in the next. We want to help products to last. For this reason we designed the standards we offer to our clients and our expectations towards them.
+We are not only a software studio with experienced developers. We love to tailor outstanding solutions together with the client. We are not choosing projects where we are invaluable in a month and disposable in the next. We want to help products to last. For this reason, we designed the standards we offer to our clients and our expectations towards them.
 
 ## Our **Golden Circle**
 
@@ -22,7 +22,7 @@ Driving technology to the future
 
 #### **How**
 
-Passion, excellence, creativity and empathy
+Passion, excellence, creativity, and empathy
 
 #### **What**
 
@@ -40,11 +40,11 @@ We strongly believe that behaviors needed to exceed client expectations, hence w
 
 ## Our Philosophy
 
-We are a **human-centered organization** which believes that motivated, passionate and reliable people are the roots to craft outstanding software solutions. Hence, every decision we are about to take actually reflects our philosophy.
+We are a **human-centered organization** that believes that motivated, passionate, and reliable people are the roots to craft outstanding software solutions. Hence, every decision we are about to take actually reflects our philosophy.
 
 * Empathy with all the people involved with us;
 * The whole team, including the client, should be aware of everything going on in the project, good or bad;
-* Active and enthusiastic participation of our collaborators by enjoying moments together;
+* The active and enthusiastic participation of our collaborators by enjoying moments together;
 * Open environment, so our office’s doors welcome whoever wants to join us and exchange information, which leads both parts to enrich one another;
 * No dress-code, so we all feel comfortable and free to express ourselves at work;
 * Communication is one of the keys to success;
@@ -57,22 +57,22 @@ We are a **human-centered organization** which believes that motivated, passiona
 * What users need over what users want;
 * User insights over assumptions;
 * Simplicity beats complexity;
-* Code quality is a primal in terms of software engineering, so we focus on avoiding technical debts and refactoring is a must on our work, and it's been treated as a feature in the backlog.
-* Pragmatism over user-centred design pureism;
+* Code quality is a primal in terms of software engineering, so we focus on avoiding technical debts and refactoring is a must on our work, and it's been treated as a feature in the backlog;
+* Pragmatism over user-centred design purism;
 * There is no such thing as better language or there is only one way to solve things. Each project is unique in tools and technologies;
 * Community is one of the most important features of a programming language, keep this in mind when choosing one;
 * Code should be deployed early and often;
 * Code should be clean and tested so programmers feel happy and confident to work on;
-* Code should have a good performance and always following the best practices.
+* The Code should have good performance and always following the best practices.
 
 ## Our **Commitments**
 
 * To keep a welcoming, safe, healthy workplace so we all get the best experiences from it. 
-* To engage everyone in an open communication in the workplace.
-* To invest on our collaborators to increase knowledge and provide benefits as much as we can, so we all live high-quality lives and we can unlock our potential.
-* To fight for mutual respect among everyone in the company regardless of gender, political position, sexual orientation, religious choice and race, so we embrace one another’s uniqueness. We respect and actively encourage the contribution of every individual.
+* To engage everyone in open communication in the workplace.
+* To invest in our collaborators to increase knowledge and provide benefits as much as we can, so we all live high-quality lives and we can unlock our potential.
+* To fight for mutual respect among everyone in the company regardless of gender, political position, sexual orientation, religious choice, and race, so we embrace one another’s uniqueness. We respect and actively encourage the contribution of every individual.
 * To empower everyone to join talks and attend conferences, so we all share what we are about to learn.
-* To encourage open source contributions, so both we and those we don't know grow together.
+* To encourage open source contributions, so both we and those we don't know to grow together.
 * To provide technical courses for everyone, either in-person or online, so we all see no barriers in increasing knowledge.
 * To buy any technical book wanted/needed, so we all keep reading even outside the company.
 * To keep transparency and honesty with our collaborators and clients.
@@ -86,14 +86,14 @@ We are a **human-centered organization** which believes that motivated, passiona
 * We will keep our clients informed of unexpected delays in service;
 * We will greet and fulfill our responsibilities with our clients courteously and professionally;
 * We always put ourselves into clients' position to tailor for them a suitable and excellent solution;
-* We provide outstanding service that fits in the RATER standards. RATER stands for: Reliability, Assurance, Tangibles, Empathy, Responsiveness; 
+* We provide outstanding service that fits in the RATER standards. RATER stands for Reliability, Assurance, Tangibles, Empathy, Responsiveness; 
 * We will make the communication as fast as we can to attend the clients questions, especially if working with us remotely;
 * In case the client is working remotely with us, we like to do conference calls daily to align our expectations and any other kind of information that we need to put the project on track;
 * In order to deliver a high-quality experience both for clients and collaborators, the working hours allocated per employee are 32h/week;
 * We will align the technical requirements of the project with the client for a kickstart, so we can prepare its expectations for the first deliveries and the other milestones of the project;
 * We craft solution-oriented codes. How far we will be allowed to iterate is up to the client, but we value clients that want us to get involved in the product impact of software features;
 * We want, primarily, to deliver end-to-end quality for software products. We built a software development process to guarantee that. And we get that the client’s context might emphasize other concerns;
-* We work with project that lasts at least 3 months/14 weeks, because doing small projects over and over can make developers really good in setups and basic features, but larger projects have more interesting challenges that help developers become experts;
+* We work with a project that lasts at least 3 months/14 weeks because doing small projects over and over can make developers really good in setups and basic features, but larger projects have more interesting challenges that help developers become experts;
 * Taking chances and building entire products on hunches can lead to idleness and demotivate developers \(no one likes to develop things that never see the light of day\). We focus on the good feeling that is to see your code being used - solving real problems for real people.
 
 
@@ -195,52 +195,4 @@ The outcome of the meeting should be to:
 * Maximize the opportunity for each unit to accomplish its most important goal.
 
   Once the analysis is done, the quarter review report is presented to our collaborators in order to make them aware of our direction as well as gain feedback and ideas from them.
-
-## What inspires us
-
-### Books
-
-On this tireless process of gain knowledge fastest, as we can we came up with those references that make your essence.
-
-4Disciplines of execution: [https://drive.google.com/open?id=15G4JuQFqE67Hz\_0yvPq1yK8pIojlu6xm](https://drive.google.com/open?id=15G4JuQFqE67Hz_0yvPq1yK8pIojlu6xm)
-
-The 17 skills leaders need to stand out: [https://drive.google.com/open?id=1sSVbdpg9JJl3\_wex6304NMfRT7B7l3a7](https://drive.google.com/open?id=1sSVbdpg9JJl3_wex6304NMfRT7B7l3a7)
-
-Hooked: [https://drive.google.com/open?id=1DkGHb0c9Wzy1RGIVF3I562B5Qgd8dffk](https://drive.google.com/open?id=1DkGHb0c9Wzy1RGIVF3I562B5Qgd8dffk)
-
-Power oof the habit: [https://drive.google.com/open?id=1MBuhBtaOz\_nxW1AtN6Uvo3Pwv2-XYBz-](https://drive.google.com/open?id=1MBuhBtaOz_nxW1AtN6Uvo3Pwv2-XYBz-)
-
-Product Roadmaps: [https://drive.google.com/open?id=1igpAZKBk6iqZktD0LD32mLXl87F\_UTJu](https://drive.google.com/open?id=1igpAZKBk6iqZktD0LD32mLXl87F_UTJu)
-
-Rework: [https://drive.google.com/open?id=0B-dER2DTh\_xVV1ZoOUtJSldTSzA](https://drive.google.com/open?id=0B-dER2DTh_xVV1ZoOUtJSldTSzA)
-
-Fast and slow: [https://drive.google.com/open?id=1qAdNo2-dc\_2GZKfyCpusoITEKJnhPgcH](https://drive.google.com/open?id=1qAdNo2-dc_2GZKfyCpusoITEKJnhPgcH)
-
-Sprint: [https://drive.google.com/open?id=1cLakOOxP4phxdxubuJeTZTNnUTOkPj8b](https://drive.google.com/open?id=1cLakOOxP4phxdxubuJeTZTNnUTOkPj8b)
-
-Spin Selling: [https://drive.google.com/open?id=1lXT5a0xIawQokBnWIywbgL-kz5qzXDkD](https://drive.google.com/open?id=1lXT5a0xIawQokBnWIywbgL-kz5qzXDkD)
-
-The Design of everyday things: [https://drive.google.com/open?id=1lv5a\_2jSZbXNnr0MwB73YLYQ8RpG1FSo](https://drive.google.com/open?id=1lv5a_2jSZbXNnr0MwB73YLYQ8RpG1FSo)
-
-The Four: [https://drive.google.com/open?id=1GEhSD7DsHKHSDqSvjLlutmiAYcSzG7Dy](https://drive.google.com/open?id=1GEhSD7DsHKHSDqSvjLlutmiAYcSzG7Dy)
-
-The hard things about hard things: [https://drive.google.com/open?id=1YmKsP9cEmUWr\_dhzDeMN5HPTTCmqUyBM](https://drive.google.com/open?id=1YmKsP9cEmUWr_dhzDeMN5HPTTCmqUyBM)
-
-The Manager's Path: [https://drive.google.com/open?id=1MSyp2\_NpSSLllvVe\_dMp3-5WVG5tDy8F](https://drive.google.com/open?id=1MSyp2_NpSSLllvVe_dMp3-5WVG5tDy8F)
-
-The Product Book: [https://drive.google.com/open?id=1wUT-qa1TT1CamUjmFADKjSD6hsBI-tEq](https://drive.google.com/open?id=1wUT-qa1TT1CamUjmFADKjSD6hsBI-tEq)
-
-The signal and the noise: [https://drive.google.com/open?id=1f6U9tDRE2cF1qWzH5ORq4hLAXUTGGv5x](https://drive.google.com/open?id=1f6U9tDRE2cF1qWzH5ORq4hLAXUTGGv5x)
-
-Cleancode: [https://drive.google.com/open?id=1IY7vs6XpXxfDUAffY43CcDuLiFZPtBnx](https://drive.google.com/open?id=1IY7vs6XpXxfDUAffY43CcDuLiFZPtBnx)
-
-Value proposition Design: [https://drive.google.com/open?id=1fqEB-IB-AZ76b9yO93Qq3ojHdjl7u2ml](https://drive.google.com/open?id=1fqEB-IB-AZ76b9yO93Qq3ojHdjl7u2ml)
-
-Don't make me think: [https://drive.google.com/open?id=1vt9KcW5FViwHhxDiz4mBCdkrg\_XSO9W6](https://drive.google.com/open?id=1vt9KcW5FViwHhxDiz4mBCdkrg_XSO9W6)
-
-### Playbooks
-
-YCombinator: [https://playbook.samaltman.com/](https://playbook.samaltman.com/)
-
-Google: [https://rework.withgoogle.com/](https://rework.withgoogle.com/)
 

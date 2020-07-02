@@ -4,7 +4,7 @@ During the execution of projects, Mobix has a major cycle of Project Management 
 
 `(PLANNING -> DAILY -> DEV DONE -> QA -> APPROVED -> READY TO DEPLOY)`
 
-Our Project Manager \(PM\) needs to organise his tasks by the following features:
+Our Project Manager \(PM\) needs to organize his tasks by the following features:
 
 ## Methodology
 
@@ -12,28 +12,28 @@ At Mobix we use Scrum Methodology to achieve the goals. Divided by Sprints, we s
 
 ### Sprint Planning
 
-The Team receives the deliverables provided to the Client and PM of the project. At this point we have the UI requirements documented with the high fidelity prototypes and further recommendations of the Client regarding some prioritizations.
+The Team receives the deliverables provided to the Client and PM of the project. At this point, we have the UI requirements documented with the high fidelity prototypes and further recommendations of the Client regarding some prioritizations.
 
-During the planning we analyse each User Story \(US\) \(provided by UX/UI team along with the PM\) and set up complexity for each US to balance through the Team's ability to deliver the amount of work.
+During the planning, we analyze each User Story \(US\) \(provided by UX/UI team along with the PM\) and set up complexity for each US to balance through the Team's ability to deliver the amount of work.
 
-Right after we analyse the complexity of each US, we set up the ones that the Team will be able to achieve during the Sprint Cycle \(notice that our standards takes up to 10 business days of cycle\).
+Right after we analyze the complexity of each US, we set up the ones that the Team will be able to achieve during the Sprint Cycle \(notice that our standards take up to 10 business days of the cycle\).
 
-During the Sprint Cycle, neither the Client or the PM are able to change requirements nor add more deliverables for the Sprint Cycle.
+During the Sprint Cycle, neither the Client nor the PM is able to change requirements nor add more deliverables for the Sprint Cycle.
 
 Thus, we can start to work and align with the Client all the expectations of the next delivery.
 
 ### Sprint Daily Meeting
 
-The Team along with the PM set up a moment during the work day to align the information of the Team during the Sprint Cycle. This moment is called Daily Meeting. During a maximum of 15 minutes, the whole Team needs to update themselves with the current status of their development. Normally we follow some guidelines for Daily Meetings:
+The Team along with the PM set up a moment during the workday to align the information of the Team during the Sprint Cycle. This moment is called Daily Meeting. During a maximum of 15 minutes, the whole Team needs to update themselves with the current status of their development. Normally we follow some guidelines for Daily Meetings:
 
-* What i did since the last Daily Meeting
-* What am i doing now? 
-* Which problems am i facing? \(being objective, with further details for discussion with someone of the Team able to help\)
-* What am i gonna do until the next Daily Meeting?
+* What I did since the last Daily Meeting
+* What am I doing now? 
+* Which problems am I facing? \(being objective, with further details for discussion with someone of the Team able to help\)
+* What am I gonna do until the next Daily Meeting?
 
 ### Sprint Delivery
 
-Considering that the Sprint Cycle is finished, the Team needs to prepare the deploy process and have the quality assurance process approved. After the QA Approval, the task can be set up as Done. In case the task has some bugs or some other issues, the task downgrades its level to QA Failed and the developer needs to tackle that as soon as possible. The Sprint Cycle is approved successfully if all the US planned during the planning were Approved by QA. In either case, the Sprint Cycle will fail.
+Considering that the Sprint Cycle is finished, the team needs to prepare the deploy process and have the quality assurance process approved. After the QA Approval, the task can be set up as Done. In case the task has some bugs or some other issues, the task downgrades its level to QA Failed and the developer needs to tackle that as soon as possible. The Sprint Cycle is approved successfully if all the US planned during the planning were Approved by QA. In either case, the Sprint Cycle will fail.
 
 ### Sprint Retrospective
 
@@ -46,10 +46,10 @@ After the Deploy process and the Approval/Disapproval of the Sprint Cycle, the T
 
 ### **DAKI Exercise**
 
-* **D** for Drop: When team members want to drop or remove something that bothers them. For example, a team wants to remove \(drop\) weekly meeting with their manager because of micromanaging.
+* **D** for Drop: When team members want to drop or remove something that bothers them. For example, a team wants to remove \(drop\) weekly meetings with their manager because of micromanaging.
 * **A** for Add: What does the team want to add to improve the process? Perhaps adding a weekly breakfast for the whole team or a company to share feelings/feedback with the rest of the people.
 * **K** for Keep: When team members want to keep something. For example, the team decides to keep a stand up meeting with a song chosen by a team member.
-* **I** for Improve: Something that a team wants to improve. A good example is when a team reduces the technical debt from a legacy code to avoid fixing bugs all day long.
+* **I** for Improve: Something that a team wants to improve. A good example is when a team reduces the technical debt from legacy code to avoid fixing bugs all day long.
 
 ## Tasks Management
 
@@ -57,7 +57,7 @@ We use Asana for task management. We have two different scenarios for task manag
 
 ### Kanban Oriented
 
-When the delivery needs to run in a fast track with the Client, we set up a Kanban Board using some oriented steps:
+When the delivery needs to run on a fast track with the Client, we set up a Kanban Board using some oriented steps:
 
 * Backlog
 * Sprint Backlog
@@ -85,9 +85,9 @@ The developer is able to select which cards will be inserted on "Sprint Backlog"
 
 When the delivery has its roadmap created by the UX/UI team, it's created a section on Asana called "Roadmap", with the User Story for each entity set up and ready for evaluation within a Sprint Cycle.
 
-During the planning, the team checks the US and validate using Scrum metrics to set up complexity and tasks needed for implementation.
+During the planning, the team checks the US and validates using Scrum metrics to set up the complexity and tasks needed for implementation.
 
 After planning, it's generated another section on Asana called "Sprint X'' where X is the number of the current Sprint and all the US planned are fulfilled into the Section, with assignees for each developer from the Team.
 
-It's created custom fields called "In Progress", "Dev Done", "QA Failed", "Approved" for each line of the section that sets up the current status of implementation. The definitions of the custom fields has the same behaviour that we have on the "Kanban Oriented" section.
+It's created custom fields called "In Progress", "Dev Done", "QA Failed", "Approved" for each line of the section that sets up the current status of implementation. The definitions of the custom fields have the same behavior that we have on the "Kanban Oriented" section.
 
