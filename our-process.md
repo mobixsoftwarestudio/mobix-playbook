@@ -123,6 +123,8 @@ description: Description
 
 ## Discovery & Research
 
+Description here
+
 ### Client interview
 
 Description here

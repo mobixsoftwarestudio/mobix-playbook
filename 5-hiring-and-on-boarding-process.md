@@ -93,16 +93,16 @@ Works to design, develop, launch web and mobile applications. It’s all about c
 
 ### Trainee
 
-This position is designed to last from 6 months to 2 years and it’s based on a training process tailored according to the needs, aiming to jump to Developer as soon as possible.
+This position was designed to last from 6 months to 2 years and it’s based on a training process tailored according to the needs, aiming to jump to Developer as soon as possible.
 
 ## Hiring Stages
 
 The 4 stages of the hiring process aim at measuring technical prowess, communication skills, and management abilities for UX designer and Developer positions:
 
-* [x] Application form through the career section of our website to appraise the ownership of technical skills, as well as the alignment to our values and behaviours;
-* [x] Technical Interview: here we have an open conversation with the candidate, that's the best way we found so far to evaluate the professional experience. At the same time, this step focuses on the ability to understand the technical ability on coding by solving some challenges.
-* [x] Project: in this step, we send the specs for a project that needs to be delivered in a week. At this stage, we mainly evaluate abilities, skills and good practices. According to the needs, we may require one more task to fulfill to evaluate candidates’ qualities, such as problem-solving skills.
-* [x] Group assessment: when we need to appraise leadership, team-work and management qualities, we usually invite the candidates to a group assessment. This final step can be applied using pair programming, soft skills challenge, technical presentations.
+* [x] Application form through the career section of our website to appraise the ownership of technical skills, as well as the alignment to our values and behaviors;
+* [x] Technical Interview: here we have an open conversation with the candidate, that's the best way we found so far to evaluate the professional experience. At the same time, this step focuses on the ability to understand the technical ability of coding by solving some challenges.
+* [x] Project: in this step, we send the specs for a project that needs to be delivered in a week. At this stage, we mainly evaluate abilities, skills, and good practices. According to the needs, we may require one more task to fulfill to evaluate candidates’ qualities, such as problem-solving skills.
+* [x] Group assessment: when we need to appraise leadership, team-work, and management qualities, we usually invite the candidates to a group assessment. This final step can be applied using pair programming, soft skills challenge, technical presentations.
 
 At the end of the process, candidates are shortlisted and each new collaborator starts the on-boarding process to acquire knowledge organizationally and technically.
 

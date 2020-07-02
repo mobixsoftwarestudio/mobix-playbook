@@ -45,7 +45,7 @@ We are a **human-centered organization** that believes that motivated, passionat
 * Empathy with all the people involved with us;
 * The whole team, including the client, should be aware of everything going on in the project, good or bad;
 * The active and enthusiastic participation of our collaborators by enjoying moments together;
-* An open environment, so our office’s doors welcome whoever wants to join us and exchange information, which leads both parts to enrich one another;
+* Open environment, so our office’s doors welcome whoever wants to join us and exchange information, which leads both parts to enrich one another;
 * No dress-code, so we all feel comfortable and free to express ourselves at work;
 * Communication is one of the keys to success;
 * Individuals and interactions over processes and tools;
@@ -57,8 +57,8 @@ We are a **human-centered organization** that believes that motivated, passionat
 * What users need over what users want;
 * User insights over assumptions;
 * Simplicity beats complexity;
-* Code quality is primal in terms of software engineering, so we focus on avoiding technical debts and refactoring is a must on our work, and it's been treated as a feature in the backlog;
-* Pragmatism over user-centered design purism;
+* Code quality is a primal in terms of software engineering, so we focus on avoiding technical debts and refactoring is a must on our work, and it's been treated as a feature in the backlog;
+* Pragmatism over user-centred design purism;
 * There is no such thing as better language or there is only one way to solve things. Each project is unique in tools and technologies;
 * Community is one of the most important features of a programming language, keep this in mind when choosing one;
 * Code should be deployed early and often;
@@ -114,25 +114,25 @@ Available soon
 
 > “People play differently when they’re keeping score. If you doubt this, watch any group of teenagers playing basketball and see how the game changes the minute scorekeeping begins. The kind of scoreboard that will drive the highest levels of engagement with your team will be one that is designed solely for \(and often by\) the players”. Chris McChesney, Co-author of the 4 disciplines of execution.
 
-For this reason, we have a simple scoreboard that is updated weekly by our collaborators every time they contribute to reaching the goals.
+For this reason, we have a simple scoreboard that is updated weekly by our collaborators everytime they contribute to reach the goals.
 
 **Weekly Accounting Meeting**
 
-Every Monday at 11:00 am we do a company-wide meeting so our collaborators can tell the whole company what they've been doing and what can be improved. The meeting is based on a card the collaborators should fill to be prepared for the meeting. Hence, each one reports on the bad, good, and things to maintain; moreover, they will express a feeling about how the project is going and they will explain why. Finally, they present the solutions found to tackle the problems. During the meeting, they can ask teammates to give feedback to solve the issue.
+Every monday at 11:00 am we do a company-wide meeting so our collaborators can tell the whole company what they've been doing and what can be improved. The meeting is based on a card the collaborators should fill to be prepared for the meeting. Hence, each one reports on the bad, good and things to maintain; moreover, they will express a feeling about how the project is going and they will explain why. Finally, they present the solutions found to tackle the problems. During the meeting, they can ask teammates to give feedback to solve the issue.
 
 **Monthly Team Activities**
 
-The last weekend of the month, we like to do some activities aimed at bonding with the team and to fostering trustworthiness. As stated in our commitments, we invest all the possible resources of the company to host those spaces.
+The last weekend of the month, we like to do some activities aimed to bonding with the team and to fostering trustworthiness. As stated in our commitments, we invest all the possible resources of the company to host those spaces.
 
-Examples of activities are karting, escape room, active painting, company adventure, happy hour on the beach.
+Examples of activities are: karting, escape room, active painting, company adventure, happy hour on the beach.
 
 **Bi-Quarterly O2O**
 
-Twice a quarter we like to encompass a more high-end discussion between managers and collaborators. Instead of the regular questions about the day-to-day of the project, each coachee is encouraged by the manager to follow these 5-stages process for personal and professional development:
+Twice a quarter we like to encompass a more high-end discussion between managers and collaborators. Instead of the regular questions about the day-to-day of the project, each coachee is encouraged by the manager to follow these 5-stages process for the personal and professional development:
 
 **Set the GOAL**
 
-Establish the goal that is SMART \(Specific, Measurable, Attainable, Realistic & Time based\). It should be aligned with the operational and career goal.
+Establish the goal that are SMART \(Specific, Measurable, Attainable, Realistic & Time based\). It should be aligned with the operational and career goal.
 
 Useful questions to start:
 
@@ -163,7 +163,7 @@ Useful questions:
 Useful questions:
 
 * What will you do now, and when? What else will you do?
-* What could stop you from moving forward? How will you overcome this?
+* What could stop you moving forward? How will you overcome this?
 * How can you keep yourself motivated?
 
 **Quarter Review**

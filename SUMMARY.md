@@ -8,6 +8,6 @@
 * [Project Management](6-project-management.md)
 * [Development Practices](0-development-practices.md)
 * [Human Resources](5-hiring-and-on-boarding-process.md)
-* [Iniciatives](iniciatives.md)
+* [Initiatives](iniciatives.md)
 * [Our References](our-references.md)
 

@@ -20,7 +20,7 @@ It’s a simple time tracking, fast online invoicing, and powerful reporting sof
 
 #### **Forecast**
 
-It’s a project and resource management software that helps us to automate operations, empower people and leverage insights to drive businesses.
+It’s a project and resource management software that helps us to automate operations, empower people, and leverage insights to drive businesses.
 
 #### **Doodle**
 
@@ -34,7 +34,7 @@ It offers many IRC-like features, including persistent chat rooms \(channels\) o
 
 #### **Whatsapp**
 
-It is free to download messenger app for smartphones. WhatsApp uses the internet to send messages, images, audio or video. We use it for informal communications both in private and in groups.
+WhatsApp uses the internet to send messages, images, audio, or video. We use it for informal communications both in private and in groups.
 
 ## OKRs
 

@@ -1,20 +1,20 @@
-# Iniciatives
+# Initiatives
 
-**Give it back**
-
-```text
-Available soon
-```
-
-## Open sources
+## **Give it back**
 
 ```text
 Available soon
 ```
 
-## Pro bonos
+### Open sources
 
-### **CiTi** 
+```text
+Available soon
+```
+
+### Pro bono
+
+#### **CiTi** 
 
 A junior university enterprise from UFPE.
 
@@ -42,7 +42,7 @@ Esse primeiro post servirá como um índice da série de posts vem a seguir com 
 Available soon
 ```
 
-### **PoliJr** 
+#### **PoliJr** 
 
 A junior university enterprise from UPE
 
