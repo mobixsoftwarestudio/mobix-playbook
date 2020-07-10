@@ -1,6 +1,6 @@
-# Development Practices
+# Practices
 
-## Standards
+## Development Standards
 
 ### Project Kickstart
 
@@ -155,4 +155,12 @@ We use [Code Climate](https://codeclimate.com/) to check all maintainability/cod
 [Docker Hub](https://hub.docker.com/):
 
 ![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Docker_Hub.png?raw=true)
+
+## Product Design Standards
+
+### Project Kickstart
+
+```text
+Available soon
+```
 
