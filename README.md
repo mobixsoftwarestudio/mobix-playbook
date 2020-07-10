@@ -4,9 +4,10 @@
 
 * [Culture](1-our-culture.md)
 * [What We Do](2-what-we-do.md)
+* [Our Process](3-our-process.md)
 * [Studio Management](4-studio-management.md)
-* [Development Practices](0-development-practices.md)
-* Human Resources
-* [Project Management]()
-* Give It back
+* [Practices](5-practices.md)
+* [Human Resources](6-human-resources.md)
+* [Initiatives](7-initiatives.md)
+* [Our References](8-our-references.md)
 
