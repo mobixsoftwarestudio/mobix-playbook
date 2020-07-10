@@ -2,7 +2,8 @@
 
 ## References
 
-Everything we wrote comes from our experiences, good practices exchanges, professional knowledge, and, especially, from books that inspired us.
+Everything we wrote comes from our experiences, good practices exchanges, professional knowledge, and, especially, from books that inspired us.  
+
 
 * How to Win Friends and Influence People \(Dale Carnegie\) - He says you can make someone want to do what you want them to by seeing the situation from the other person's point of view and “ arousing in the other person an eager want””. This is a Bible for us because we learnt how to make people like you, win people over to your way of thinking, and change people without causing offense or arousing resentment.
 * Measure What Matters \(John Doerr\) - We discovered how a powerful goal-setting system is essential to grow since it has helped tech giants such as Google and Intel to exceed all expectations. It taught us to structure an organization that thrives by setting OKRs as the basis of the whole playbook. Finally, we understood the importance of culture and of continuous performance management.
@@ -19,6 +20,8 @@ Everything we wrote comes from our experiences, good practices exchanges, profes
     * [**http://es6-features.org/**](http://es6-features.org/#Constants)[**\#Constants**](http://es6-features.org/#Constants)
 
 These references taught us something that lives on in our culture. Sometimes bringing us things we haven’t ever heard of, and other times just by asserting things we already had stumbled upon in our practice and use frequently in our day-to-day.
+
+
 
 ## What inspires us
 
@@ -67,4 +70,6 @@ Don't make me think: [https://drive.google.com/open?id=1vt9KcW5FViwHhxDiz4mBCdkr
 YCombinator: [https://playbook.samaltman.com/](https://playbook.samaltman.com/)
 
 Google: [https://rework.withgoogle.com/](https://rework.withgoogle.com/)
+
+
 
