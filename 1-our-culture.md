@@ -16,15 +16,15 @@ We are not only a software studio with experienced developers. We love to tailor
 
 ## Our **Golden Circle**
 
-#### **Why**
+### **Why**
 
 Driving technology to the future
 
-#### **How**
+### **How**
 
 Passion, excellence, creativity, and empathy
 
-#### **What**
+### **What**
 
 Tailoring software applications
 
@@ -32,7 +32,7 @@ Tailoring software applications
 
 > _“Talent is the multiplier. The more energy and attention you invest in it, the greater the yield” — Marcus Buckingham, Author and business consultant._
 
-#### The Pillars
+### The Pillars
 
 We strongly believe that behaviors needed to exceed client expectations, hence we have 3 main conducts that make us stand out and that characterize our actions.
 
@@ -100,9 +100,31 @@ We are a **human-centered organization** that believes that motivated, passionat
 
 ## [No estimates](https://ronjeffries.com/xprog/articles/the-noestimates-movement/)
 
-```text
-Available soon
-```
+We believe that we shouldn't do estimates. Estimates are difficult. When requirements are vague and it seems that they always are then the best conceivable estimates would also be very vague. 
+
+Accurate estimation becomes essentially impossible. 
+
+Even with clear requirements and it seems that they never are it is still almost impossible to know how long something will take because we’ve never done it before. If we had done it before, we’d just give it to you.
+
+Estimation, in certain forms, is not always impossible. It’s possible, under some circumstances, to do pretty well. In addition, sometimes people really do need to know about how much something is going to cost before going ahead.
+
+There are many reasons to support this idea and we've made a compiled:
+
+1. Lean principles generally lead to a continuous one-piece model of production flow;
+
+2. Kanban approaches generally limit work in process, and for small teams, the ideal limit seems to be one;
+
+3. Neither Lean and Kanban approaches have any need to estimate how long something will take. Instead, they measure how long things take, in “cycle time”, and use that to make such predictions as are necessary.
+
+4. Working in a continuous flow, without story estimates, is a great way to work;
+
+5. Estimation is very difficult, perhaps impossible, and often misused. And can lead to a false vision of a future scenario;
+
+6. Estimation is difficult, perhaps impossible, and we would be well off if we could avoid it.
+
+7. Estimates are often misused. Estimates are often used as a bludgeon to try to get programmers to work faster. This leads to unhappy programmers and to poor software. No one wins.
+
+8. A focus on estimation often leads to a fascination with completing some fixed scope of work and the estimation often militates strongly against doing this. The result is “Weak Agile” and inferior results.
 
 ## Standards to our Collaborators
 
