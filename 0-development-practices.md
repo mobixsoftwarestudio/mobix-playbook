@@ -9,7 +9,7 @@ During the kickstart process, we have some requirements that we feel it's mandat
 * [x] Amount of hours per week/month and which people are going to participate
 * [x] Requirements documentation / API documentation
 * [x] UI Documentation
-* [x] Project board for management (modules and features set up based on requirements)
+* [x] Project board for management \(modules and features set up based on requirements\)
 * [x] Project board for development
 * [x] Repository created in our GitHub account with our standards.
 
@@ -20,7 +20,7 @@ The project won't have its kickstart while we have our requirements checked up.
 As a mandatory behavior, all developers need to attend to the following implementation process:
 
 * [x] start coding
-* [x] e2e implementation (test scenarios needs to be mapped on planning at Asana's)
+* [x] e2e implementation \(test scenarios needs to be mapped on planning at Asana's\)
 * [x] run tests locally
 * [x] validate implementation
 * [x] pre-commit analysis before sendint to repo
@@ -71,7 +71,7 @@ Outside those two main branches, we define the following approach:
 * hotfix - for critical fixes 
 * release - to tag a version for going live
 
-#### Pull Requests (PRs)
+#### Pull Requests \(PRs\)
 
 We use Pull Requests as standard for software development.
 
@@ -83,63 +83,61 @@ We also have a culture of Code Review for each PR, where we verify code practice
 
 Technical debts are one of the most important topics around software development. The need to tackle and avoid debts into our code is one of the things we keep on track to improve our projects.
 
-We use [Code Climate](https://codeclimate.com/) to check all maintainability/code smells and test coverage report in the project and set up a moment during the Sprint cycle to check all comments regarding our code and tests. 
-The whole team participates on this event, getting a good and deep thoughts about the way we are coding.
+We use [Code Climate](https://codeclimate.com/) to check all maintainability/code smells and test coverage report in the project and set up a moment during the Sprint cycle to check all comments regarding our code and tests. The whole team participates on this event, getting a good and deep thoughts about the way we are coding.
 
 ### CI / CD flow
 
-![alt text](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI:CD.png?raw=true "CI/CD Flow")
+![CI/CD Flow](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI:CD.png?raw=true)
 
 #### Web Apps
 
 [Jenkins](https://www.jenkins.io/) + [Selenium](https://www.selenium.dev/):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Jenkins_Selenium.png?raw=true" width="120">
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Jenkins_Selenium.png?raw=true)
 
 [Netlify](https://www.netlify.com/):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Netlify.png?raw=true" width="120">
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Netlify.png?raw=true)
 
 #### Mobile Apps
 
 [Bitrise](https://www.bitrise.io/):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Bitrise.png?raw=true" width="120">
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Bitrise.png?raw=true)
 
 [Detox](https://github.com/wix/Detox):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Detox.png?raw=true" width="120">
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Detox.png?raw=true)
 
 [Appetize](https://appetize.io/):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Appetize.png?raw=true" width="120">
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Appetize.png?raw=true)
 
 #### Devops
 
 [Docker](https://www.docker.com/):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Docker.png?raw=true" width="120">
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Docker.png?raw=true)
 
 [Kubernetes](https://kubernetes.io/):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Kubernetes.png?raw=true" width="120">
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Kubernetes.png?raw=true)
 
 [Heroku](https://www.heroku.com/):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Heroku.png?raw=true" width="120">
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Heroku.png?raw=true)
 
 [Digital Ocean](https://www.digitalocean.com/):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Digital_Ocean.png?raw=true" width="120">
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Digital_Ocean.png?raw=true)
 
-[Amazon Web Services (AWS)](https://aws.amazon.com/):
+[Amazon Web Services \(AWS\)](https://aws.amazon.com/):
 
-<img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/AWS.png?raw=true" width="120">
+![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/AWS.png?raw=true)
 
 #### Fake Back End
 
-It is common to face a client that needs to validate his/her product, but with no structure for that. Also doing a pipeline of development may loose the opportunity window for his/her business, so we need to make it fast.
-To tackle this challenge, we have implemented an approach to mock an API to the frontend team to avoid barriers in terms of back end demands.
+It is common to face a client that needs to validate his/her product, but with no structure for that. Also doing a pipeline of development may loose the opportunity window for his/her business, so we need to make it fast. To tackle this challenge, we have implemented an approach to mock an API to the frontend team to avoid barriers in terms of back end demands.
 
 We only need to add a `api.json` file into the project with the expected data structure that it's supposed to be your desired API and then can be runned out with a continuous deploy and it's online in a few minutes.
 
