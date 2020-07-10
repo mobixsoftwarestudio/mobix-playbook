@@ -14,7 +14,8 @@ Using design thinking to create interfaces for web and mobile applications, with
 
 * Development: 
 
-We develop custom software with quality, tailoring with agile methodology. Our work delivers custom code to accommodate your unique needs.
+We develop custom software with quality, tailoring with agile methodology. Our work delivers custom code to accommodate your unique needs.  
+
 
 ## Our Homemade Products
 
