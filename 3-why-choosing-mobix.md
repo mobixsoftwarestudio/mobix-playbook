@@ -112,7 +112,7 @@ The outcome of the meeting should be to:
 * Ensure that each unit is clear on its goals; has the appropriate resources, confidence, and conviction to realize those goals; and has taken responsibility for achieving those goals;
 * Maximize the opportunity for each unit to accomplish its most important goal.
 
-  Once the analysis is done, the  quarter review report is presented to our collaborators in order to make them aware of our direction as well as gain feedback and ideas from them.
+  Once the analysis is done, the quarter review report is presented to our collaborators in order to make them aware of our direction as well as gain feedback and ideas from them.
 
 **Career Development Plan**
 
