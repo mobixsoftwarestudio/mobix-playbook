@@ -10,7 +10,7 @@ Mobix is an innovative software studio based in Recife, that builds easier and t
 
 > _“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics._
 
-In each kind of relationship, you can learn what are the good practices that matter and those which are the basis of it to guarantee high-quality experiences for our main stakeholders: clients and collaborators. 
+In each kind of relationship, you can learn what are the good practices that matter and those which are the basis of it to guarantee high-quality experiences for our main stakeholders: clients and collaborators.
 
 We are not only a software studio with experienced developers. We love to tailor outstanding solutions together with the client. We are not choosing projects where we are invaluable in a month and disposable in the next. We want to help products to last. For this reason, we designed the standards we offer to our clients and our expectations towards them.
 
@@ -95,8 +95,6 @@ We are a **human-centered organization** that believes that motivated, passionat
 * We want, primarily, to deliver end-to-end quality for software products. We built a software development process to guarantee that. And we get that the client’s context might emphasize other concerns;
 * We work with a project that lasts at least 3 months/14 weeks because doing small projects over and over can make developers really good in setups and basic features, but larger projects have more interesting challenges that help developers become experts;
 * Taking chances and building entire products on hunches can lead to idleness and demotivate developers \(no one likes to develop things that never see the light of day\). We focus on the good feeling that is to see your code being used - solving real problems for real people.
-
-
 
 ## [No estimates](https://ronjeffries.com/xprog/articles/the-noestimates-movement/)
 

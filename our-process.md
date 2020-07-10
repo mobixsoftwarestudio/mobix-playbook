@@ -4,8 +4,6 @@ description: Description
 
 # Our process
 
-
-
 <table>
   <thead>
     <tr>
@@ -74,7 +72,7 @@ description: Description
           </li>
           <li><a href="https://www.notion.so/mobix/Wireframing-fec44c1173914b848e00abb6e7bb8a5d">Wireframing and proto</a>
           </li>
-          <li><a href="https://www.notion.so/mobix/Get-Feedback-3f53447da472408ba7437e63e839a492">Get feedback </a>
+          <li><a href="https://www.notion.so/mobix/Get-Feedback-3f53447da472408ba7437e63e839a492">Get feedback</a>
           </li>
           <li><a href="https://www.notion.so/mobix/Integrate-Feedback-and-Iterate-68af5bbe6cc241658a61dca2f38ae9ec">Iterate feedback and iterate</a>
           </li>
@@ -136,8 +134,4 @@ Description here
 ### Swot analysis
 
 Description here
-
-
-
-
 

@@ -22,5 +22,3 @@ Available soon
 
 Available soon
 
-
-
