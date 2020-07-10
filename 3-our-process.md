@@ -14,7 +14,7 @@ description: Description
       </th>
       <th style="text-align:left"><b>Build, test and iterate</b>
       </th>
-      <th style="text-align:left"><b>Hand-off</b>
+      <th style="text-align:left"><b>Handoff </b>
       </th>
       <th style="text-align:left">Plan and implement</th>
       <th style="text-align:left">Quality assessment</th>
@@ -87,7 +87,7 @@ description: Description
       </td>
       <td style="text-align:left">
         <ul>
-          <li><a href="https://www.notion.so/mobix/Design-Handoff-Document-4e56b2dab9a84c50b6672a3252f71fce">Design Hand-off doc</a>
+          <li><a href="https://www.notion.so/mobix/Design-Handoff-Document-4e56b2dab9a84c50b6672a3252f71fce">Design Handoff doc</a>
           </li>
         </ul>
       </td>
