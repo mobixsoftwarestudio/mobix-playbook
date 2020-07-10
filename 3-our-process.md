@@ -121,23 +121,33 @@ description: Description
   </tbody>
 </table>
 
-## Discovery & Research
+### 
+
+### Discovery & Research
 
 Description here
 
-### Client interview
+### **Build, test and iterate**
 
 Description here
 
-### Lean Canvas
+### **Handoff**
 
 Description here
 
-### Swot analysis
+### Plan and implement
 
 Description here
 
+### Quality assessment
 
+Description here
 
+### Deploy
 
+Description here
+
+### Maintainance
+
+Description here
 

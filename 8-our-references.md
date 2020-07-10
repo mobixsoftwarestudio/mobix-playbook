@@ -16,7 +16,6 @@ Everything we wrote comes from our experiences, good practices exchanges, profes
 * **Websites references:** 
   * * [**http://www.uxforthemasses.com/ux-manifesto/**](http://www.uxforthemasses.com/ux-manifesto/)
     * [**https://agilemanifesto.org/**](https://agilemanifesto.org/)
-    * [**https://medium.com/**](https://medium.com/)
     * [**http://es6-features.org/**](http://es6-features.org/#Constants)[**\#Constants**](http://es6-features.org/#Constants)
 
 These references taught us something that lives on in our culture. Sometimes bringing us things we haven’t ever heard of, and other times just by asserting things we already had stumbled upon in our practice and use frequently in our day-to-day.
