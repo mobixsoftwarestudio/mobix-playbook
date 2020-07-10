@@ -102,7 +102,7 @@ We are a **human-centered organization** that believes that motivated, passionat
 
 We believe that we shouldn't do estimates. Estimates are difficult. When requirements are vague and it seems that they always are then the best conceivable estimates would also be very vague. 
 
-Accurate estimation becomes essentially impossible. 
+Accurate estimation becomes essentially impossible.
 
 Even with clear requirements and it seems that they never are it is still almost impossible to know how long something will take because we’ve never done it before. If we had done it before, we’d just give it to you.
 
