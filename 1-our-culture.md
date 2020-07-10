@@ -120,9 +120,9 @@ There are many reasons to support this idea and we've made a compiled:
 
 5. Estimation is very difficult, perhaps impossible, and often misused. And can lead to a false vision of a future scenario;
 
-6. Estimation is difficult, perhaps impossible, and we would be well off if we could avoid it.
+6. Estimation is difficult, perhaps impossible, and we would be well off if we could avoid it;
 
-7. Estimates are often misused. Estimates are often used as a bludgeon to try to get programmers to work faster. This leads to unhappy programmers and to poor software. No one wins.
+7. Estimates are often misused. Estimates are often used as a bludgeon to try to get programmers to work faster. This leads to unhappy programmers and to poor software. No one wins;
 
 8. A focus on estimation often leads to a fascination with completing some fixed scope of work and the estimation often militates strongly against doing this. The result is “Weak Agile” and inferior results.
 
