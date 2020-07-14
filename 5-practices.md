@@ -1,5 +1,11 @@
 # Practices
 
+## Security and data
+
+```text
+Available soon
+```
+
 ## Development Standards
 
 ### Project Kickstart
@@ -45,12 +51,6 @@ We set up some hours during the week/month in our team's allocation to check our
 
 * [NodeJs for Web API](https://github.com/mobixsoftwarestudio/node-boilerplate)
 * [NodeJs for Microservices](https://github.com/mobixsoftwarestudio/node-ms-boilerplate)
-
-### Security
-
-```text
-Available soon
-```
 
 ### Git Flow
 
