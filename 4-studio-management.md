@@ -38,6 +38,10 @@ We use it to communicate within the organization and the teams about working top
 
 We use it for informal communications both in private and in groups.
 
+### **Notion**
+
+One of the main tools used daily on the documentation of all that's happening. Used for Mobix internal needs and for all projects and external initiatives.
+
 ### **Discord**
 
 We use it to take fast feedback communication both in private and in groups with the project team.
