@@ -2,7 +2,7 @@
 
 Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empower them.
 
-**We believe that passion, collaboration, and ethics as main values are the key to sucess.**
+**We believe that passion, collaboration, and ethics as the main values are the key to success.**
 
 **Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin, or other kinds of prejudice.**
 
