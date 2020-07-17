@@ -2,11 +2,11 @@
 
 Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empower them.
 
-**We believe that passion, collaboration, and ethics as the main values are the key to success.**
+**We believe that passion, collaboration, and ethics will unlock human potential.**
 
 **Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin, or other kinds of prejudice.**
 
-**We think that freedom of expression and diversity is about embracing one another’s uniqueness.**
+**We think that freedom of expression and diversity is about embracing one another’s uniqueness**
 
 > _“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics._
 
