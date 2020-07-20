@@ -74,7 +74,7 @@ Works to design, develop, launch web and mobile applications. It’s all about c
 **Skill requirements:**
 
 * Experience in web and mobile digital product projects;
-* Expertise in Sketch, Figma, Adobe XD or other tools;
+* Expertise in Sketch, Figma or Adobe XD'';
 * Mid-level English to communicate with teams abroad;
 * Experience in guiding clients and designing sprints;
 * Strong knowledge of UX and UI design process, methodologies and frameworks;
