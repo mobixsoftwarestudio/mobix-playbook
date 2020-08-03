@@ -114,7 +114,7 @@ There are many reasons to support this idea and we've made a compiled:
 
 2. A focus on estimates often leads to high expectations for completing some closed scope of features. But the most effective way to do things is to manage scope very carefully, to get the best scope of work accomplished at every point in time. Estimation often militates strongly against doing this. The result is “Weak Agile” and inferior results.
 
-3. Estimation is very difficult and may leads to a false vision of a future scenario;
+3. Estimation is very difficult and may lead to a false vision of a future scenario;
 
 4. Working in a continuous flow, without story estimates, is a great way to work;
 
