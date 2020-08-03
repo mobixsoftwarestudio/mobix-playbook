@@ -118,11 +118,7 @@ There are many reasons to support this idea and we've made a compiled:
 
 4. Working in a continuous flow, without story estimates, is a great way to work;
 
-5. Kanban approaches generally limit work in process, and for small teams, the ideal limit seems to be one;
-
-6. Lean principles generally lead to a continuous one-piece model of production flow;
-
-7. Neither Lean and Kanban approaches have any need to estimate how long something will take. Instead, they measure how long things take, in “cycle time”, and use that to make such predictions as are necessary.
+5. Neither Lean and Kanban approaches have any need to estimate how long something will take. Instead, they measure how long things take, in “cycle time”, and use that to make such predictions as are necessary.
 
 ## Standards to our Collaborators
 
