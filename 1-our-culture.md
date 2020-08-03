@@ -2,11 +2,11 @@
 
 Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empower them.
 
-**We believe that passion, collaboration, and ethics will unlock human potential.**
+**We believe that passion, collaboration, and ethics as the main values are the key to success.**
 
 **Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin, or other kinds of prejudice.**
 
-**We think that freedom of expression and diversity is about embracing one another’s uniqueness**
+**We think that freedom of expression and diversity is about embracing one another’s uniqueness.**
 
 > _“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics._
 
@@ -110,21 +110,19 @@ Estimation, in certain forms, is not always impossible. It’s possible, under s
 
 There are many reasons to support this idea and we've made a compiled:
 
-1. Lean principles generally lead to a continuous one-piece model of production flow;
+1. Estimates are often used as a bludgeon to try to get programmers to work faster. This leads to unhappy programmers and to poor software. No one wins;
 
-2. Kanban approaches generally limit work in process, and for small teams, the ideal limit seems to be one;
+2. A focus on estimates often leads to high expectations for completing some closed scope of features. But the most effective way to do things is to manage scope very carefully, to get the best scope of work accomplished at every point in time. Estimation often militates strongly against doing this. The result is “Weak Agile” and inferior results.
 
-3. Neither Lean and Kanban approaches have any need to estimate how long something will take. Instead, they measure how long things take, in “cycle time”, and use that to make such predictions as are necessary.
+3. Estimation is very difficult and may leads to a false vision of a future scenario;
 
 4. Working in a continuous flow, without story estimates, is a great way to work;
 
-5. Estimation is very difficult, perhaps impossible, and often misused. And can lead to a false vision of a future scenario;
+5. Kanban approaches generally limit work in process, and for small teams, the ideal limit seems to be one;
 
-6. Estimation is difficult, perhaps impossible, and we would be well off if we could avoid it;
+6. Lean principles generally lead to a continuous one-piece model of production flow;
 
-7. Estimates are often misused. Estimates are often used as a bludgeon to try to get programmers to work faster. This leads to unhappy programmers and to poor software. No one wins;
-
-8. A focus on estimation often leads to a fascination with completing some fixed scope of work and the estimation often militates strongly against doing this. The result is “Weak Agile” and inferior results.
+7. Neither Lean and Kanban approaches have any need to estimate how long something will take. Instead, they measure how long things take, in “cycle time”, and use that to make such predictions as are necessary.
 
 ## Standards to our Collaborators
 
