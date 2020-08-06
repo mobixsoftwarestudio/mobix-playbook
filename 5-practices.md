@@ -167,7 +167,7 @@ We use [Code Climate](https://codeclimate.com/) to check all maintainability/cod
 * Again, know the workflow and the organization practices \(Playbook\);
 * Only do one thing at a time \(As Agile says\);
 * Don't be shy, always use the team to support and validate your needs;
-
+* 
 #### Communication
 
 * Connect yourself with the project and client objectives;
