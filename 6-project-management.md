@@ -2,25 +2,20 @@
 
 During the execution of projects, Mobix has a major cycle of Project Management like below:
 
-`(PLANNING -> DAILY -> DEV/DESIGN REVIEW -> DEV/DESIGN DONE -> CLIENT QA -> CLIENT QA FAILED -> APPROVED -> READY TO DEPLOY)`
+`(PLANNING -> DAILY -> DEV REVIEW -> DEV DONE -> HOMOLOGATION -> APPROVED ->  PRODUCTION DEPLOY)`
 
 Our Project Manager \(PM\) needs to organize his tasks by the following:
 
 ## Tasks Management
 
-We use Asana for Project Management. 
+We use `Jira` for Project Management. 
 
-We separate the project vision in two perspectives: `Management` and `Development` in prone to make it easy for project visualization.
+We separate the project vision in three perspectives: Roadmap, Backlog and Active Sprint.
 
-## For Development Teams:
+### Roadmap
 
-### Project Kickstart
-
-For project kickstart, we need to make sure we have the following structure: 
-
-* Activities (PM)
-* Roadmap
-* Sprints
+Here is where we put the main vision of the project. Using metrics of Software Engineering and Project Design, we separate the main features in Modules.
+Each module has a set of features. Each feature is mapped using the Backlog section.
 
 #### Checklist for Roadmap Implementation
 
@@ -31,7 +26,7 @@ For project kickstart, we need to make sure we have the following structure:
 * [x] Write down a specific flow for each feature, considering Sequence Diagrams, Alternative Flows, Business Rules, Data Structures and UI link
 * [x] Use those features as reference for Sprint Plannings and Client Prioritizations
 
-Your roadmap should look like this: 
+Your roadmap should look like this:
 
 * Module 1
   * Feature 1
@@ -43,6 +38,27 @@ Your roadmap should look like this:
     * Requirements, UI, Test Scenarios
   * Feature 2
     * Requirements, UI, Test Scenarios
+
+### Backlog
+
+Here we dive deep into our feature details. Each one needs to attend the following fields:
+
+* [x] Description
+* [x] Main Flow
+* [x] Alternative Flow
+* [x] API Structure / API link
+* [x] Screens (if needed)
+* [x] Tasks
+* [x] Test Scenarios
+* [x] Story Point
+
+Note: `Main Flow` lists a sequence of steps needed which evolves all the feature objective. The `Alternative Flow` also do the same job, however focusing on behaviors that gravitates around the business rules. We use those two fields for Acceptance Criteria.
+
+### Active Sprint
+
+The Active Sprint sets all features that the team planned to do in our [Sprint Planning](#sprint-planning) cerimony.
+
+Our Active Sprint takes up to 10 business days.
 
 ### Methodology
 
@@ -67,19 +83,21 @@ The Kanban Board is organised as follows:
 * To Do
 * In Progress
 * Block
-* Code/Design Review
-* Code/Design Review Failed
-* Waiting Release
-* Homologation Client/QA Review
-* Homologation Client/QA Review Failed
+* Task Done
+* Code Review
+* Code Review Failed
+* Homologation Waiting Release
+* QA Failed
+* Homologation QA
+* Homologation QA Failed
 * Production Waiting Release
-* Production Client/QA Review
-* Production Client/QA Failed
+* Production QA
+* Production QA Failed
 * Approved
 
 Notice that each phase of the kanban board represents a status of deployment for our Client. 
 
-The higher the phase, the most critical is the task, so in case we have `Production Client/QA Failed` means that we need full support to tackle those issues.
+The higher the phase, the most critical is the task, so in case we have `Production QA Failed` means that we need full support to tackle those issues.
 
 #### Sprint Daily Meeting
 
@@ -109,16 +127,16 @@ After the Deploy process and the Approval/Disapproval of the Sprint Cycle, the T
 
 #### Bug Reports
 
-In case we're having a QA phase (for both Homologation/Production), our process needs to be as smooth as possible. Thus, we provide a form for the users to reports adjustments and bug reports. The structure of the form relies on the project type (Web or Mobile).
+Homologation/Production phase, our process needs to be as smooth as possible. Thus, we provide a Service Desk for users to reports adjustments and bug reports. Its structure adapts on the project type (Web or Mobile).
 
 The main points for report are:
 
 * Name
-* Email
+* Email (optional)
 * Environment (Dev, Homologation, Production)
 * Current Behaviour (Here you tell us briefly what's going on)
 * Executed Flow (Tell us what you did with a higher description) 
-* This bug happens in... (Multiple browsers/Chrome/Firefox/Safari)
+* This bug happens in... (Multiple browsers/Chrome/Firefox/Safari)(Iphone [Type], Android [Type])
 * Resolution (Responsive (All resolutions), Start from Mobile to Tablet, Only Tablet, Web)
 * Priority (P0 (ASAP), P1(Fundamental), P2(Important), P3(Wanted))
 * Attachments (Video and/or Screenshots)
