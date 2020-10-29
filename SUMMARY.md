@@ -7,6 +7,7 @@
 * [Studio Management](4-studio-management.md)
 * [Practices](5-practices.md)
 * [Human Resources](6-human-resources.md)
-* [Initiatives](7-initiatives.md)
+* [Open Source](open-source.md)
+* [Give it back](7-initiatives.md)
 * [Our References](8-our-references.md)
 

@@ -1,26 +1,22 @@
-# Initiatives
-
-## **Give it back**
-
-```text
-Available soon
-```
-
-### Open sources
-
-```text
-Available soon
-```
+# Give it back
 
 ### Pro bono
 
-```text
-Available soon
-```
+**UPE**
+
+Monitorar
 
 ### Partnership with universities
 
-Available soon
+**UFPE**
+
+CiTi
+
+A.C.E.
+
+**UPE**
+
+Poli Jr.
 
 
 
