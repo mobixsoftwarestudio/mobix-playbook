@@ -8,6 +8,6 @@
 * [Studio Management](4-studio-management.md)
 * [Practices](5-practices.md)
 * [Human Resources](6-human-resources.md)
-* Give it back
+* Give it back.
 * [Our References](8-our-references.md)
 
