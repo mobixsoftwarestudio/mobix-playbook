@@ -150,7 +150,9 @@ As already stated, we value education in all its declination. Therefore, Mobix i
 
 ## **Career Development Plan**
 
-`Available soon`
+```text
+Available soon
+```
 
 ### Benefits
 

@@ -2,11 +2,11 @@
 
 Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empower them.
 
-**We believe that passion, collaboration, and ethics will unlock human potential.**
+**We believe that passion, collaboration, and ethics as the main values are the key to success.**
 
 **Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin, or other kinds of prejudice.**
 
-**We think that freedom of expression and diversity is about embracing one another’s uniqueness**
+**We think that freedom of expression and diversity is about embracing one another’s uniqueness.**
 
 > _“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics._
 
@@ -16,15 +16,15 @@ We are not only a software studio with experienced developers. We love to tailor
 
 ## Our **Golden Circle**
 
-#### **Why**
+### **Why**
 
 Driving technology to the future
 
-#### **How**
+### **How**
 
 Passion, excellence, creativity, and empathy
 
-#### **What**
+### **What**
 
 Tailoring software applications
 
@@ -32,7 +32,7 @@ Tailoring software applications
 
 > _“Talent is the multiplier. The more energy and attention you invest in it, the greater the yield” — Marcus Buckingham, Author and business consultant._
 
-#### The Pillars
+### The Pillars
 
 We strongly believe that behaviors needed to exceed client expectations, hence we have 3 main conducts that make us stand out and that characterize our actions.
 
@@ -45,7 +45,7 @@ We are a **human-centered organization** that believes that motivated, passionat
 * Empathy with all the people involved with us;
 * The whole team, including the client, should be aware of everything going on in the project, good or bad;
 * The active and enthusiastic participation of our collaborators by enjoying moments together;
-* Open environment, so our office’s doors welcome whoever wants to join us and exchange information, which leads both parts to enrich one another;
+* An open environment, so our office’s doors welcome whoever wants to join us and exchange information, which leads both parts to enrich one another;
 * No dress-code, so we all feel comfortable and free to express ourselves at work;
 * Communication is one of the keys to success;
 * Individuals and interactions over processes and tools;
@@ -57,8 +57,8 @@ We are a **human-centered organization** that believes that motivated, passionat
 * What users need over what users want;
 * User insights over assumptions;
 * Simplicity beats complexity;
-* Code quality is a primal in terms of software engineering, so we focus on avoiding technical debts and refactoring is a must on our work, and it's been treated as a feature in the backlog;
-* Pragmatism over user-centred design purism;
+* Code quality is primal in terms of software engineering, so we focus on avoiding technical debts and refactoring is a must on our work, and it's been treated as a feature in the backlog;
+* Pragmatism over user-centered design purism;
 * There is no such thing as better language or there is only one way to solve things. Each project is unique in tools and technologies;
 * Community is one of the most important features of a programming language, keep this in mind when choosing one;
 * Code should be deployed early and often;
@@ -100,9 +100,25 @@ We are a **human-centered organization** that believes that motivated, passionat
 
 ## [No estimates](https://ronjeffries.com/xprog/articles/the-noestimates-movement/)
 
-```text
-Available soon
-```
+We believe that we shouldn't do estimates. Estimates are difficult. When requirements are vague and it seems that they always are then the best conceivable estimates would also be very vague. 
+
+Accurate estimation becomes essentially impossible.
+
+Even with clear requirements and it seems that they never are it is still almost impossible to know how long something will take because we’ve never done it before. If we had done it before, we’d just give it to you.
+
+Estimation, in certain forms, is not always impossible. It’s possible, under some circumstances, to do pretty well. In addition, sometimes people really do need to know about how much something is going to cost before going ahead.
+
+There are many reasons to support this idea and we've made a compiled:
+
+1. Estimates are often used as a bludgeon to try to get programmers to work faster. This leads to unhappy programmers and to poor software. No one wins;
+
+2. A focus on estimates often leads to high expectations for completing some closed scope of features. But the most effective way to do things is to manage scope very carefully, to get the best scope of work accomplished at every point in time. Estimation often militates strongly against doing this. The result is “Weak Agile” and inferior results.
+
+3. Estimation is very difficult and may lead to a false vision of a future scenario;
+
+4. Working in a continuous flow, without story estimates, is a great way to work;
+
+5. Neither Lean and Kanban approaches have any need to estimate how long something will take. Instead, they measure how long things take, in “cycle time”, and use that to make such predictions as are necessary.
 
 ## Standards to our Collaborators
 
@@ -114,25 +130,25 @@ Available soon
 
 > “People play differently when they’re keeping score. If you doubt this, watch any group of teenagers playing basketball and see how the game changes the minute scorekeeping begins. The kind of scoreboard that will drive the highest levels of engagement with your team will be one that is designed solely for \(and often by\) the players”. Chris McChesney, Co-author of the 4 disciplines of execution.
 
-For this reason, we have a simple scoreboard that is updated weekly by our collaborators everytime they contribute to reach the goals.
+For this reason, we have a simple scoreboard that is updated weekly by our collaborators every time they contribute to reaching the goals.
 
 **Weekly Accounting Meeting**
 
-Every monday at 11:00 am we do a company-wide meeting so our collaborators can tell the whole company what they've been doing and what can be improved. The meeting is based on a card the collaborators should fill to be prepared for the meeting. Hence, each one reports on the bad, good and things to maintain; moreover, they will express a feeling about how the project is going and they will explain why. Finally, they present the solutions found to tackle the problems. During the meeting, they can ask teammates to give feedback to solve the issue.
+Every Monday at 11:00 am we do a company-wide meeting so our collaborators can tell the whole company what they've been doing and what can be improved. The meeting is based on a card the collaborators should fill to be prepared for the meeting. Hence, each one reports on the bad, good, and things to maintain; moreover, they will express a feeling about how the project is going and they will explain why. Finally, they present the solutions found to tackle the problems. During the meeting, they can ask teammates to give feedback to solve the issue.
 
 **Monthly Team Activities**
 
-The last weekend of the month, we like to do some activities aimed to bonding with the team and to fostering trustworthiness. As stated in our commitments, we invest all the possible resources of the company to host those spaces.
+The last weekend of the month, we like to do some activities aimed at bonding with the team and to fostering trustworthiness. As stated in our commitments, we invest all the possible resources of the company to host those spaces.
 
-Examples of activities are: karting, escape room, active painting, company adventure, happy hour on the beach.
+Examples of activities are karting, escape room, active painting, company adventure, happy hour on the beach.
 
 **Bi-Quarterly O2O**
 
-Twice a quarter we like to encompass a more high-end discussion between managers and collaborators. Instead of the regular questions about the day-to-day of the project, each coachee is encouraged by the manager to follow these 5-stages process for the personal and professional development:
+Twice a quarter we like to encompass a more high-end discussion between managers and collaborators. Instead of the regular questions about the day-to-day of the project, each coachee is encouraged by the manager to follow these 5-stages process for personal and professional development:
 
 **Set the GOAL**
 
-Establish the goal that are SMART \(Specific, Measurable, Attainable, Realistic & Time based\). It should be aligned with the operational and career goal.
+Establish the goal that is SMART \(Specific, Measurable, Attainable, Realistic & Time based\). It should be aligned with the operational and career goal.
 
 Useful questions to start:
 
@@ -163,7 +179,7 @@ Useful questions:
 Useful questions:
 
 * What will you do now, and when? What else will you do?
-* What could stop you moving forward? How will you overcome this?
+* What could stop you from moving forward? How will you overcome this?
 * How can you keep yourself motivated?
 
 **Quarter Review**

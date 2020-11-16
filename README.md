@@ -2,11 +2,12 @@
 
 ## Table of contents
 
-* [Development Practices](0-development-practices.md)
 * [Culture](1-our-culture.md)
 * [What We Do](2-what-we-do.md)
-* [Internal Management](4-internal-management.md)
-* Human Resources
-* [Project Management](6-project-management.md)
-* Give It back
+* [Our Process](3-our-process.md)
+* [Studio Management](4-studio-management.md)
+* [Practices](5-practices.md)
+* [Human Resources](6-human-resources.md)
+* Give it back.
+* [Our References](8-our-references.md)
 

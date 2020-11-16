@@ -1,6 +1,12 @@
-# Development Practices
+# Practices
 
-## Standards
+## Security and data
+
+```text
+Available soon
+```
+
+## Development Practices
 
 ### Project Kickstart
 
@@ -23,7 +29,7 @@ As a mandatory behavior, all developers need to attend to the following implemen
 * [x] e2e implementation \(test scenarios needs to be mapped on planning at Asana's\)
 * [x] run tests locally
 * [x] validate implementation
-* [x] pre-commit analysis before sendint to repo
+* [x] pre-commit analysis before sending to repo
 * [x] open a pull request
 * [x] check if CI/CD passed
 
@@ -31,9 +37,9 @@ As a mandatory behavior, all developers need to attend to the following implemen
 
 To kickstart a project at Mobix, we need to evaluate the project complexity as well as the type of architecture.
 
-On regular projects we develop, we avoid to start from scratch - we have our standards for each project we develop. Thus, we can keep a good maintanance and also share internally our practices and keep always the culture of improvements.
+On regular projects we develop, we avoid starting from scratch - we have our standards for each project we develop. Thus, we can keep good maintenance and also share internally our practices and keep always the culture of improvements.
 
-We set up some hours during the week/month in our team's allocation to check our boilerplates. Usually we share some good practices we used in some projects with our clients and put it together for future challenges.
+We set up some hours during the week/month in our team's allocation to check our boilerplates. Usually, we share some good practices we used in some projects with our clients and put it together for future challenges.
 
 #### **React Projects**
 
@@ -45,12 +51,6 @@ We set up some hours during the week/month in our team's allocation to check our
 
 * [NodeJs for Web API](https://github.com/mobixsoftwarestudio/node-boilerplate)
 * [NodeJs for Microservices](https://github.com/mobixsoftwarestudio/node-ms-boilerplate)
-
-### Security
-
-```text
-Available soon
-```
 
 ### Git Flow
 
@@ -64,11 +64,11 @@ Tailoring the project structure, we define two main branches:
 * homolog
 * develop
 
-Where `master` tags the _production_ version of the software. In that scenario, the version we deploy and go live is tagged with its specific version.
+Where `master` tags the _production_ version of the software. In that scenario, the version we deploy and go-live is tagged with its specific version.
 
 `homolog` delivers the current version of the project to validate our results with our client. We also keep our track on QA assessment before going live.
 
-Regarding to `develop`, we merge all implementations that we do in our team to validate the sprint.
+Regarding `develop`, we merge all implementations that we do in our team to validate the sprint.
 
 Outside those two main branches, we define the following approach:
 
@@ -84,7 +84,7 @@ For each Pull Request opened, we apply CI/CD as a preview integration a delivery
 Our PR has the following template:
 
 * [x] Feature description: Insert here a brief description of your PR
-* [x] Asana task: Insert here an &lt;URL&gt; from Asana's
+* [x] Asana task: Insert here a &lt;URL&gt; from Asana's
 
 We also have a culture of Code Review for each PR, where we verify code practices and check quality and performances that we might need to improve.
 
@@ -92,7 +92,7 @@ We also have a culture of Code Review for each PR, where we verify code practice
 
 Technical debts are one of the most important topics around software development. The need to tackle and avoid debts into our code is one of the things we keep on track to improve our projects.
 
-We use [Code Climate](https://codeclimate.com/) to check all maintainability/code smells and test coverage report in the project and set up a moment during the Sprint cycle to check all comments regarding our code and tests. The whole team participates on this event, getting a good and deep thoughts about the way we are coding.
+We use [Code Climate](https://codeclimate.com/) to check all maintainability/code smells and test coverage report in the project and set up a moment during the Sprint cycle to check all comments regarding our code and tests. The whole team participates in this event, getting good and deep thoughts about the way we are coding.
 
 ### CI / CD flow
 
@@ -155,4 +155,59 @@ We use [Code Climate](https://codeclimate.com/) to check all maintainability/cod
 [Docker Hub](https://hub.docker.com/):
 
 ![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Docker_Hub.png?raw=true)
+
+## Design Practices
+
+
+
+#### Self-Management
+
+* Know your weak spots and take a corrective action and get team help;
+* Always. Always know the process and the methodology;
+* Again, know the workflow and the organization practices \(Playbook\);
+* Only do one thing at a time \(As Agile says\);
+* Don't be shy, always use the team to support and validate your needs;
+* 
+#### Communication
+
+* Connect yourself with the project and client objectives;
+* Communicate always and all the time;
+* Build a trust relationship with the client's team;
+* Facilitate all the methodology;
+* Always document every meeting and decision;
+* To listen to all stakeholder involved;
+* Share all the knowledge early and often;
+
+#### Research
+
+* Use the project delivery process with updated methods and references;
+* When it's possible, go for a face to face interaction with the user;
+* Understand the problem and needs of the project;
+* User test \(Remote or not\);
+* Always validate ideas;
+
+#### Interface
+
+* Construction of System design for each project;
+* Always go for mobile-first;
+* Construction on low fidelity;
+* Usability focus;
+* Give Feedback to the user;
+
+#### Content
+
+* Always use User language;
+
+#### Front-end
+
+* Build based in Mobile First;
+* SEO techniques \(Lighthouse, Meta description\);
+* Use components and variables;
+* Small animations;
+
+### Project Kickstart
+
+```text
+Available soon
+```
 
