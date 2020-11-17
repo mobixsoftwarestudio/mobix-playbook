@@ -1,4 +1,4 @@
-# Practices
+# Best Practices
 
 ## Security and data
 
@@ -100,65 +100,19 @@ We use [Code Climate](https://codeclimate.com/) to check all maintainability/cod
 
 ![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_WebApp.png?raw=true)
 
-[Jenkins](https://www.jenkins.io/) + [Selenium](https://www.selenium.dev/):
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Jenkins_Selenium.png?raw=true)
-
-[Netlify](https://www.netlify.com/):
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Netlify.png?raw=true)
-
 #### MOBILE APPS
 
 ![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Mobile.png?raw=true)
-
-[Bitrise](https://www.bitrise.io/):
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Bitrise.png?raw=true)
-
-[Detox](https://github.com/wix/Detox):
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Detox.png?raw=true)
-
-[Appetize](https://appetize.io/):
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Appetize.png?raw=true)
 
 #### MONOLITH BACK END
 
 ![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Monolith.png?raw=true)
 
-[Docker](https://www.docker.com/):
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Docker.png?raw=true)
-
-[Jest](https://jestjs.io/):
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Jest.png?raw=true)
-
-[Heroku](https://www.heroku.com/):
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Heroku.png?raw=true)
-
 #### MICROSERVICES BACK END
 
 ![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Microservice.png?raw=true)
 
-[Kubernetes](https://kubernetes.io/):
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Kubernetes.png?raw=true)
-
-[Ansible](https://www.ansible.com/):
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Ansible.png?raw=true)
-
-[Docker Hub](https://hub.docker.com/):
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/Docker_Hub.png?raw=true)
-
 ## Design Practices
-
-
 
 #### Self-Management
 
