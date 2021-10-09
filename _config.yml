@@ -1,1 +1,4 @@
 theme: jekyll-theme-modernist
+layout: page
+title: "Our Culture"
+permalink: /about/culture
