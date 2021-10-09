@@ -9,22 +9,21 @@ toc_footers:
   - <a href='mailto:rh@mobixtec.com?subject=Processo Seletivo Mobix"'>Send your resumé</a>
 
 includes:
-  - errors
-  - for_the_future
-  - give_it_back
-  - human_resources
-  - initiatives
-  - internal_management
-  - open_source
+  - what_we_do
+  - why_choosing_mobix
   - our_culture
   - our_process
   - our_references
-  - practices
   - project_management
+  - internal_management
+  - human_resources
+  - for_the_future
+  - give_it_back
+  - initiatives
+  - open_source
+  - practices
   - security_and_data
   - studio_management
-  - what_we_do
-  - why_choosing_mobix
 
 search: true
 
