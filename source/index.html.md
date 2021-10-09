@@ -8,6 +8,7 @@ toc_footers:
   - <a href='mailto:rh@mobixtec.com?subject=Processo Seletivo Mobix"'>Send your resumé</a>
 
 includes:
+  - introduction
   - what_we_do
   - why_choosing_mobix
   - our_culture
