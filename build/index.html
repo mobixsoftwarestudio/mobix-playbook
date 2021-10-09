@@ -1,0 +1,2091 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta
+            name="Mobix Software Studio"
+            content="Playbook compiling our best practices."
+        >
+    <title>API Reference</title>
+
+    <style media="screen">
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s, .highlight .sa, .highlight .dl {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf, .highlight .fm {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv, .highlight .vm {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #f92672;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <style media="print">
+      * {
+        -webkit-transition:none!important;
+        transition:none!important;
+      }
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #586e75;
+}
+.highlight .err {
+  color: #002b36;
+  background-color: #dc322f;
+}
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: #657b83;
+}
+.highlight .cp {
+  color: #b58900;
+}
+.highlight .nt {
+  color: #b58900;
+}
+.highlight .o, .highlight .ow {
+  color: #93a1a1;
+}
+.highlight .p, .highlight .pi {
+  color: #93a1a1;
+}
+.highlight .gi {
+  color: #859900;
+}
+.highlight .gd {
+  color: #dc322f;
+}
+.highlight .gh {
+  color: #268bd2;
+  background-color: #002b36;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #6c71c4;
+}
+.highlight .kc {
+  color: #cb4b16;
+}
+.highlight .kt {
+  color: #cb4b16;
+}
+.highlight .kd {
+  color: #cb4b16;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #859900;
+}
+.highlight .sa {
+  color: #6c71c4;
+}
+.highlight .sr {
+  color: #2aa198;
+}
+.highlight .si {
+  color: #d33682;
+}
+.highlight .se {
+  color: #d33682;
+}
+.highlight .nn {
+  color: #b58900;
+}
+.highlight .nc {
+  color: #b58900;
+}
+.highlight .no {
+  color: #b58900;
+}
+.highlight .na {
+  color: #268bd2;
+}
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
+  color: #859900;
+}
+.highlight .ss {
+  color: #859900;
+}
+    </style>
+    <link href="stylesheets/screen-c9d8fa83.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print-953e3353.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all-b12a2749.js"></script>
+
+  </head>
+
+  <body class="index" data-languages="[&quot;javascript&quot;]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar-cad8cdcb.png" alt="" />
+      </span>
+    </a>
+    <div class="toc-wrapper">
+      <img src="images/logo-1e815a84.png" class="logo" alt="" />
+        <div class="lang-selector">
+              <a href="#" data-language-name="javascript">javascript</a>
+        </div>
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="Search">
+        </div>
+        <ul class="search-results"></ul>
+      <ul id="toc" class="toc-list-h1">
+          <li>
+            <a href="#errors" class="toc-h1 toc-link" data-title="Errors">Errors</a>
+          </li>
+          <li>
+            <a href="#for-the-future" class="toc-h1 toc-link" data-title="For The Future">For The Future</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#next-steps" class="toc-h2 toc-link" data-title="Next Steps"><strong>Next Steps</strong></a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#give-it-back" class="toc-h1 toc-link" data-title="Give it back">Give it back</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#open-sources" class="toc-h2 toc-link" data-title="Open sources">Open sources</a>
+                  </li>
+                  <li>
+                    <a href="#pro-bonos" class="toc-h2 toc-link" data-title="Pro bonos">Pro bonos</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#human-resources" class="toc-h1 toc-link" data-title="Human Resources">Human Resources</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#open-spots-and-requirements" class="toc-h2 toc-link" data-title="Open Spots and Requirements">Open Spots and Requirements</a>
+                  </li>
+                  <li>
+                    <a href="#hiring-stages" class="toc-h2 toc-link" data-title="Hiring Stages">Hiring Stages</a>
+                  </li>
+                  <li>
+                    <a href="#on-boarding-process" class="toc-h2 toc-link" data-title="On-boarding Process">On-boarding Process</a>
+                  </li>
+                  <li>
+                    <a href="#education" class="toc-h2 toc-link" data-title="Education"><strong>Education</strong></a>
+                  </li>
+                  <li>
+                    <a href="#career-development-plan" class="toc-h2 toc-link" data-title="Career Development Plan"><strong>Career Development Plan</strong></a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#give-it-back" class="toc-h1 toc-link" data-title="Give it back">Give it back</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#pro-bono" class="toc-h2 toc-link" data-title="Pro bono">Pro bono</a>
+                  </li>
+                  <li>
+                    <a href="#partnership-with-universities" class="toc-h2 toc-link" data-title="Partnership with universities">Partnership with universities</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#internal-management" class="toc-h1 toc-link" data-title="Internal Management">Internal Management</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#management" class="toc-h2 toc-link" data-title="Management">Management</a>
+                  </li>
+                  <li>
+                    <a href="#communication" class="toc-h2 toc-link" data-title="Communication">Communication</a>
+                  </li>
+                  <li>
+                    <a href="#okrs" class="toc-h2 toc-link" data-title="OKRs">OKRs</a>
+                  </li>
+                  <li>
+                    <a href="#description-descricao-curta-da-nossa-iniciativa-open-source" class="toc-h2 toc-link" data-title="description: Descrição curta da nossa iniciativa open source">description: Descrição curta da nossa iniciativa open source</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#open-source" class="toc-h1 toc-link" data-title="Open Source">Open Source</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#our-open-source-approach" class="toc-h2 toc-link" data-title="Our open source approach">Our open source approach</a>
+                  </li>
+                  <li>
+                    <a href="#boilerplates" class="toc-h2 toc-link" data-title="Boilerplates">Boilerplates</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#culture" class="toc-h1 toc-link" data-title="Culture">Culture</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#our-golden-circle" class="toc-h2 toc-link" data-title="Our Golden Circle">Our <strong>Golden Circle</strong></a>
+                  </li>
+                  <li>
+                    <a href="#our-behaviours" class="toc-h2 toc-link" data-title="Our Behaviours">Our Behaviours</a>
+                  </li>
+                  <li>
+                    <a href="#our-philosophy" class="toc-h2 toc-link" data-title="Our Philosophy">Our Philosophy</a>
+                  </li>
+                  <li>
+                    <a href="#our-commitments" class="toc-h2 toc-link" data-title="Our Commitments">Our <strong>Commitments</strong></a>
+                  </li>
+                  <li>
+                    <a href="#standards-to-our-clients" class="toc-h2 toc-link" data-title="Standards to our Clients">Standards to our Clients</a>
+                  </li>
+                  <li>
+                    <a href="#no-estimates" class="toc-h2 toc-link" data-title="No estimates"><a href="https://ronjeffries.com/xprog/articles/the-noestimates-movement/">No estimates</a></a>
+                  </li>
+                  <li>
+                    <a href="#standards-to-our-collaborators" class="toc-h2 toc-link" data-title="Standards to our Collaborators">Standards to our Collaborators</a>
+                  </li>
+                  <li>
+                    <a href="#description-description" class="toc-h2 toc-link" data-title="description: Description">description: Description</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#our-process" class="toc-h1 toc-link" data-title="Our Process">Our Process</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#discovery-amp-research" class="toc-h2 toc-link" data-title="Discovery &amp; Research">Discovery &amp; Research</a>
+                  </li>
+                  <li>
+                    <a href="#build-test-and-iterate" class="toc-h2 toc-link" data-title="Build, test and iterate"><strong>Build, test and iterate</strong></a>
+                  </li>
+                  <li>
+                    <a href="#handoff" class="toc-h2 toc-link" data-title="Handoff"><strong>Handoff</strong></a>
+                  </li>
+                  <li>
+                    <a href="#plan-and-implement" class="toc-h2 toc-link" data-title="Plan and implement">Plan and implement</a>
+                  </li>
+                  <li>
+                    <a href="#quality-assessment" class="toc-h2 toc-link" data-title="Quality assessment">Quality assessment</a>
+                  </li>
+                  <li>
+                    <a href="#deploy" class="toc-h2 toc-link" data-title="Deploy">Deploy</a>
+                  </li>
+                  <li>
+                    <a href="#maintainance" class="toc-h2 toc-link" data-title="Maintainance">Maintainance</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#our-references" class="toc-h1 toc-link" data-title="Our References">Our References</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#references" class="toc-h2 toc-link" data-title="References">References</a>
+                  </li>
+                  <li>
+                    <a href="#what-inspires-us" class="toc-h2 toc-link" data-title="What inspires us">What inspires us</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#best-practices" class="toc-h1 toc-link" data-title="Best Practices">Best Practices</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#security-and-data" class="toc-h2 toc-link" data-title="Security and data">Security and data</a>
+                  </li>
+                  <li>
+                    <a href="#development-practices" class="toc-h2 toc-link" data-title="Development Practices">Development Practices</a>
+                  </li>
+                  <li>
+                    <a href="#design-practices" class="toc-h2 toc-link" data-title="Design Practices">Design Practices</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#project-management" class="toc-h1 toc-link" data-title="Project Management">Project Management</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#tasks-management" class="toc-h2 toc-link" data-title="Tasks Management">Tasks Management</a>
+                  </li>
+                  <li>
+                    <a href="#daki-exercise" class="toc-h2 toc-link" data-title="DAKI Exercise"><strong>DAKI Exercise</strong></a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#readme" class="toc-h1 toc-link" data-title="README">README</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#description-description-goes-here" class="toc-h2 toc-link" data-title="description: Description goes here">description: Description goes here</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#studio-management" class="toc-h1 toc-link" data-title="Studio Management">Studio Management</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#internal-management" class="toc-h2 toc-link" data-title="Internal Management">Internal Management</a>
+                  </li>
+                  <li>
+                    <a href="#okrs" class="toc-h2 toc-link" data-title="OKRs">OKRs</a>
+                  </li>
+                  <li>
+                    <a href="#project-management" class="toc-h2 toc-link" data-title="Project Management">Project Management</a>
+                  </li>
+                  <li>
+                    <a href="#tasks-management" class="toc-h2 toc-link" data-title="Tasks Management">Tasks Management</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#what-we-do" class="toc-h1 toc-link" data-title="What We Do">What We Do</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#our-services" class="toc-h2 toc-link" data-title="Our Services">Our Services</a>
+                  </li>
+                  <li>
+                    <a href="#our-homemade-products" class="toc-h2 toc-link" data-title="Our Homemade Products">Our Homemade Products</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#why-choosing-mobix" class="toc-h1 toc-link" data-title="Why Choosing Mobix">Why Choosing Mobix</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#standards-to-our-clients" class="toc-h2 toc-link" data-title="Standards to our Clients">Standards to our Clients</a>
+                  </li>
+                  <li>
+                    <a href="#standards-to-our-collaborators" class="toc-h2 toc-link" data-title="Standards to our Collaborators">Standards to our Collaborators</a>
+                  </li>
+                  <li>
+                    <a href="#career-development-plan" class="toc-h2 toc-link" data-title="Career Development Plan"><strong>Career Development Plan</strong></a>
+                  </li>
+                  <li>
+                    <a href="#education" class="toc-h2 toc-link" data-title="Education"><strong>Education</strong></a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+        <ul class="toc-footer">
+            <li><a>Want to join our team?</a></li>
+            <li><a href='mailto:rh@mobixtec.com?subject=Processo Seletivo Mobix"'>Send your resumé</a></li>
+        </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <!-- # Introduction
+
+Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+
+We have language bindings in Shell, Ruby, Python, and JavaScript! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
+
+This example API documentation page was created with [Slate](https://github.com/slatedocs/slate). Feel free to edit it and use it as a base for your own API's documentation.
+
+# Authentication
+
+> To authorize, use this code:
+
+```ruby
+require 'kittn'
+
+api = Kittn::APIClient.authorize!('meowmeowmeow')
+```
+
+```python
+import kittn
+
+api = kittn.authorize('meowmeowmeow')
+```
+
+```shell
+# With shell, you can just pass the correct header with each request
+curl "api_endpoint_here" \
+  -H "Authorization: meowmeowmeow"
+```
+
+```javascript
+const kittn = require('kittn');
+
+let api = kittn.authorize('meowmeowmeow');
+```
+
+> Make sure to replace `meowmeowmeow` with your API key.
+
+Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
+
+Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
+
+`Authorization: meowmeowmeow`
+
+<aside class="notice">
+You must replace <code>meowmeowmeow</code> with your personal API key.
+</aside>
+
+# Kittens
+
+## Get All Kittens
+
+```ruby
+require 'kittn'
+
+api = Kittn::APIClient.authorize!('meowmeowmeow')
+api.kittens.get
+```
+
+```python
+import kittn
+
+api = kittn.authorize('meowmeowmeow')
+api.kittens.get()
+```
+
+```shell
+curl "http://example.com/api/kittens" \
+  -H "Authorization: meowmeowmeow"
+```
+
+```javascript
+const kittn = require('kittn');
+
+let api = kittn.authorize('meowmeowmeow');
+let kittens = api.kittens.get();
+```
+
+> The above command returns JSON structured like this:
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Fluffums",
+    "breed": "calico",
+    "fluffiness": 6,
+    "cuteness": 7
+  },
+  {
+    "id": 2,
+    "name": "Max",
+    "breed": "unknown",
+    "fluffiness": 5,
+    "cuteness": 10
+  }
+]
+```
+
+This endpoint retrieves all kittens.
+
+### HTTP Request
+
+`GET http://example.com/api/kittens`
+
+### Query Parameters
+
+Parameter | Default | Description
+--------- | ------- | -----------
+include_cats | false | If set to true, the result will also include cats.
+available | true | If set to false, the result will include kittens that have already been adopted.
+
+<aside class="success">
+Remember — a happy kitten is an authenticated kitten!
+</aside>
+
+## Get a Specific Kitten
+
+```ruby
+require 'kittn'
+
+api = Kittn::APIClient.authorize!('meowmeowmeow')
+api.kittens.get(2)
+```
+
+```python
+import kittn
+
+api = kittn.authorize('meowmeowmeow')
+api.kittens.get(2)
+```
+
+```shell
+curl "http://example.com/api/kittens/2" \
+  -H "Authorization: meowmeowmeow"
+```
+
+```javascript
+const kittn = require('kittn');
+
+let api = kittn.authorize('meowmeowmeow');
+let max = api.kittens.get(2);
+```
+
+> The above command returns JSON structured like this:
+
+```json
+{
+  "id": 2,
+  "name": "Max",
+  "breed": "unknown",
+  "fluffiness": 5,
+  "cuteness": 10
+}
+```
+
+This endpoint retrieves a specific kitten.
+
+<aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
+
+### HTTP Request
+
+`GET http://example.com/kittens/<ID>`
+
+### URL Parameters
+
+Parameter | Description
+--------- | -----------
+ID | The ID of the kitten to retrieve
+
+## Delete a Specific Kitten
+
+```ruby
+require 'kittn'
+
+api = Kittn::APIClient.authorize!('meowmeowmeow')
+api.kittens.delete(2)
+```
+
+```python
+import kittn
+
+api = kittn.authorize('meowmeowmeow')
+api.kittens.delete(2)
+```
+
+```shell
+curl "http://example.com/api/kittens/2" \
+  -X DELETE \
+  -H "Authorization: meowmeowmeow"
+```
+
+```javascript
+const kittn = require('kittn');
+
+let api = kittn.authorize('meowmeowmeow');
+let max = api.kittens.delete(2);
+```
+
+> The above command returns JSON structured like this:
+
+```json
+{
+  "id": 2,
+  "deleted" : ":("
+}
+```
+
+This endpoint deletes a specific kitten.
+
+### HTTP Request
+
+`DELETE http://example.com/kittens/<ID>`
+
+### URL Parameters
+
+Parameter | Description
+--------- | -----------
+ID | The ID of the kitten to delete
+ -->
+<h1 id='errors'>Errors</h1>
+<aside class="notice">
+This error section is stored in a separate file in <code>includes/_errors.md</code>. Slate allows you to optionally separate out your docs into many files...just save them to the <code>includes</code> folder and add them to the top of your <code>index.md</code>'s frontmatter. Files are included in the order listed.
+</aside>
+
+<p>The Kittn API uses the following error codes:</p>
+
+<table><thead>
+<tr>
+<th>Error Code</th>
+<th>Meaning</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>400</td>
+<td>Bad Request -- Your request is invalid.</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized -- Your API key is wrong.</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Forbidden -- The kitten requested is hidden for administrators only.</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Not Found -- The specified kitten could not be found.</td>
+</tr>
+<tr>
+<td>405</td>
+<td>Method Not Allowed -- You tried to access a kitten with an invalid method.</td>
+</tr>
+<tr>
+<td>406</td>
+<td>Not Acceptable -- You requested a format that isn&#39;t json.</td>
+</tr>
+<tr>
+<td>410</td>
+<td>Gone -- The kitten requested has been removed from our servers.</td>
+</tr>
+<tr>
+<td>418</td>
+<td>I&#39;m a teapot.</td>
+</tr>
+<tr>
+<td>429</td>
+<td>Too Many Requests -- You&#39;re requesting too many kittens! Slow down!</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Internal Server Error -- We had a problem with our server. Try again later.</td>
+</tr>
+<tr>
+<td>503</td>
+<td>Service Unavailable -- We&#39;re temporarily offline for maintenance. Please try again later.</td>
+</tr>
+</tbody></table>
+<h1 id='for-the-future'>For The Future</h1><h2 id='next-steps'><strong>Next Steps</strong></h2>
+<p>Yearly Results</p>
+
+<p>To invest x 0,5 BRL for each</p>
+<h1 id='give-it-back'>Give it back</h1><h2 id='open-sources'>Open sources</h2>
+<p><strong>Title</strong></p>
+
+<p>Descriptions</p>
+<h2 id='pro-bonos'>Pro bonos</h2>
+<p><strong>CiTi</strong> </p>
+
+<p>A junior university enterprise from UFPE.</p>
+
+<p>O objetivo era, <strong>montar um plano onde o ecossistema de tecnologia local (Recife), pudesse interagir e trabalhar em projetos com sinergia.</strong> Muito das empresas que estão em Recife, trabalham prestando serviços para o mundo todo.</p>
+
+<p>Esse formato permitiria trazer mais valor para empresas grandes e projetos complexos, facilitando o fechamento de negócios mais alinhados com o nosso perfil.</p>
+
+<p>Esse primeiro post servirá como um índice da série de posts vem a seguir com todos os outcomes/resultados de cada um dos pontos citados abaixo. Que segue o seguinte formato:</p>
+
+<ol>
+<li><p>Definição de propósito e legado</p></li>
+<li><p>Pente fino na estrutura organizacional, funções e divisões</p></li>
+<li><p>Mapeamento dos pain points</p></li>
+<li><p>Ações, ferramentas, metodologias e frameworks</p></li>
+<li><p>Implementação e followups</p></li>
+<li><p>Cultura e Playbook</p></li>
+<li><p>Indicadores(KPIs) de sucesso</p></li>
+</ol>
+<h1 id='human-resources'>Human Resources</h1>
+<p>Our hiring process is based on open spots and people’s professional and personal development. Hence, we designed a process based on education, learning by doing, and career plan.</p>
+<h2 id='open-spots-and-requirements'>Open Spots and Requirements</h2>
+<p>The open spots are related to the following profiles:</p>
+<h3 id='developer'><a href="https://www.mobixtec.com/#joinus">Developer</a></h3>
+<p>Works to develop large web apps, communicate with the team and clients as well as with the design team to review features. Moreover, it’s oriented to fulfill the tasks based on agile development. Discussing architecture, developing in React /Node/React Native/JS, and defending processes that implement quality are the central tasks for this spot.</p>
+
+<p><strong>Purpose:</strong></p>
+
+<ul>
+<li>Develop, and launch web and mobile applications.</li>
+</ul>
+
+<p><strong>Job responsibilities:</strong></p>
+
+<ul>
+<li>Development of large web apps</li>
+<li>Communication with the team and customers</li>
+<li>Communication with Design team to review features</li>
+<li>Fulfill your tasks based on agile development</li>
+</ul>
+
+<p><strong>Specific skills requirements:</strong></p>
+
+<ul>
+<li>React Js</li>
+<li>React Native</li>
+<li>Node Js</li>
+<li>Rest API</li>
+<li>Mongo Db</li>
+<li>Firebase</li>
+<li>Elastic Search</li>
+<li>Jest</li>
+</ul>
+
+<p><strong>Soft skills:</strong></p>
+
+<ul>
+<li>Team work.</li>
+<li>Communication.</li>
+<li>Proactivity.</li>
+<li>Self manageable.</li>
+</ul>
+
+<p><strong>Requirements:</strong></p>
+
+<ul>
+<li>At least 2 years of experience</li>
+<li>Intermediary English</li>
+</ul>
+
+<p><strong>Bonus:</strong></p>
+
+<ul>
+<li>Machine Learning</li>
+</ul>
+<h3 id='product-designer'><a href="https://www.mobixtec.com/#joinus">Product Designer</a></h3>
+<p>Works to design, develop, launch web and mobile applications. It’s all about creating experiences that people can use with ease and delight, so a key design skill is learning how to make that experience the best it can be. Expertise in Sketch, Figma, Adobe XD or other tools, experience in guiding clients and designing sprints and strong knowledge of UX and UI design process, methodologies and frameworks are the basis to work as a Full stack Designer.</p>
+
+<p><strong>Purpose:</strong></p>
+
+<ul>
+<li>Design, and launch web and mobile applications.</li>
+</ul>
+
+<p><strong>Job responsibilities:</strong></p>
+
+<ul>
+<li>Analyze and understand project requirements;</li>
+<li>Communicate with the customer and their team;</li>
+<li>Lead digital product design processes;</li>
+<li>Develop ideas in a participatory and iterative way;</li>
+<li>Design digital interfaces and information architectures;</li>
+<li>Inlay design decisions with data and heuristics;</li>
+<li>Specify design deliverables to the development team;</li>
+<li>Present product design projects;</li>
+<li>Work according to the existing guidelines;</li>
+<li>Create and develop new guidelines;</li>
+<li>Review and test implemented solutions;</li>
+<li>Train designers or member from other departments;</li>
+</ul>
+
+<p><strong>Skill requirements:</strong></p>
+
+<ul>
+<li>Experience in web and mobile digital product projects;</li>
+<li>Expertise in Sketch, Figma, Adobe XD or other tools;</li>
+<li>Mid-level English to communicate with teams abroad;</li>
+<li>Experience in guiding clients and designing sprints;</li>
+<li>Strong knowledge of UX and UI design process, methodologies and frameworks;</li>
+<li>Be communicative, proactive and self-manageable;</li>
+</ul>
+
+<p><strong>Requirements:</strong></p>
+
+<ul>
+<li>BA, BS or technical degree in Design or correlated areas;</li>
+<li>2 years of experience;</li>
+<li>Mid-level English;</li>
+</ul>
+
+<p><strong>Bonus:</strong></p>
+
+<ul>
+<li>Expertise in coding languages such as HTML, CSS, and JS;</li>
+<li>Expertise in prototyping tools such as Framer, Principle, Adobe After Effects, Webflow or similars;</li>
+</ul>
+<h3 id='trainee'>Trainee</h3>
+<p>This position was designed to last from 6 months to 2 years and it’s based on a training process tailored according to the needs, aiming to jump to Developer as soon as possible.</p>
+<h2 id='hiring-stages'>Hiring Stages</h2>
+<p>The 4 stages of the hiring process aim at measuring technical prowess, communication skills, and management abilities for UX designer and Developer positions:</p>
+
+<ul>
+<li>[x] Application form through the career section of our website to appraise the ownership of technical skills, as well as the alignment to our values and behaviors;</li>
+<li>[x] Technical Interview: here we have an open conversation with the candidate, that&#39;s the best way we found so far to evaluate the professional experience. At the same time, this step focuses on the ability to understand the technical ability of coding by solving some challenges.</li>
+<li>[x] Project: in this step, we send the specs for a project that needs to be delivered in a week. At this stage, we mainly evaluate abilities, skills, and good practices. According to the needs, we may require one more task to fulfill to evaluate candidates’ qualities, such as problem-solving skills.</li>
+<li>[x] Group assessment: when we need to appraise leadership, team-work, and management qualities, we usually invite the candidates to a group assessment. This final step can be applied using pair programming, soft skills challenge, technical presentations.</li>
+</ul>
+
+<p>At the end of the process, candidates are shortlisted and each new collaborator starts the on-boarding process to acquire knowledge organizationally and technically.</p>
+<h2 id='on-boarding-process'>On-boarding Process</h2>
+<p>Our on-boarding process is designed to maximize learning opportunities, knowledge sharing, and professional development. Reading is awesome and necessary, but true growth is achieved through learning by doing. Hence, the process lasts 1 week in order to be fully integrated on our culture and the topics vary according to the role.</p>
+<h3 id='first-step'>First Step</h3>
+<ul>
+<li>[x] Welcome meeting, by presenting our organization, culture and main practices; </li>
+<li>[x] Roles and responsibilities review, including expectations;</li>
+<li>[x] Presenting the routine and standards for the team;</li>
+<li>[x] Explaining the rules of the physical space;</li>
+<li>[x] Explaining the playbook and the career plan;</li>
+<li>[x] Tech systems set up and training;</li>
+<li>[x] Mentor assignment;</li>
+<li>[x] Data checking, work card, keys of the office and other documentation;</li>
+<li>[x] Choosing and purchasing the materials needed to perform;</li>
+<li>[x] Access to the organization tools.</li>
+</ul>
+<h3 id='second-step'>Second Step</h3>
+<ul>
+<li>[x] Transition and Learning Mobix’s practices;</li>
+<li>[x] Reading books;</li>
+<li>[x] Attending trainings to perform;</li>
+<li>[x] Project assignment - one project per day;</li>
+<li>[x] Tasks to fulfill for each project;</li>
+</ul>
+<h2 id='education'><strong>Education</strong></h2>
+<blockquote>
+<p><em>“An investment in knowledge pays the best interest” - Benjamin Franklin.</em></p>
+</blockquote>
+
+<p>We strongly believe that education makes us more agile when taking decisions. For this reason, we tailored our education cycle by using the following spaces:</p>
+
+<ul>
+<li>Bimonthly internal talks Every 15 days we gather some people to discuss a topic of interest. It&#39;s a moment for people to improve their public speaking skills, study about something they like and share their learnings and knowledge around the company. At the end of the presentation, beer and pizza are on us!</li>
+<li>Open office We believe that sharing knowledge and practices between organizations is an added value to exploit fully. For this reason, our office’s doors are open to anyone employed in other companies to work for a limited period with us and vice versa our collaborators are encouraged to share their learnings and information with other organizations.</li>
+<li>Courses and books</li>
+</ul>
+
+<blockquote>
+<p>“Those people who develop the ability to continuously acquire new and better forms of knowledge that they can apply to their work and to their lives will be the movers and shakers in our society for the indefinite future.” ― Brian Tracy</p>
+</blockquote>
+
+<p>As already stated, we value education in all its declination. Therefore, Mobix is committed to buying technical books and courses (online and offline) for anyone who claims for it, taking into consideration our possibilities.</p>
+
+<ul>
+<li>Conferences and events We strive to achieve our vision not only by tailoring software solutions but also by using the power of knowledge and networking to unlock human potential. Conferences and events are a precious source for meeting professionals and gaining knowledge to grow personally and professionally. During a 6-months period, people are encouraged to give back as much as they can, so Mobix will buy tickets for any technical conferences deemed worthy by the employees, and if one of ours approves a talk in a conference, whether it&#39;s local or international, she/he is granted a bonus for their further collaboration in sustaining the community we are a part of. Keeping an eye on conference submission deadlines helps everyone in doing so.</li>
+<li>English talks Since the majority of our clients are offshore, we raise the level of English throughout the company. For this reason, all the company’s communication is done in English. We also participate in international programs held by volunteering organizations like AIESEC, in order to welcome worldwide professionals which leads us to practice our English skills.</li>
+</ul>
+<h2 id='career-development-plan'><strong>Career Development Plan</strong></h2><div class="highlight"><pre class="highlight plaintext"><code>Available soon
+</code></pre></div><h3 id='benefits'>Benefits</h3>
+<p>For the whole team, the benefits are the same independently of the position:</p>
+
+<ul>
+<li>22 working days of vacation;</li>
+<li>A Macbook laptop;</li>
+<li>Super flexible working hours;</li>
+<li>Meal vouchers;</li>
+<li>Monthly happy hour with the whole team;</li>
+<li>Access to courses, training, and conferences;</li>
+<li>Be part of an outstanding team and work with big companies;</li>
+<li>Work in a company that has strong executive support for Design;</li>
+<li>R$ 120,00 monthly ticket/budget to spend the way you want.</li>
+</ul>
+<h1 id='give-it-back'>Give it back</h1><h3 id='pro-bono'>Pro bono</h3>
+<p><strong>UPE</strong></p>
+
+<p>Monitorar</p>
+<h3 id='partnership-with-universities'>Partnership with universities</h3>
+<p><strong>UFPE</strong></p>
+
+<p>CiTi</p>
+
+<p>A.C.E.</p>
+
+<p><strong>UPE</strong></p>
+
+<p>Poli Jr.</p>
+<h1 id='internal-management'>Internal Management</h1>
+<blockquote>
+<p>“Collaboration is a key part of the success of any organization, executed through a clearly defined vision and mission and based on transparency and constant communication” - Dinesh Paliwal.</p>
+</blockquote>
+
+<p>We use different tools for communication and management inside Mobix.</p>
+<h2 id='management'>Management</h2><h4 id='asana'><strong>Asana</strong></h4>
+<p>It’s a web and mobile application designed that we use to help teams organize, track, and manage projects and tasks in one tool. Teams can create projects, assign work to teammates, specify deadlines, and communicate about tasks directly in Asana. It also includes reporting tools, file attachments, calendars, and more.</p>
+<h4 id='gsuite'><strong>GSuite</strong></h4>
+<p>It&#39;s a set of cloud computing, productivity and collaboration tools, software and products developed by Google, G Suite comprises Gmail, Hangouts, Calendar, and Currents for communication; Drive for storage; Docs, Sheets, Slides, Keep, Forms, and Sites for productivity and collaboration;</p>
+<h4 id='harvest'><strong>Harvest</strong></h4>
+<p>It’s a simple time tracking, fast online invoicing, and powerful reporting software that simplifies employee timesheets and billing. Harvest collates the raw timesheet data into a visual summary of where our team’s time is going.</p>
+<h4 id='forecast'><strong>Forecast</strong></h4>
+<p>It’s a project and resource management software that helps us to automate operations, empower people, and leverage insights to drive businesses.</p>
+<h4 id='doodle'><strong>Doodle</strong></h4>
+<p>It’s an online scheduling tool that we use to quickly and easily find a date and time to meet within our team, but also with multiple people. So, Doodle aggregates the responses and tells us which option works best for everyone.</p>
+<h2 id='communication'>Communication</h2><h4 id='slack'><strong>Slack</strong></h4>
+<p>It offers many IRC-like features, including persistent chat rooms (channels) organized by topic, private groups, and direct messaging. We use it to communicate within the organization and the teams about working topics. Content, including files, conversations, and people, are all searchable within Slack.</p>
+<h4 id='whatsapp'><strong>Whatsapp</strong></h4>
+<p>WhatsApp uses the internet to send messages, images, audio, or video. We use it for informal communications both in private and in groups.</p>
+<h2 id='okrs'>OKRs</h2>
+<p>We structured an organization that thrives by setting OKRs as the basis of our work.</p>
+
+<p>Objectives and key results (OKR) is a framework for defining and tracking objectives and their outcomes.</p>
+
+<p>As explained by John Doerr:</p>
+
+<blockquote>
+<p>&quot;The key result has to be measurable. But at the end you can look, and without any arguments: Did I do that or did I not do it? Yes? No? Simple. No judgments in it.&quot;</p>
+</blockquote>
+
+<p>OKRs comprise an objective—a clearly defined goal—and one or more key results—specific measures used to track the achievement of that goal. The goal of OKR is to define how to achieve objectives through concrete, specific and measurable actions. Key results can be measured on a 0-100% scale or any numerical unit (ex: dollar amount, %, items, etc.). Objectives should also be supported by initiatives, which are the plans and activities that help to achieve the objective and move forward the key results. OKRs are typically calendar-based.</p>
+
+<p>An “OKR cycle” is often quarterly, but it can also be monthly, because tracking them regularly is like &quot;working out”—you have to do it a repeatedly and regularly to make measurable progress in business goals throughout company levels for high output management. So, we chose to track the progresses quarterly.</p>
+<hr>
+<h2 id='description-descricao-curta-da-nossa-iniciativa-open-source'>description: Descrição curta da nossa iniciativa open source</h2><h1 id='open-source'>Open Source</h1>
+<p>Descrição vem aqui</p>
+<h3 id='our-open-source-approach'>Our open source approach</h3>
+<p>Body</p>
+<h3 id='boilerplates'>Boilerplates</h3>
+<p><strong>title</strong></p>
+
+<p>Body</p>
+<h1 id='culture'>Culture</h1>
+<p>Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people&#39;s needs to achieve a brighter future, by driving technologies that empower them.</p>
+
+<p><strong>We believe that passion, collaboration, and ethics as the main values are the key to success.</strong></p>
+
+<p><strong>Mobix does not tolerate discrimination on the basis of ethnicity, gender, sexual orientation, religion, national/social origin, or other kinds of prejudice.</strong></p>
+
+<p><strong>We think that freedom of expression and diversity is about embracing one another’s uniqueness.</strong></p>
+
+<blockquote>
+<p><em>“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics.</em></p>
+</blockquote>
+
+<p>In each kind of relationship, you can learn what are the good practices that matter and those which are the basis of it to guarantee high-quality experiences for our main stakeholders: clients and collaborators. </p>
+
+<p>We are not only a software studio with experienced developers. We love to tailor outstanding solutions together with the client. We are not choosing projects where we are invaluable in a month and disposable in the next. We want to help products to last. For this reason, we designed the standards we offer to our clients and our expectations towards them.</p>
+<h2 id='our-golden-circle'>Our <strong>Golden Circle</strong></h2><h3 id='why'><strong>Why</strong></h3>
+<p>Driving technology to the future</p>
+<h3 id='how'><strong>How</strong></h3>
+<p>Passion, excellence, creativity, and empathy</p>
+<h3 id='what'><strong>What</strong></h3>
+<p>Tailoring software applications</p>
+<h2 id='our-behaviours'>Our Behaviours</h2>
+<blockquote>
+<p><em>“Talent is the multiplier. The more energy and attention you invest in it, the greater the yield” — Marcus Buckingham, Author and business consultant.</em></p>
+</blockquote>
+<h3 id='the-pillars'>The Pillars</h3>
+<p>We strongly believe that behaviors needed to exceed client expectations, hence we have 3 main conducts that make us stand out and that characterize our actions.</p>
+
+<p><img src="https://lh4.googleusercontent.com/EwUeCmTK5fR0SWI3vXlDMZ5y7X-e71gihbMrNqjNy1P5qdN1BXCPUgUrF_621PbYXnJZPe_xrbC0B3B3XSLt_E3UPVP5v9zdlT6wkxoIjHZm7shR-hn9ml0VOJfcE9_-k0BYcZdx" alt="" /></p>
+<h2 id='our-philosophy'>Our Philosophy</h2>
+<p>We are a <strong>human-centered organization</strong> that believes that motivated, passionate, and reliable people are the roots to craft outstanding software solutions. Hence, every decision we are about to take actually reflects our philosophy.</p>
+
+<ul>
+<li>Empathy with all the people involved with us;</li>
+<li>The whole team, including the client, should be aware of everything going on in the project, good or bad;</li>
+<li>The active and enthusiastic participation of our collaborators by enjoying moments together;</li>
+<li>An open environment, so our office’s doors welcome whoever wants to join us and exchange information, which leads both parts to enrich one another;</li>
+<li>No dress-code, so we all feel comfortable and free to express ourselves at work;</li>
+<li>Communication is one of the keys to success;</li>
+<li>Individuals and interactions over processes and tools;</li>
+<li>Working software over comprehensive documentation;</li>
+<li>Client collaboration over contract negotiation;</li>
+<li>Responding to change over following a plan;</li>
+<li>Design for users not for stakeholders;</li>
+<li>Interactive prototypes over static documentation;</li>
+<li>What users need over what users want;</li>
+<li>User insights over assumptions;</li>
+<li>Simplicity beats complexity;</li>
+<li>Code quality is primal in terms of software engineering, so we focus on avoiding technical debts and refactoring is a must on our work, and it&#39;s been treated as a feature in the backlog;</li>
+<li>Pragmatism over user-centered design purism;</li>
+<li>There is no such thing as better language or there is only one way to solve things. Each project is unique in tools and technologies;</li>
+<li>Community is one of the most important features of a programming language, keep this in mind when choosing one;</li>
+<li>Code should be deployed early and often;</li>
+<li>Code should be clean and tested so programmers feel happy and confident to work on;</li>
+<li>The Code should have good performance and always following the best practices.</li>
+</ul>
+<h2 id='our-commitments'>Our <strong>Commitments</strong></h2>
+<ul>
+<li>To keep a welcoming, safe, healthy workplace so we all get the best experiences from it. </li>
+<li>To engage everyone in open communication in the workplace.</li>
+<li>To invest in our collaborators to increase knowledge and provide benefits as much as we can, so we all live high-quality lives and we can unlock our potential.</li>
+<li>To fight for mutual respect among everyone in the company regardless of gender, political position, sexual orientation, religious choice, and race, so we embrace one another’s uniqueness. We respect and actively encourage the contribution of every individual.</li>
+<li>To empower everyone to join talks and attend conferences, so we all share what we are about to learn.</li>
+<li>To encourage open source contributions, so both we and those we don&#39;t know to grow together.</li>
+<li>To provide technical courses for everyone, either in-person or online, so we all see no barriers in increasing knowledge.</li>
+<li>To buy any technical book wanted/needed, so we all keep reading even outside the company.</li>
+<li>To keep transparency and honesty with our collaborators and clients.</li>
+<li>To offer as much coffee break as people wish, so we all work in our best.</li>
+</ul>
+<h2 id='standards-to-our-clients'>Standards to our Clients</h2>
+<ul>
+<li>Communication is the key, whenever the client needs it, we must attend to it, explaining and facilitating the understanding and the decision-making process;</li>
+<li>The whole scope of work should be clear, in order to avoid problems of interpretation, understanding, and expectations;</li>
+<li>We will listen effectively to our clients’ requests and promptly take the necessary actions to assist them;</li>
+<li>We will keep our clients informed of unexpected delays in service;</li>
+<li>We will greet and fulfill our responsibilities with our clients courteously and professionally;</li>
+<li>We always put ourselves into clients&#39; position to tailor for them a suitable and excellent solution;</li>
+<li>We provide outstanding service that fits in the RATER standards. RATER stands for Reliability, Assurance, Tangibles, Empathy, Responsiveness; </li>
+<li>We will make the communication as fast as we can to attend the clients questions, especially if working with us remotely;</li>
+<li>In case the client is working remotely with us, we like to do conference calls daily to align our expectations and any other kind of information that we need to put the project on track;</li>
+<li>In order to deliver a high-quality experience both for clients and collaborators, the working hours allocated per employee are 32h/week;</li>
+<li>We will align the technical requirements of the project with the client for a kickstart, so we can prepare its expectations for the first deliveries and the other milestones of the project;</li>
+<li>We craft solution-oriented codes. How far we will be allowed to iterate is up to the client, but we value clients that want us to get involved in the product impact of software features;</li>
+<li>We want, primarily, to deliver end-to-end quality for software products. We built a software development process to guarantee that. And we get that the client’s context might emphasize other concerns;</li>
+<li>We work with a project that lasts at least 3 months/14 weeks because doing small projects over and over can make developers really good in setups and basic features, but larger projects have more interesting challenges that help developers become experts;</li>
+<li>Taking chances and building entire products on hunches can lead to idleness and demotivate developers (no one likes to develop things that never see the light of day). We focus on the good feeling that is to see your code being used - solving real problems for real people.</li>
+</ul>
+<h2 id='no-estimates'><a href="https://ronjeffries.com/xprog/articles/the-noestimates-movement/">No estimates</a></h2>
+<p>We believe that we shouldn&#39;t do estimates. Estimates are difficult. When requirements are vague and it seems that they always are then the best conceivable estimates would also be very vague. </p>
+
+<p>Accurate estimation becomes essentially impossible.</p>
+
+<p>Even with clear requirements and it seems that they never are it is still almost impossible to know how long something will take because we’ve never done it before. If we had done it before, we’d just give it to you.</p>
+
+<p>Estimation, in certain forms, is not always impossible. It’s possible, under some circumstances, to do pretty well. In addition, sometimes people really do need to know about how much something is going to cost before going ahead.</p>
+
+<p>There are many reasons to support this idea and we&#39;ve made a compiled:</p>
+
+<ol>
+<li><p>Estimates are often used as a bludgeon to try to get programmers to work faster. This leads to unhappy programmers and to poor software. No one wins;</p></li>
+<li><p>A focus on estimates often leads to high expectations for completing some closed scope of features. But the most effective way to do things is to manage scope very carefully, to get the best scope of work accomplished at every point in time. Estimation often militates strongly against doing this. The result is “Weak Agile” and inferior results.</p></li>
+<li><p>Estimation is very difficult and may lead to a false vision of a future scenario;</p></li>
+<li><p>Working in a continuous flow, without story estimates, is a great way to work;</p></li>
+<li><p>Neither Lean and Kanban approaches have any need to estimate how long something will take. Instead, they measure how long things take, in “cycle time”, and use that to make such predictions as are necessary.</p></li>
+</ol>
+<h2 id='standards-to-our-collaborators'>Standards to our Collaborators</h2><h3 id='team-standards'>Team Standards</h3>
+<blockquote>
+<p>Our main tool is based on OKRs of John Doerr, aiming to make our collaborators more committed and accountable towards their tasks by having a long-term perspective. The team develops a physical scoreboard designed to create both public accountability and team engagement.</p>
+</blockquote>
+
+<p><strong>Keep a Compelling Scoreboard</strong></p>
+
+<blockquote>
+<p>“People play differently when they’re keeping score. If you doubt this, watch any group of teenagers playing basketball and see how the game changes the minute scorekeeping begins. The kind of scoreboard that will drive the highest levels of engagement with your team will be one that is designed solely for (and often by) the players”. Chris McChesney, Co-author of the 4 disciplines of execution.</p>
+</blockquote>
+
+<p>For this reason, we have a simple scoreboard that is updated weekly by our collaborators every time they contribute to reaching the goals.</p>
+
+<p><strong>Weekly Accounting Meeting</strong></p>
+
+<p>Every Monday at 11:00 am we do a company-wide meeting so our collaborators can tell the whole company what they&#39;ve been doing and what can be improved. The meeting is based on a card the collaborators should fill to be prepared for the meeting. Hence, each one reports on the bad, good, and things to maintain; moreover, they will express a feeling about how the project is going and they will explain why. Finally, they present the solutions found to tackle the problems. During the meeting, they can ask teammates to give feedback to solve the issue.</p>
+
+<p><strong>Monthly Team Activities</strong></p>
+
+<p>The last weekend of the month, we like to do some activities aimed at bonding with the team and to fostering trustworthiness. As stated in our commitments, we invest all the possible resources of the company to host those spaces.</p>
+
+<p>Examples of activities are karting, escape room, active painting, company adventure, happy hour on the beach.</p>
+
+<p><strong>Bi-Quarterly O2O</strong></p>
+
+<p>Twice a quarter we like to encompass a more high-end discussion between managers and collaborators. Instead of the regular questions about the day-to-day of the project, each coachee is encouraged by the manager to follow these 5-stages process for personal and professional development:</p>
+
+<p><strong>Set the GOAL</strong></p>
+
+<p>Establish the goal that is SMART (Specific, Measurable, Attainable, Realistic &amp; Time based). It should be aligned with the operational and career goal.</p>
+
+<p>Useful questions to start:</p>
+
+<ul>
+<li>What do you think are your strengths?</li>
+<li>What do you think are your weaknesses?</li>
+<li>Where do you want to be in ten or more years?</li>
+</ul>
+
+<p><strong>Understand the REALITY</strong></p>
+
+<p>Useful questions:</p>
+
+<ul>
+<li>What is happening now? (Why, how, what, who?)</li>
+<li>How often?</li>
+<li>What kind of results is this producing?</li>
+<li>Have you already taken any steps towards your goal?</li>
+</ul>
+
+<p><strong>Search the possible OPTIONS</strong></p>
+
+<p>Useful questions:</p>
+
+<ul>
+<li>What else could I do?</li>
+<li>How could I remove the obstacles I perceive right now? What concrete action steps can I take?</li>
+<li>What are the pros &amp; cons of the options I’m describing?</li>
+<li>What your manager can do to help you?</li>
+</ul>
+
+<p><strong>Find your WAY FORWARD</strong></p>
+
+<p>Useful questions:</p>
+
+<ul>
+<li>What will you do now, and when? What else will you do?</li>
+<li>What could stop you from moving forward? How will you overcome this?</li>
+<li>How can you keep yourself motivated?</li>
+</ul>
+
+<p><strong>Quarter Review</strong></p>
+
+<p>Effective leaders maximize the performance of their teams and companies by developing great aspirations (mission, vision, and values) and solid long-term goals, and then rigorously executing while iterating on those goals over time. The leader guides this process at regular intervals (weekly, monthly, quarterly, and annually). A systematic approach for execution will help you realize your goals.</p>
+
+<p>Conducting quarterly operating reviews is a practice that helps managers:</p>
+
+<ul>
+<li>Understand the current state of their company and markets;</li>
+<li>Identify and prioritize the best goals/initiatives for the following quarter (i.e., the goals that will keep your company moving forward at the highest velocity toward your long-term goals).</li>
+</ul>
+
+<p>The objective is met through the quarterly review meeting where a department head:</p>
+
+<ul>
+<li>Shares key successes;</li>
+<li>Describes the current state of the unit/markets/goals;</li>
+<li>Identifies obstacles and impediments and ways to remove them;</li>
+<li>Suggests ways to improve;</li>
+<li>Solicits advice from others;</li>
+</ul>
+
+<p><strong>Discusses a list of possible goals for the upcoming quarter.</strong></p>
+
+<p>The overall goal is to develop a list of the best possible goals for the following quarter based on the pre-work for the meeting and the discussion during the meeting.</p>
+
+<p>The outcome of the meeting should be to:</p>
+
+<ul>
+<li>Align each operating unit on quarterly goals with the current state of your markets, other operating units, and the company’s long-term goals;</li>
+<li>Focus each operating unit on the most important goals to accomplish the following quarter and minimize other activities that distract from the focal points;</li>
+<li>Ensure that each unit is clear on its goals; has the appropriate resources, confidence, and conviction to realize those goals; and has taken responsibility for achieving those goals;</li>
+<li>Maximize the opportunity for each unit to accomplish its most important goal.</li>
+</ul>
+
+<p>Once the analysis is done, the quarter review report is presented to our collaborators in order to make them aware of our direction as well as gain feedback and ideas from them.</p>
+<hr>
+<h2 id='description-description'>description: Description</h2><h1 id='our-process'>Our Process</h1>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"><b>Discovery and Research</b>
+      </th>
+      <th style="text-align:left"><b>Build, test and iterate</b>
+      </th>
+      <th style="text-align:left"><b>Handoff </b>
+      </th>
+      <th style="text-align:left">Plan and implement</th>
+      <th style="text-align:left">Quality assessment</th>
+      <th style="text-align:left">Deploy</th>
+      <th style="text-align:left">Maintainance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>Product Design</b>
+      </td>
+      <td style="text-align:left">
+        <ul>
+          <li><a href="https://www.notion.so/mobix/Client-Interview-f6b8560242fb4dcca58fcc7d7c94bc05">Client interviews</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Lean-Canvas-a14980b4b4724a9aaaad5fa108cccd75">Lean canvas</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/SWOT-Analysis-c24cf448e6ad480a9e059173a6af9521">Swot analysis</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Five-whys-991200f0eac54e49b32b87e11cf8a8c9">Five whys</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Porter-s-Five-Forces-cf9cd5a8b83f429ead19a798f3e50e95">Porter&apos;s five forces</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Check-Documents-sent-by-the-clients-Visual-ID-6928e736bb9248e49e485d014e3ad155">Check Documents sent by the clients + Visual ID</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Ecosystem-map-c5558aee04fc4626b1df9acf61e4977a">Ecosystem map</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Similar-comparison-df972097f88745539cb111f52b3927d3">Similar comparison</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Heuristics-910aab62ae49479396efba4913e870d7">Heuristics</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Personas-93ab5901cc5d44349b198e48cd2461fb">Personas</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Value-proposition-dd57d9e258c149799dd4087621202b32">Value proposition</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Platforms-map-9d09e218e95547fa89b52435e566d9c8">Platforms map</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/User-Journey-a7b83fd357ef457297976f328d163049">User Journey</a>
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <ul>
+          <li><a href="https://www.notion.so/mobix/Site-Map-3fe762d5e1c04e2b9d851567aa691620">Site map</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Design-Principles-9f197207da834d63b938b06e56b5dfab">Design Principles</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/System-Design-3cf8b126dfc640afbeb4920d1b037a4a">Design System</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Co-Creation-Session-68c78d622841453a8d14a011cf93d6e9">Co-creation session</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Ways-to-Grow-Framework-47dbbac9a2c54aa1ab69ae0934e07f7a">Ways to grow framework</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Mash-Ups-43c877433b7c4b35afcc2c310b15d9e0">Mash-Ups</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Storyboard-ba972a20151f44409376cbe15ee2baf8">Storyboard</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Wireframing-fec44c1173914b848e00abb6e7bb8a5d">Wireframing and proto</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Get-Feedback-3f53447da472408ba7437e63e839a492">Get feedback </a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Integrate-Feedback-and-Iterate-68af5bbe6cc241658a61dca2f38ae9ec">Iterate feedback and iterate</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Top-Five-8ee02091cdd8450d81228cbe57c8487a">Top five</a>
+          </li>
+          <li><a href="https://www.notion.so/mobix/Define-Indicators-to-Success-8767a1f193fa4f9b83ac21adfa0013fe">Indicators to success</a>
+          </li>
+          <li></li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <ul>
+          <li><a href="https://www.notion.so/mobix/Design-Handoff-Document-4e56b2dab9a84c50b6672a3252f71fce">Design Handoff doc</a>
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Web, Mobile and API Development</b>
+      </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Tech Consulting</b>
+      </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>
+<h3 id='discovery-amp-research'>Discovery &amp; Research</h3>
+<p>Description here</p>
+<h3 id='build-test-and-iterate'><strong>Build, test and iterate</strong></h3>
+<p>Description here</p>
+<h3 id='handoff'><strong>Handoff</strong></h3>
+<p>Description here</p>
+<h3 id='plan-and-implement'>Plan and implement</h3>
+<p>Description here</p>
+<h3 id='quality-assessment'>Quality assessment</h3>
+<p>Description here</p>
+<h3 id='deploy'>Deploy</h3>
+<p>Description here</p>
+<h3 id='maintainance'>Maintainance</h3>
+<p>Description here</p>
+<h1 id='our-references'>Our References</h1><h2 id='references'>References</h2>
+<p>Everything we wrote comes from our experiences, good practices exchanges, professional knowledge, and, especially, from books that inspired us.</p>
+
+<ul>
+<li><strong>How to Win Friends and Influence People (Dale Carnegie)</strong> - He says you can make someone want to do what you want them to by seeing the situation from the other person&#39;s point of view and “ arousing in the other person an eager want”. This is a Bible for us because we learn how to make people like you, win people over to your way of thinking, and change people without causing offense or arousing resentment.</li>
+<li><strong>Measure What Matters (John Doerr)</strong> - We discovered how a powerful goal-setting system is essential to grow since it has helped tech giants such as Google and Intel to exceed all expectations. It taught us to structure an organization that thrives by setting OKRs as the basis of the whole playbook. Finally, we understood the importance of culture and of continuous performance management.</li>
+<li><strong>Find Your Why (Simon Sinek)</strong> - This is another fundamental book for us since the whole concept of WHY is grounded in the tenets of the biology of human decision making. How the Golden Circle works maps perfectly with how the brain works. It taught us that whether you are an entrepreneur, an employee, a leader of a team, or are looking to find clarity on your next move, your WHY is the one constant that will guide you toward fulfillment in your work and life. </li>
+<li><strong>The Art of Doing Twice the Work in Half the Time (Jeff Sutherland)</strong> - Scrum is mandatory reading for any leader, whether they’re leading troops on the battlefield or in the marketplace. We understood that success requires tremendous speed, enormous productivity, and an unwavering commitment to achieving results.</li>
+<li><strong>Dono (Marcelo Toledo)</strong> - This book is a guide for any entrepreneur who wants to start a startup. Marcelo Toledo, who has been working with startups for over 12 years, has studied all the most modern startup creation techniques, applied and tested each one of them, mixed it with his learning and created his own methodology, which unifies the techniques, putting them to work together and in an order that makes sense. All this thinking about the reality of Brazilian advantages and limitations.</li>
+<li><strong>The Hard Thing About Hard Things (Ben Horowitz)</strong> - The author draws on his own story of founding, running, selling, buying, managing, and investing in technology companies to offer essential advice and practical wisdom for navigating the toughest problems business schools don&#39;t cover. A lifelong rap fan, Horowitz amplifies business lessons with lyrics from his favorite songs and tells it straight about everything from firing friends to poaching competitors, from cultivating and sustaining a CEO mentality to knowing the right time to cash in.</li>
+<li><strong>Value Proposition Design: How to Create Products and Services Customers Want (A. Osterwalder, Y. Pigner, G. Bernarda, A. Smith)</strong> - It helped us tackle the core challenge of every business, by creating compelling products and services customers want to buy.</li>
+<li><strong>Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)</strong> - Even bad code can function. But if code isn’t clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn’t have to be that way. This book is a must for any developer, software engineer, project manager, team lead, or systems analyst with an interest in producing better code.</li>
+<li><strong>Websites references:</strong>
+
+<ul>
+<li>* <a href="http://www.uxforthemasses.com/ux-manifesto/"><strong>http://www.uxforthemasses.com/ux-manifesto/</strong></a></li>
+<li><a href="https://agilemanifesto.org/"><strong>https://agilemanifesto.org/</strong></a></li>
+<li><a href="http://es6-features.org/#Constants"><strong>http://es6-features.org/</strong></a><a href="http://es6-features.org/#Constants"><strong>#Constants</strong></a></li>
+</ul></li>
+</ul>
+
+<p>These references taught us something that lives on in our culture. Sometimes bringing us things we haven’t ever heard of, and other times just by asserting things we already had stumbled upon in our practice and use frequently in our day-to-day.</p>
+<h2 id='what-inspires-us'>What inspires us</h2><h3 id='books'>Books</h3>
+<p>On this tireless process of gain knowledge fastest, as we can we come up with those references that make your essence.</p>
+
+<p>4Disciplines of execution: <a href="https://drive.google.com/open?id=15G4JuQFqE67Hz_0yvPq1yK8pIojlu6xm">https://drive.google.com/open?id=15G4JuQFqE67Hz_0yvPq1yK8pIojlu6xm</a></p>
+
+<p>The 17 skills leaders need to stand out: <a href="https://drive.google.com/open?id=1sSVbdpg9JJl3_wex6304NMfRT7B7l3a7">https://drive.google.com/open?id=1sSVbdpg9JJl3_wex6304NMfRT7B7l3a7</a></p>
+
+<p>Hooked: <a href="https://drive.google.com/open?id=1DkGHb0c9Wzy1RGIVF3I562B5Qgd8dffk">https://drive.google.com/open?id=1DkGHb0c9Wzy1RGIVF3I562B5Qgd8dffk</a></p>
+
+<p>Power oof the habit: <a href="https://drive.google.com/open?id=1MBuhBtaOz_nxW1AtN6Uvo3Pwv2-XYBz-">https://drive.google.com/open?id=1MBuhBtaOz_nxW1AtN6Uvo3Pwv2-XYBz-</a></p>
+
+<p>Product Roadmaps: <a href="https://drive.google.com/open?id=1igpAZKBk6iqZktD0LD32mLXl87F_UTJu">https://drive.google.com/open?id=1igpAZKBk6iqZktD0LD32mLXl87F_UTJu</a></p>
+
+<p>Rework: <a href="https://drive.google.com/open?id=0B-dER2DTh_xVV1ZoOUtJSldTSzA">https://drive.google.com/open?id=0B-dER2DTh_xVV1ZoOUtJSldTSzA</a></p>
+
+<p>Fast and slow: <a href="https://drive.google.com/open?id=1qAdNo2-dc_2GZKfyCpusoITEKJnhPgcH">https://drive.google.com/open?id=1qAdNo2-dc_2GZKfyCpusoITEKJnhPgcH</a></p>
+
+<p>Sprint: <a href="https://drive.google.com/open?id=1cLakOOxP4phxdxubuJeTZTNnUTOkPj8b">https://drive.google.com/open?id=1cLakOOxP4phxdxubuJeTZTNnUTOkPj8b</a></p>
+
+<p>Spin Selling: <a href="https://drive.google.com/open?id=1lXT5a0xIawQokBnWIywbgL-kz5qzXDkD">https://drive.google.com/open?id=1lXT5a0xIawQokBnWIywbgL-kz5qzXDkD</a></p>
+
+<p>The Design of everyday things: <a href="https://drive.google.com/open?id=1lv5a_2jSZbXNnr0MwB73YLYQ8RpG1FSo">https://drive.google.com/open?id=1lv5a_2jSZbXNnr0MwB73YLYQ8RpG1FSo</a></p>
+
+<p>The Four: <a href="https://drive.google.com/open?id=1GEhSD7DsHKHSDqSvjLlutmiAYcSzG7Dy">https://drive.google.com/open?id=1GEhSD7DsHKHSDqSvjLlutmiAYcSzG7Dy</a></p>
+
+<p>The hard things about hard things: <a href="https://drive.google.com/open?id=1YmKsP9cEmUWr_dhzDeMN5HPTTCmqUyBM">https://drive.google.com/open?id=1YmKsP9cEmUWr_dhzDeMN5HPTTCmqUyBM</a></p>
+
+<p>The Manager&#39;s Path: <a href="https://drive.google.com/open?id=1MSyp2_NpSSLllvVe_dMp3-5WVG5tDy8F">https://drive.google.com/open?id=1MSyp2_NpSSLllvVe_dMp3-5WVG5tDy8F</a></p>
+
+<p>The Product Book: <a href="https://drive.google.com/open?id=1wUT-qa1TT1CamUjmFADKjSD6hsBI-tEq">https://drive.google.com/open?id=1wUT-qa1TT1CamUjmFADKjSD6hsBI-tEq</a></p>
+
+<p>The signal and the noise: <a href="https://drive.google.com/open?id=1f6U9tDRE2cF1qWzH5ORq4hLAXUTGGv5x">https://drive.google.com/open?id=1f6U9tDRE2cF1qWzH5ORq4hLAXUTGGv5x</a></p>
+
+<p>Clean code: <a href="https://drive.google.com/open?id=1IY7vs6XpXxfDUAffY43CcDuLiFZPtBnx">https://drive.google.com/open?id=1IY7vs6XpXxfDUAffY43CcDuLiFZPtBnx</a></p>
+
+<p>Value proposition Design: <a href="https://drive.google.com/open?id=1fqEB-IB-AZ76b9yO93Qq3ojHdjl7u2ml">https://drive.google.com/open?id=1fqEB-IB-AZ76b9yO93Qq3ojHdjl7u2ml</a></p>
+
+<p>Don&#39;t make me think: <a href="https://drive.google.com/open?id=1vt9KcW5FViwHhxDiz4mBCdkrg_XSO9W6">https://drive.google.com/open?id=1vt9KcW5FViwHhxDiz4mBCdkrg_XSO9W6</a></p>
+<h3 id='playbooks'>Playbooks</h3>
+<p>YCombinator: <a href="https://playbook.samaltman.com/">https://playbook.samaltman.com/</a></p>
+
+<p>Google: <a href="https://rework.withgoogle.com/">https://rework.withgoogle.com/</a></p>
+<h1 id='best-practices'>Best Practices</h1><h2 id='security-and-data'>Security and data</h2><div class="highlight"><pre class="highlight plaintext"><code>Available soon
+</code></pre></div><h2 id='development-practices'>Development Practices</h2><h3 id='project-kickstart'>Project Kickstart</h3>
+<p>During the kickstart process, we have some requirements that we feel it&#39;s mandatory for a healthy project development lifecycle:</p>
+
+<ul>
+<li>[x] Amount of hours per week/month and which people are going to participate</li>
+<li>[x] Requirements documentation / API documentation</li>
+<li>[x] UI Documentation</li>
+<li>[x] Project board for management (modules and features set up based on requirements)</li>
+<li>[x] Project board for development</li>
+<li>[x] Repository created in our GitHub account with our standards.</li>
+</ul>
+
+<p>The project won&#39;t have its kickstart while we have our requirements checked up.</p>
+<h3 id='development-ground-rules'>Development Ground Rules</h3>
+<p>As a mandatory behavior, all developers need to attend to the following implementation process:</p>
+
+<ul>
+<li>[x] start coding</li>
+<li>[x] e2e implementation (test scenarios needs to be mapped on planning at Asana&#39;s)</li>
+<li>[x] run tests locally</li>
+<li>[x] validate implementation</li>
+<li>[x] pre-commit analysis before sending to repo</li>
+<li>[x] open a pull request</li>
+<li>[x] check if CI/CD passed</li>
+</ul>
+<h3 id='boilerplates'>Boilerplates</h3>
+<p>To kickstart a project at Mobix, we need to evaluate the project complexity as well as the type of architecture.</p>
+
+<p>On regular projects we develop, we avoid starting from scratch - we have our standards for each project we develop. Thus, we can keep good maintenance and also share internally our practices and keep always the culture of improvements.</p>
+
+<p>We set up some hours during the week/month in our team&#39;s allocation to check our boilerplates. Usually, we share some good practices we used in some projects with our clients and put it together for future challenges.</p>
+<h4 id='react-projects'><strong>React Projects</strong></h4>
+<ul>
+<li><a href="https://github.com/mobixsoftwarestudio/react-typescript-boilerplate">React JS using Typescript</a></li>
+<li><a href="https://github.com/mobixsoftwarestudio/react-native-context-boilerplate">React Native using Context</a></li>
+<li><a href="https://github.com/mobixsoftwarestudio/react-native-redux-boilerplate">React Native using Redux</a></li>
+</ul>
+<h4 id='node-projects'><strong>Node Projects</strong></h4>
+<ul>
+<li><a href="https://github.com/mobixsoftwarestudio/node-boilerplate">NodeJs for Web API</a></li>
+<li><a href="https://github.com/mobixsoftwarestudio/node-ms-boilerplate">NodeJs for Microservices</a></li>
+</ul>
+<h3 id='git-flow'>Git Flow</h3><h4 id='branch-standards'>Branch Standards</h4>
+<p>At Mobix we introduce a configuration model tailoring the best practices of code configuration.</p>
+
+<p>Tailoring the project structure, we define two main branches:</p>
+
+<ul>
+<li>master</li>
+<li>homolog</li>
+<li>develop</li>
+</ul>
+
+<p>Where <code>master</code> tags the <em>production</em> version of the software. In that scenario, the version we deploy and go-live is tagged with its specific version.</p>
+
+<p><code>homolog</code> delivers the current version of the project to validate our results with our client. We also keep our track on QA assessment before going live.</p>
+
+<p>Regarding <code>develop</code>, we merge all implementations that we do in our team to validate the sprint.</p>
+
+<p>Outside those two main branches, we define the following approach:</p>
+
+<ul>
+<li>feature - for new implementations</li>
+<li>issue - for bug fixes or small adjustments </li>
+<li>hotfix - for critical fixes </li>
+<li>release - to tag a version for going live</li>
+</ul>
+<h4 id='pull-requests-prs'>Pull Requests (PRs)</h4>
+<p>For each Pull Request opened, we apply CI/CD as a preview integration a delivery. We validate not only what was implemented, but also check if the tests were done correctly.</p>
+
+<p>Our PR has the following template:</p>
+
+<ul>
+<li>[x] Feature description: Insert here a brief description of your PR</li>
+<li>[x] Asana task: Insert here a &lt;URL&gt; from Asana&#39;s</li>
+</ul>
+
+<p>We also have a culture of Code Review for each PR, where we verify code practices and check quality and performances that we might need to improve.</p>
+<h4 id='technical-debts'>Technical Debts</h4>
+<p>Technical debts are one of the most important topics around software development. The need to tackle and avoid debts into our code is one of the things we keep on track to improve our projects.</p>
+
+<p>We use <a href="https://codeclimate.com/">Code Climate</a> to check all maintainability/code smells and test coverage report in the project and set up a moment during the Sprint cycle to check all comments regarding our code and tests. The whole team participates in this event, getting good and deep thoughts about the way we are coding.</p>
+<h3 id='ci-cd-flow'>CI / CD flow</h3><h4 id='web-apps'>WEB APPS</h4>
+<p><img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_WebApp.png?raw=true" alt="" /></p>
+<h4 id='mobile-apps'>MOBILE APPS</h4>
+<p><img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Mobile.png?raw=true" alt="" /></p>
+<h4 id='monolith-back-end'>MONOLITH BACK END</h4>
+<p><img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Monolith.png?raw=true" alt="" /></p>
+<h4 id='microservices-back-end'>MICROSERVICES BACK END</h4>
+<p><img src="https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Microservice.png?raw=true" alt="" /></p>
+<h2 id='design-practices'>Design Practices</h2><h4 id='self-management'>Self-Management</h4>
+<ul>
+<li>Know your weak spots and take a corrective action and get team help;</li>
+<li>Always. Always know the process and the methodology;</li>
+<li>Again, know the workflow and the organization practices (Playbook);</li>
+<li>Only do one thing at a time (As Agile says);</li>
+<li>Don&#39;t be shy, always use the team to support and validate your needs;</li>
+<li><h4 id='communication'>Communication</h4></li>
+<li><p>Connect yourself with the project and client objectives;</p></li>
+<li><p>Communicate always and all the time;</p></li>
+<li><p>Build a trust relationship with the client&#39;s team;</p></li>
+<li><p>Facilitate all the methodology;</p></li>
+<li><p>Always document every meeting and decision;</p></li>
+<li><p>To listen to all stakeholder involved;</p></li>
+<li><p>Share all the knowledge early and often;</p></li>
+</ul>
+<h4 id='research'>Research</h4>
+<ul>
+<li>Use the project delivery process with updated methods and references;</li>
+<li>When it&#39;s possible, go for a face to face interaction with the user;</li>
+<li>Understand the problem and needs of the project;</li>
+<li>User test (Remote or not);</li>
+<li>Always validate ideas;</li>
+</ul>
+<h4 id='interface'>Interface</h4>
+<ul>
+<li>Construction of System design for each project;</li>
+<li>Always go for mobile-first;</li>
+<li>Construction on low fidelity;</li>
+<li>Usability focus;</li>
+<li>Give Feedback to the user;</li>
+</ul>
+<h4 id='content'>Content</h4>
+<ul>
+<li>Always use User language;</li>
+</ul>
+<h4 id='front-end'>Front-end</h4>
+<ul>
+<li>Build based in Mobile First;</li>
+<li>SEO techniques (Lighthouse, Meta description);</li>
+<li>Use components and variables;</li>
+<li>Small animations;</li>
+</ul>
+<h3 id='project-kickstart-2'>Project Kickstart</h3><div class="highlight"><pre class="highlight plaintext"><code>Available soon
+</code></pre></div><h1 id='project-management'>Project Management</h1>
+<p>During the execution of projects, Mobix has a major cycle of Project Management like below:</p>
+
+<p><code>(PLANNING -&gt; DAILY -&gt; DEV REVIEW -&gt; DEV DONE -&gt; HOMOLOGATION -&gt; APPROVED -&gt;  PRODUCTION DEPLOY)</code></p>
+
+<p>Our Project Manager (PM) needs to organize his tasks by the following:</p>
+<h2 id='tasks-management'>Tasks Management</h2>
+<p>We use <code>Jira</code> for Project Management. </p>
+
+<p>We separate the project vision in three perspectives: Roadmap, Backlog and Active Sprint.</p>
+<h3 id='roadmap'>Roadmap</h3>
+<p>Here is where we put the main vision of the project. Using metrics of Software Engineering and Project Design, we separate the main features in Modules.
+Each module has a set of features. Each feature is mapped using the Backlog section.</p>
+<h4 id='checklist-for-roadmap-implementation'>Checklist for Roadmap Implementation</h4>
+<ul>
+<li>[x] Map entities for project (business cases) (this needs to be aligned with the UX and Product teams)</li>
+<li>[x] Map a higher vision of project considering modules (this needs to be aligned with the UX and Product teams)</li>
+<li>[x] For each module, consider a set of features (this needs to be aligned with the UX and Product teams)</li>
+<li>[x] For each feature, consider UX/UI, Front End, Back End, QA</li>
+<li>[x] Write down a specific flow for each feature, considering Sequence Diagrams, Alternative Flows, Business Rules, Data Structures and UI link</li>
+<li>[x] Use those features as reference for Sprint Plannings and Client Prioritizations</li>
+</ul>
+
+<p>Your roadmap should look like this:</p>
+
+<ul>
+<li>Module 1
+
+<ul>
+<li>Feature 1</li>
+<li>Requirements, UI, Test Scenarios</li>
+<li>Feature 2</li>
+<li>Requirements, UI, Test Scenarios</li>
+</ul></li>
+<li>Module 2
+
+<ul>
+<li>Feature 1</li>
+<li>Requirements, UI, Test Scenarios</li>
+<li>Feature 2</li>
+<li>Requirements, UI, Test Scenarios</li>
+</ul></li>
+</ul>
+<h3 id='backlog'>Backlog</h3>
+<p>Here we dive deep into our feature details. Each one needs to attend the following fields:</p>
+
+<ul>
+<li>[x] Description</li>
+<li>[x] Main Flow</li>
+<li>[x] Alternative Flow</li>
+<li>[x] API Structure / API link</li>
+<li>[x] Screens (if needed)</li>
+<li>[x] Tasks</li>
+<li>[x] Test Scenarios</li>
+<li>[x] Story Point</li>
+</ul>
+
+<p>Note: <code>Main Flow</code> lists a sequence of steps needed which evolves all the feature objective. The <code>Alternative Flow</code> also do the same job, however focusing on behaviors that gravitates around the business rules. We use those two fields for Acceptance Criteria.</p>
+<h3 id='active-sprint'>Active Sprint</h3>
+<p>The Active Sprint sets all features that the team planned to do in our <a href="#sprint-planning">Sprint Planning</a> cerimony.</p>
+
+<p>Our Active Sprint takes up to 10 business days.</p>
+<h3 id='methodology'>Methodology</h3>
+<p>At Mobix we use Scrum Methodology to achieve the goals. Divided by Sprints, we set up expectations with the Team and with the Client to plan and tackle possible challenges that we might need to achieve the goals. As Scrum is an Agile Methodology applied on Software Engineering process, a few events are made with the Team:</p>
+<h4 id='sprint-planning'>Sprint Planning</h4>
+<p>The Team receives the deliverables provided by the PM of the project. At this point, we have the UI requirements documented with the high fidelity prototypes and further recommendations of the Client regarding some prioritizations.</p>
+
+<p>During the planning, we analyze each Feature and set up complexity to balance through the Team&#39;s ability to deliver the amount of work. At this point the team creates tasks to accomplish its acceptance criteria. Those tasks will be used for managing the development cycle.</p>
+
+<p>Right after we analyze the complexity of each Feature, we set up the ones that the Team will be able to achieve during the Sprint Cycle (notice that our standards takes up to a 10 business days cycle).</p>
+
+<p>During the Sprint Cycle, neither the Client nor the PM is able to change requirements nor add more deliverables for the Sprint Cycle.</p>
+
+<p>Thus, we can start to work and align with the Client all the expectations of the next delivery.</p>
+<h4 id='kanban-board'>Kanban Board</h4>
+<p>The Kanban Board is organised as follows:</p>
+
+<ul>
+<li>To Do</li>
+<li>In Progress</li>
+<li>Block</li>
+<li>Task Done</li>
+<li>Code Review</li>
+<li>Code Review Failed</li>
+<li>Homologation Waiting Release</li>
+<li>QA Failed</li>
+<li>Homologation QA</li>
+<li>Homologation QA Failed</li>
+<li>Production Waiting Release</li>
+<li>Production QA</li>
+<li>Production QA Failed</li>
+<li>Approved</li>
+</ul>
+
+<p>Notice that each phase of the kanban board represents a status of deployment for our Client. </p>
+
+<p>The higher the phase, the most critical is the task, so in case we have <code>Production QA Failed</code> means that we need full support to tackle those issues.</p>
+<h4 id='sprint-daily-meeting'>Sprint Daily Meeting</h4>
+<p>The Team along with the PM set up a moment during the workday to align the information of the Team during the Sprint Cycle. This moment is called Daily Meeting. During a maximum of 15 minutes, the whole Team needs to update themselves with the current status of their development. Normally we follow some guidelines for Daily Meetings:</p>
+
+<ul>
+<li>What I did since the last Daily Meeting</li>
+<li>What am I doing now? </li>
+<li>Which problems am I facing? (being objective, with further details for discussion with someone of the Team able to help)</li>
+<li>What am I gonna do until the next Daily Meeting?</li>
+</ul>
+<h4 id='sprint-delivery'>Sprint Delivery</h4>
+<p>Considering that the Sprint Cycle is finished, the team needs to prepare the deploy process and have the quality assurance process approved. </p>
+
+<p>After QA Approval, the task can be set up as Done. In case the task has some bugs or some other issues, the task downgrades its level to <code>QA Failed</code> and the developer needs to tackle it as soon as possible. </p>
+
+<p>The Sprint Cycle is approved successfully if all the US planned during the planning were Approved by QA. In either case, the Sprint Cycle will fail.</p>
+<h4 id='sprint-retrospective'>Sprint Retrospective</h4>
+<p>After the Deploy process and the Approval/Disapproval of the Sprint Cycle, the Team needs to review their work during the past cycle and share with each other to improve and align any other problems that is affecting the developers individually and as a team. Here are the guidelines for the Retrospective:</p>
+
+<ul>
+<li>What happened during the Cycle that the team needs to review?</li>
+<li>What was nice on the Cycle?</li>
+<li>What needs to improve?</li>
+<li>What we can do for the next Sprint?</li>
+</ul>
+<h4 id='bug-reports'>Bug Reports</h4>
+<p>Homologation/Production phase, our process needs to be as smooth as possible. Thus, we provide a Service Desk for users to reports adjustments and bug reports. Its structure adapts on the project type (Web or Mobile).</p>
+
+<p>The main points for report are:</p>
+
+<ul>
+<li>Name</li>
+<li>Email (optional)</li>
+<li>Environment (Dev, Homologation, Production)</li>
+<li>Current Behaviour (Here you tell us briefly what&#39;s going on)</li>
+<li>Executed Flow (Tell us what you did with a higher description) </li>
+<li>This bug happens in... (Multiple browsers/Chrome/Firefox/Safari)(Iphone [Type], Android [Type])</li>
+<li>Resolution (Responsive (All resolutions), Start from Mobile to Tablet, Only Tablet, Web)</li>
+<li>Priority (P0 (ASAP), P1(Fundamental), P2(Important), P3(Wanted))</li>
+<li>Attachments (Video and/or Screenshots)</li>
+</ul>
+
+<p>After user submit, this report is generated as an Asana task and comes for PM review and sent to the Kanban Board as <code>QA Failed</code></p>
+<h2 id='daki-exercise'><strong>DAKI Exercise</strong></h2>
+<ul>
+<li><strong>D</strong> for Drop: When team members want to drop or remove something that bothers them. For example, a team wants to remove (drop) weekly meetings with their manager because of micromanaging.</li>
+<li><strong>A</strong> for Add: What does the team want to add to improve the process? Perhaps adding a weekly breakfast for the whole team or a company to share feelings/feedback with the rest of the people.</li>
+<li><strong>K</strong> for Keep: When team members want to keep something. For example, the team decides to keep a stand up meeting with a song chosen by a team member.</li>
+<li><strong>I</strong> for Improve: Something that a team wants to improve. A good example is when a team reduces the technical debt from legacy code to avoid fixing bugs all day long.</li>
+</ul>
+<h1 id='readme'>README</h1>
+<p>Teste</p>
+<hr>
+<h2 id='description-description-goes-here'>description: Description goes here</h2><h1 id='studio-management'>Studio Management</h1><h2 id='internal-management'>Internal Management</h2>
+<blockquote>
+<p>“Collaboration is a key part of the success of any organization, executed through a clearly defined vision and mission and based on transparency and constant communication” - Dinesh Paliwal.</p>
+</blockquote>
+
+<p>We use different tools for communication and management inside Mobix.</p>
+<h3 id='asana'><strong>Asana</strong></h3>
+<p>It’s a web and mobile application designed that we use to help teams organize, track, and manage projects and tasks in one tool. Teams can create projects, assign work to teammates, specify deadlines, and communicate about tasks directly in Asana. It also includes reporting tools, file attachments, calendars, and more.</p>
+<h3 id='gsuite'><strong>GSuite</strong></h3>
+<p>It&#39;s a set of cloud computing, productivity and collaboration tools, software and products developed by Google, G Suite comprises Gmail, Hangouts, Calendar, and Currents for communication; Drive for storage; Docs, Sheets, Slides, Keep, Forms, and Sites for productivity and collaboration;</p>
+<h3 id='harvest'><strong>Harvest</strong></h3>
+<p>It’s a simple time tracking, fast online invoicing, and powerful reporting software that simplifies employee timesheets and billing. Harvest collates the raw timesheet data into a visual summary of where our team’s time is going.</p>
+<h3 id='forecast'><strong>Forecast</strong></h3>
+<p>It’s a project and resource management software that helps us to automate operations, empower people, and leverage insights to drive businesses.</p>
+<h3 id='doodle'><strong>Doodle</strong></h3>
+<p>It’s an online scheduling tool that we use to quickly and easily find a date and time to meet within our team, but also with multiple people. So, Doodle aggregates the responses and tells us which option works best for everyone.</p>
+<h3 id='slack'><strong>Slack</strong></h3>
+<p>We use it to communicate within the organization and the teams about working topics. Content, including files, conversations, and people, are all searchable within Slack.</p>
+<h3 id='whatsapp'><strong>Whatsapp</strong></h3>
+<p>We use it for informal communications both in private and in groups.</p>
+<h3 id='discord'><strong>Discord</strong></h3>
+<p>We use it to take fast feedback communication both in private and in groups with the project team.</p>
+<h2 id='okrs'>OKRs</h2>
+<p>We structured an organization that thrives by setting OKRs as the basis of our work.</p>
+
+<p>Objectives and key results (OKR) is a framework for defining and tracking objectives and their outcomes.</p>
+
+<p>As explained by John Doerr:</p>
+
+<blockquote>
+<p>&quot;The key result has to be measurable. But at the end you can look, and without any arguments: Did I do that or did I not do it? Yes? No? Simple. No judgments in it.&quot;</p>
+</blockquote>
+
+<p>OKRs comprise an objective—a clearly defined goal—and one or more key results—specific measures used to track the achievement of that goal. The goal of OKR is to define how to achieve objectives through concrete, specific and measurable actions. Key results can be measured on a 0-100% scale or any numerical unit (ex: dollar amount, %, items, etc.). Objectives should also be supported by initiatives, which are the plans and activities that help to achieve the objective and move forward the key results. OKRs are typically calendar-based.</p>
+
+<p>An “OKR cycle” is often quarterly, but it can also be monthly because tracking them regularly is like &quot;working out”—you have to do it repeatedly and regularly to make measurable progress in business goals throughout company levels for high output management. So, we chose to track the progress quarterly.</p>
+<h2 id='project-management'>Project Management</h2>
+<p>During the execution of projects, Mobix has a major cycle of Project Management like below:</p>
+
+<p><code>(PLANNING -&gt; DAILY -&gt; DEV DONE -&gt; QA -&gt; APPROVED -&gt; READY TO DEPLOY)</code></p>
+
+<p>Our Project Manager (PM) needs to organize his tasks by the following features:</p>
+<h3 id='methodology'>Methodology</h3>
+<p>At Mobix we use Scrum Methodology to achieve the goals. Divided by Sprints, we set up expectations with the Team and with the Client to plan and tackle possible challenges that we might need to achieve the goals. As Scrum is an Agile Methodology applied on Software Engineering process, a few events are made with the Team:</p>
+<h3 id='sprint-planning'>Sprint Planning</h3>
+<p>The Team receives the deliverables provided to the Client and PM of the project. At this point, we have the UI requirements documented with the high fidelity prototypes and further recommendations of the Client regarding some prioritizations.</p>
+
+<p>During the planning, we analyze each User Story (US) (provided by UX/UI team along with the PM) and set up complexity for each US to balance through the Team&#39;s ability to deliver the amount of work.</p>
+
+<p>Right after we analyze the complexity of each US, we set up the ones that the Team will be able to achieve during the Sprint Cycle (notice that our standards take up to 10 business days of the cycle).</p>
+
+<p>During the Sprint Cycle, neither the Client nor the PM is able to change requirements nor add more deliverables for the Sprint Cycle.</p>
+
+<p>Thus, we can start to work and align with the Client all the expectations of the next delivery.</p>
+<h3 id='sprint-daily-meeting'>Sprint Daily Meeting</h3>
+<p>The Team along with the PM set up a moment during the workday to align the information of the Team during the Sprint Cycle. This moment is called Daily Meeting. During a maximum of 15 minutes, the whole Team needs to update themselves with the current status of their development. Normally we follow some guidelines for Daily Meetings:</p>
+
+<ul>
+<li>What I did since the last Daily Meeting</li>
+<li>What am I doing now? </li>
+<li>Which problems am I facing? (being objective, with further details for discussion with someone of the Team able to help)</li>
+<li>What am I gonna do until the next Daily Meeting?</li>
+</ul>
+<h3 id='sprint-delivery'>Sprint Delivery</h3>
+<p>Considering that the Sprint Cycle is finished, the team needs to prepare the deploy process and have the quality assurance process approved. After the QA Approval, the task can be set up as Done. In case the task has some bugs or some other issues, the task downgrades its level to QA Failed and the developer needs to tackle that as soon as possible. The Sprint Cycle is approved successfully if all the US planned during the planning were Approved by QA. In either case, the Sprint Cycle will fail.</p>
+<h4 id='sprint-retrospective'>Sprint Retrospective</h4>
+<p>After the Deploy process and the Approval/Disapproval of the Sprint Cycle, the Team needs to review their work during the past cycle and share with each other to improve and align any other problems that is affecting the developers individually and as a team. Here are the guidelines for the Retrospective:</p>
+
+<ul>
+<li>What happened during the Cycle that the team needs to review?</li>
+<li>What was nice on the Cycle?</li>
+<li>What needs to improve?</li>
+<li>What we can do for the next Sprint?</li>
+</ul>
+<h3 id='daki-exercise'><strong>DAKI Exercise</strong></h3>
+<ul>
+<li><strong>D</strong> for Drop: When team members want to drop or remove something that bothers them. For example, a team wants to remove (drop) weekly meetings with their manager because of micromanaging.</li>
+<li><strong>A</strong> for Add: What does the team want to add to improve the process? Perhaps adding a weekly breakfast for the whole team or a company to share feelings/feedback with the rest of the people.</li>
+<li><strong>K</strong> for Keep: When team members want to keep something. For example, the team decides to keep a stand up meeting with a song chosen by a team member.</li>
+<li><strong>I</strong> for Improve: Something that a team wants to improve. A good example is when a team reduces the technical debt from legacy code to avoid fixing bugs all day long.</li>
+</ul>
+<h2 id='tasks-management'>Tasks Management</h2>
+<p>We use Asana for task management. We have two different scenarios for task management:</p>
+<h3 id='kanban-oriented'>Kanban Oriented</h3>
+<p>When the delivery needs to run on a fast track with the Client, we set up a Kanban Board using some oriented steps:</p>
+
+<ul>
+<li>Backlog</li>
+<li>Sprint Backlog</li>
+<li>In Progress</li>
+</ul>
+
+<p>&quot;In Progress&quot; column means that the developer is currently working on the specific task, no matter if it&#39;s a bug fix or a task implementation.</p>
+
+<ul>
+<li>Dev Done</li>
+</ul>
+
+<p>&quot;Dev Done&quot; means that the developer&#39;s finished its work and it&#39;s ready for QA Process. Those items will be used for the QA Engineer at Mobix to validate them and set up as &quot;QA Failed&quot; or &quot;Approved&quot;. On Asana the QA may add a tag within a card that represents a &quot;Bug&quot;, so we can understand at the end of Sprint which items were rolled back and were not approved at the first delivery. The developer is not allowed to set the card as Approved.</p>
+
+<ul>
+<li>QA Failed</li>
+</ul>
+
+<p>&quot;QA Failed&quot; are the items that the QA Engineers set up for the developers to work on it. Those are higher priority than the &quot;Sprint Backlog&quot; items. When the developer starts it, he needs to put the card on &quot;In Progress&quot; column again.</p>
+
+<ul>
+<li>Approved</li>
+</ul>
+
+<p>&quot;Approved&quot; means that the QA has validated the feature and found no bugs into the task. It&#39;s ready for presentation to the client.</p>
+
+<p>For each card on the board, we normally put the invision link for the high fidelity prototype and the link for the requirements document provided for the Project.</p>
+
+<p>The developer is able to select which cards will be inserted on &quot;Sprint Backlog&quot; column, which will participate in the Sprint Cycle and asserts that those cards will be delivered.</p>
+<h4 id='list-oriented'>List Oriented</h4>
+<p>When the delivery has its roadmap created by the UX/UI team, it&#39;s created a section on Asana called &quot;Roadmap&quot;, with the User Story for each entity set up and ready for evaluation within a Sprint Cycle.</p>
+
+<p>During the planning, the team checks the US and validates using Scrum metrics to set up the complexity and tasks needed for implementation.</p>
+
+<p>After planning, it&#39;s generated another section on Asana called &quot;Sprint X&#39;&#39; where X is the number of the current Sprint and all the US planned are fulfilled into the Section, with assignees for each developer from the Team.</p>
+
+<p>It&#39;s created custom fields called &quot;In Progress&quot;, &quot;Dev Done&quot;, &quot;QA Failed&quot;, &quot;Approved&quot; for each line of the section that sets up the current status of implementation. The definitions of the custom fields have the same behavior that we have on the &quot;Kanban Oriented&quot; section.</p>
+<h1 id='what-we-do'>What We Do</h1><h2 id='our-services'>Our Services</h2>
+<blockquote>
+<p>Mobix develops software solutions, tailored to client’s needs. We dominate in the use of Node, React JS, React Native and Angular and we love working with APIs.</p>
+</blockquote>
+<h3 id='business-and-tech-consulting'>Business and Tech consulting</h3>
+<p>We provide tools and frameworks to implement digital transformation helping in the understanding and the execution of new processes and digital products.</p>
+<h3 id='product-design'><strong>Product Design</strong></h3>
+<p>Using design thinking to create interfaces for web and mobile applications, with a focus on maximizing usability and user experience.</p>
+<h3 id='web-mobile-and-api-development'><strong>Web, Mobile and API Development</strong></h3>
+<p>We develop custom software with quality, tailoring with agile methodology. Our work delivers custom code to accommodate your unique needs.</p>
+<h2 id='our-homemade-products'>Our Homemade Products</h2><h3 id='remote'><strong>Remote</strong></h3>
+<p>Remote is a web and mobile application aiming to manage routes and deliveries, which will organize and optimize your deliveries through a web platform for managers and application for the deliverers. It allows you to gain time, to manage calls, to assign tasks, and to visualize the whole data by a graphic.</p>
+
+<p><code>Stack used: AWS, React, Android, Redux, Redux Saga, Node, Mongo, Heroku.</code></p>
+<h3 id='tandera'><strong>Tandera</strong></h3>
+<p>Tandera is an AI-based application that uses pattern recognition to track objects using a smartphone. It allows the user to count objects in a crowded place, manage the amount of people on events, and track its flow to help on decision making.</p>
+
+<p><code>Stack used: Python, Android, TensorFlow.</code></p>
+<h3 id='surfguru'><strong>Surfguru</strong></h3>
+<p>Surfguru is a web platform that delivery wave and wind forecasts to help surfers and its stakeholders to find the best place to practice the sport and convert the market to track their customer to its needs. The platform also allows the user to manage the data to obtain a more deep study about the wind and swell behavior and the decision making of ocean traveling.</p>
+
+<p><code>Stack used: React, Redux, Redux Saga, Netlify, AWS.</code></p>
+<h1 id='why-choosing-mobix'>Why Choosing Mobix</h1>
+<blockquote>
+<p><em>“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics.</em></p>
+</blockquote>
+
+<p>In each kind of relationship, you can learn what are the good practices that matter and those which are the basis of it to guarantee high-quality experiences for our main stakeholders: clients and collaborators. So, we are not only a software studio with experienced developers.</p>
+
+<p>We like to tailor outstanding solutions together with the client. We are not choosing projects where we are invaluable in a month and disposable in the next. We want to help products to last. For this reason we designed the standards we offer to our clients and our expectations towards them.</p>
+<h2 id='standards-to-our-clients'>Standards to our Clients</h2>
+<ul>
+<li>Communication is the key, whenever the client needs it, we must attend to it, explaining and facilitating the understanding and the decision-making process;</li>
+<li>The whole scope of work should be clear, in order to avoid problems of interpretation, understanding, and expectations;</li>
+<li>We will listen effectively to our clients’ requests and promptly take the necessary actions to assist them;</li>
+<li>We will keep our clients informed of unexpected delays in service;</li>
+<li>We will greet and fulfill our responsibilities with our clients courteously and professionally;</li>
+<li>We always put ourselves into clients&#39; position to tailor for them a suitable and excellent solution;</li>
+<li>We provide outstanding service that fits in the RATER standards. RATER stands for: Reliability, Assurance, Tangibles, Empathy, Responsiveness; </li>
+<li>We will make the communication as fast as we can to attend the clients questions, especially if working with us remotely;</li>
+<li>In case the client is working remotely with us, we like to do conference calls daily to align our expectations and any other kind of information that we need to put the project on track;</li>
+<li>In order to deliver a high-quality experience both for clients and collaborators, the working hours allocated per employee are 32h/week;</li>
+<li>We will align the technical requirements of the project with the client for a kickstart, so we can prepare its expectations for the first deliveries and the other milestones of the project;</li>
+<li>We craft solution-oriented codes. How far we will be allowed to iterate is up to the client, but we value clients that want us to get involved in the product impact of software features;</li>
+<li>We want, primarily, to deliver end-to-end quality for software products. We built a software development process to guarantee that. And we get that the client’s context might emphasize other concerns;</li>
+<li>We work with project that lasts at least 3 months/14 weeks, because doing small projects over and over can make developers really good in setups and basic features, but larger projects have more interesting challenges that help developers become experts;</li>
+<li>Taking chances and building entire products on hunches can lead to idleness and demotivate developers (no one likes to develop things that never see the light of day). We focus on the good feeling that is to see your code being used - solving real problems for real people.</li>
+</ul>
+<h2 id='standards-to-our-collaborators'>Standards to our Collaborators</h2><h3 id='team-standards'>Team Standards</h3>
+<blockquote>
+<p>Our main tool is based on OKRs of John Doerr, aiming to make our collaborators more committed and accountable towards their tasks by having a long-term perspective. The team develops a physical scoreboard designed to create both public accountability and team engagement.</p>
+</blockquote>
+
+<p><strong>Keep a Compelling Scoreboard</strong></p>
+
+<blockquote>
+<p>“People play differently when they’re keeping score. If you doubt this, watch any group of teenagers playing basketball and see how the game changes the minute scorekeeping begins. The kind of scoreboard that will drive the highest levels of engagement with your team will be one that is designed solely for (and often by) the players”. Chris McChesney, Co-author of the 4 disciplines of execution.</p>
+</blockquote>
+
+<p>For this reason, we have a simple scoreboard that is updated weekly by our collaborators everytime they contribute to reach the goals.</p>
+
+<p><strong>Weekly Accounting Meeting</strong></p>
+
+<p>Every monday at 11:00 am we do a company-wide meeting so our collaborators can tell the whole company what they&#39;ve been doing and what can be improved. The meeting is based on a card the collaborators should fill to be prepared for the meeting. Hence, each one reports on the bad, good and things to maintain; moreover, they will express a feeling about how the project is going and they will explain why. Finally, they present the solutions found to tackle the problems. During the meeting, they can ask teammates to give feedback to solve the issue.</p>
+
+<p><strong>Monthly Team Activities</strong></p>
+
+<p>The last weekend of the month, we like to do some activities aimed to bonding with the team and to fostering trustworthiness. As stated in our commitments, we invest all the possible resources of the company to host those spaces.</p>
+
+<p>Examples of activities are: karting, escape room, active painting, company adventure, happy hour on the beach.</p>
+
+<p><strong>Bi-Quarterly O2O</strong></p>
+
+<p>Twice a quarter we like to encompass a more high-end discussion between managers and collaborators. Instead of the regular questions about the day-to-day of the project, each coachee is encouraged by the manager to follow these 5-stages process for the personal and professional development:</p>
+
+<p><strong>Set the GOAL</strong></p>
+
+<p>Establish the goal that are SMART (Specific, Measurable, Attainable, Realistic &amp; Time based). It should be aligned with the operational and career goal.</p>
+
+<p>Useful questions to start:</p>
+
+<ul>
+<li>What do you think are your strengths?</li>
+<li>What do you think are your weaknesses?</li>
+<li>Where do you want to be in ten or more years?</li>
+</ul>
+
+<p><strong>Understand the REALITY</strong></p>
+
+<p>Useful questions:</p>
+
+<ul>
+<li>What is happening now? (Why, how, what, who?)</li>
+<li>How often?</li>
+<li>What kind of results is this producing?</li>
+<li>Have you already taken any steps towards your goal?</li>
+</ul>
+
+<p><strong>Search the possible OPTIONS</strong></p>
+
+<p>Useful questions:</p>
+
+<ul>
+<li>What else could I do?</li>
+<li>How could I remove the obstacles I perceive right now? What concrete action steps can I take?</li>
+<li>What are the pros &amp; cons of the options I’m describing?</li>
+<li>What your manager can do to help you?</li>
+</ul>
+
+<p><strong>Find your WAY FORWARD</strong></p>
+
+<p>Useful questions:</p>
+
+<ul>
+<li>What will you do now, and when? What else will you do?</li>
+<li>What could stop you moving forward? How will you overcome this?</li>
+<li>How can you keep yourself motivated?</li>
+</ul>
+
+<p><strong>Quarter Review</strong></p>
+
+<p>Effective leaders maximize the performance of their teams and companies by developing great aspirations (mission, vision, and values) and solid long-term goals, and then rigorously executing while iterating on those goals over time. The leader guides this process at regular intervals (weekly, monthly, quarterly, and annually). A systematic approach for execution will help you realize your goals.</p>
+
+<p>Conducting quarterly operating reviews is a practice that helps managers:</p>
+
+<ul>
+<li>Understand the current state of their company and markets;</li>
+<li>Identify and prioritize the best goals/initiatives for the following quarter (i.e., the goals that will keep your company moving forward at the highest velocity toward your long-term goals).</li>
+</ul>
+
+<p>The objective is met through the quarterly review meeting where a department head:</p>
+
+<ul>
+<li>Shares key successes;</li>
+<li>Describes the current state of the unit/markets/goals;</li>
+<li>Identifies obstacles and impediments and ways to remove them;</li>
+<li>Suggests ways to improve;</li>
+<li>Solicits advice from others;</li>
+</ul>
+
+<p><strong>Discusses a list of possible goals for the upcoming quarter.</strong></p>
+
+<p>The overall goal is to develop a list of the best possible goals for the following quarter based on the pre-work for the meeting and the discussion during the meeting.</p>
+
+<p>The outcome of the meeting should be to:</p>
+
+<ul>
+<li>Align each operating unit on quarterly goals with the current state of your markets, other operating units, and the company’s long-term goals;</li>
+<li>Focus each operating unit on the most important goals to accomplish the following quarter and minimize other activities that distract from the focal points;</li>
+<li>Ensure that each unit is clear on its goals; has the appropriate resources, confidence, and conviction to realize those goals; and has taken responsibility for achieving those goals;</li>
+<li>Maximize the opportunity for each unit to accomplish its most important goal.</li>
+</ul>
+
+<p>Once the analysis is done, the quarter review report is presented to our collaborators in order to make them aware of our direction as well as gain feedback and ideas from them.</p>
+<h2 id='career-development-plan'><strong>Career Development Plan</strong></h2>
+<p><code>Available soon</code></p>
+<h2 id='education'><strong>Education</strong></h2>
+<blockquote>
+<p><em>“An investment in knowledge pays the best interest” - Benjamin Franklin.</em></p>
+</blockquote>
+
+<p>We strongly believe that education makes us more agile when taking decisions. For this reason, we tailored our education cycle by using the following spaces:</p>
+
+<ul>
+<li>Bimonthly internal talks Every 15 days we gather some people to discuss a topic of interest. It&#39;s a moment for people to improve their public speaking skills, study about something they like and share their learnings and knowledge around the company. At the end of the presentation, beer and pizza are on us!</li>
+<li>Open office We believe that sharing knowledge and practices between organizations is an added value to exploit fully. For this reason, our office’s doors are open to anyone employed in other companies to work for a limited period with us and vice versa our collaborators are encouraged to share their learnings and information with other organizations.</li>
+<li>Courses and books</li>
+</ul>
+
+<blockquote>
+<p>“Those people who develop the ability to continuously acquire new and better forms of knowledge that they can apply to their work and to their lives will be the movers and shakers in our society for the indefinite future.” ― Brian Tracy</p>
+</blockquote>
+
+<p>As already stated, we value education in all its declination. Therefore, Mobix is committed to buying technical books and courses (online and offline) for anyone who claims for it, taking into consideration our possibilities.</p>
+
+<ul>
+<li>Conferences and events We strive to achieve our vision not only by tailoring software solutions but also by using the power of knowledge and networking to unlock human potential. Conferences and events are a precious source for meeting professionals and gaining knowledge to grow personally and professionally. During a 6-months period, people are encouraged to give back as much as they can, so Mobix will buy tickets for any technical conferences deemed worthy by the employees, and if one of ours approves a talk in a conference, whether it&#39;s local or international, she/he is granted a bonus for their further collaboration in sustaining the community we are a part of. Keeping an eye on conference submission deadlines helps everyone in doing so.</li>
+<li>English talks Since the majority of our clients are offshore, we raise the level of English throughout the company. For this reason, all the company’s communication is done in English. We also participate in international programs held by volunteering organizations like AIESEC, in order to welcome worldwide professionals which leads us to practice our English skills.</li>
+</ul>
+
+      </div>
+      <div class="dark-box">
+          <div class="lang-selector">
+                <a href="#" data-language-name="javascript">javascript</a>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
