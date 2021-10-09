@@ -1,7 +1,3 @@
----
-description: Description goes here
----
-
 # Studio Management
 
 ## Internal Management
