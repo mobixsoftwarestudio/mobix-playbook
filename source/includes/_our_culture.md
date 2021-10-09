@@ -98,7 +98,7 @@ We are a **human-centered organization** that believes that motivated, passionat
 
 
 
-## [No estimates](https://ronjeffries.com/xprog/articles/the-noestimates-movement/)
+## No estimates
 
 We believe that we shouldn't do estimates. Estimates are difficult. When requirements are vague and it seems that they always are then the best conceivable estimates would also be very vague. 
 

@@ -2,7 +2,6 @@
 title: API Reference
 
 language_tabs: # must be one of https://git.io/vQNgJ
-  - javascript
 
 toc_footers:
   - <a>Want to join our team?</a>
