@@ -1,10 +1,4 @@
-# Best Practices
-
-## Security and data
-
-```text
-Available soon
-```
+# Development Best Practices
 
 ## Development Practices
 
@@ -60,8 +54,8 @@ At Mobix we introduce a configuration model tailoring the best practices of code
 
 Tailoring the project structure, we define two main branches:
 
-* master
-* homolog
+* main
+* staging
 * develop
 
 Where `master` tags the _production_ version of the software. In that scenario, the version we deploy and go-live is tagged with its specific version.
@@ -82,9 +76,10 @@ Outside those two main branches, we define the following approach:
 For each Pull Request opened, we apply CI/CD as a preview integration a delivery. We validate not only what was implemented, but also check if the tests were done correctly.
 
 Our PR has the following template:
-
-* [x] Feature description: Insert here a brief description of your PR
-* [x] Asana task: Insert here a &lt;URL&gt; from Asana's
+<!-- Colocar aqui o link para um exemplo de PR puxando para o boiler -->
+* [x] PR Title: [JIRA-ID] Summary of your Pull Request
+* [x] Summary
+* [x] What has been implemented
 
 We also have a culture of Code Review for each PR, where we verify code practices and check quality and performances that we might need to improve.
 
@@ -93,24 +88,6 @@ We also have a culture of Code Review for each PR, where we verify code practice
 Technical debts are one of the most important topics around software development. The need to tackle and avoid debts into our code is one of the things we keep on track to improve our projects.
 
 We use [Code Climate](https://codeclimate.com/) to check all maintainability/code smells and test coverage report in the project and set up a moment during the Sprint cycle to check all comments regarding our code and tests. The whole team participates in this event, getting good and deep thoughts about the way we are coding.
-
-### CI / CD flow
-
-#### WEB APPS
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_WebApp.png?raw=true)
-
-#### MOBILE APPS
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Mobile.png?raw=true)
-
-#### MONOLITH BACK END
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Monolith.png?raw=true)
-
-#### MICROSERVICES BACK END
-
-![](https://github.com/mobixsoftwarestudio/mobix-playbook/blob/master/Images/CI_CD_Microservice.png?raw=true)
 
 ## Design Practices
 
