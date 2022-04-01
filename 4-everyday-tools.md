@@ -7,7 +7,7 @@
 
 - Gmail, Google Meet and Calendar for official communication;
 - Drive for storage in the cloud: Docs, Sheets, Presentations and Forms;
-- A few of Apps Script for automating a few stuffs within the forms;
+- Apps Scripts for automating a few things in forms;
 
 ### **Harvest**
 
@@ -33,5 +33,3 @@ We use it for informal communications both in private and in groups.
 - Github for development platform
 
 - VSCode for IDE
-
-

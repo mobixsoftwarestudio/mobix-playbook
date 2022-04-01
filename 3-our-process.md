@@ -7,7 +7,6 @@ The product process of Mobix is divided in three main steps, the first one is wh
 The team works in sprints of two weeks in agile process, so the engenieers and the designers start at the same point. Each side of the conception goes to its tools until intersect one other to present our client a rentable purposes of valuable products.
 
 
-
 https://www.mobixtec.com/static/phases-25b02751951994ebf0cb00b392bc8bf9.svg
 
 ## Design Process
