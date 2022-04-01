@@ -4,150 +4,79 @@ description: Description
 
 # Our Process
 
+The goal of Mobix is being related to validated concepting tools from market to persue the construction of serious applications solving client desires and user needs. In our process, our team works intertwined and alternates through each design and development phase, making the process stronger and more src. Bellow we will present the corresponding phases in isolated ways.
+
+The product process of Mobix is divided in three main steps, the first one is when the team build date about the target and market. In the second phase, is when the innovative ideas are constructed, documented and validated. The final step our teams runs towards the most fitable techs in order to make it real.
+
+The team works in sprints of two weeks in agile process, so the engenieers and the designers start at the same point. Each side of the conception goes to its tools until intersect one other to present our client a rentable purposes of valuable products.
 
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"><b>Discovery and Research</b>
-      </th>
-      <th style="text-align:left"><b>Build, test and iterate</b>
-      </th>
-      <th style="text-align:left"><b>Handoff </b>
-      </th>
-      <th style="text-align:left">Plan and implement</th>
-      <th style="text-align:left">Quality assessment</th>
-      <th style="text-align:left">Deploy</th>
-      <th style="text-align:left">Maintainance</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>Product Design</b>
-      </td>
-      <td style="text-align:left">
-        <ul>
-          <li><a href="https://www.notion.so/mobix/Client-Interview-f6b8560242fb4dcca58fcc7d7c94bc05">Client interviews</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Lean-Canvas-a14980b4b4724a9aaaad5fa108cccd75">Lean canvas</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/SWOT-Analysis-c24cf448e6ad480a9e059173a6af9521">Swot analysis</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Five-whys-991200f0eac54e49b32b87e11cf8a8c9">Five whys</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Porter-s-Five-Forces-cf9cd5a8b83f429ead19a798f3e50e95">Porter&apos;s five forces</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Check-Documents-sent-by-the-clients-Visual-ID-6928e736bb9248e49e485d014e3ad155">Check Documents sent by the clients + Visual ID</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Ecosystem-map-c5558aee04fc4626b1df9acf61e4977a">Ecosystem map</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Similar-comparison-df972097f88745539cb111f52b3927d3">Similar comparison</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Heuristics-910aab62ae49479396efba4913e870d7">Heuristics</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Personas-93ab5901cc5d44349b198e48cd2461fb">Personas</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Value-proposition-dd57d9e258c149799dd4087621202b32">Value proposition</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Platforms-map-9d09e218e95547fa89b52435e566d9c8">Platforms map</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/User-Journey-a7b83fd357ef457297976f328d163049">User Journey</a>
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">
-        <ul>
-          <li><a href="https://www.notion.so/mobix/Site-Map-3fe762d5e1c04e2b9d851567aa691620">Site map</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Design-Principles-9f197207da834d63b938b06e56b5dfab">Design Principles</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/System-Design-3cf8b126dfc640afbeb4920d1b037a4a">Design System</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Co-Creation-Session-68c78d622841453a8d14a011cf93d6e9">Co-creation session</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Ways-to-Grow-Framework-47dbbac9a2c54aa1ab69ae0934e07f7a">Ways to grow framework</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Mash-Ups-43c877433b7c4b35afcc2c310b15d9e0">Mash-Ups</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Storyboard-ba972a20151f44409376cbe15ee2baf8">Storyboard</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Wireframing-fec44c1173914b848e00abb6e7bb8a5d">Wireframing and proto</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Get-Feedback-3f53447da472408ba7437e63e839a492">Get feedback </a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Integrate-Feedback-and-Iterate-68af5bbe6cc241658a61dca2f38ae9ec">Iterate feedback and iterate</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Top-Five-8ee02091cdd8450d81228cbe57c8487a">Top five</a>
-          </li>
-          <li><a href="https://www.notion.so/mobix/Define-Indicators-to-Success-8767a1f193fa4f9b83ac21adfa0013fe">Indicators to success</a>
-          </li>
-          <li></li>
-        </ul>
-      </td>
-      <td style="text-align:left">
-        <ul>
-          <li><a href="https://www.notion.so/mobix/Design-Handoff-Document-4e56b2dab9a84c50b6672a3252f71fce">Design Handoff doc</a>
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Web, Mobile and API Development</b>
-      </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Tech Consulting</b>
-      </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>
 
-### 
+https://www.mobixtec.com/static/phases-25b02751951994ebf0cb00b392bc8bf9.svg
 
-### Discovery & Research
+## Design Process
 
-Description here
+The design process is to define the product, understand the problem, context and reason for the project's existence, as well as understand the pains and needs of customers and synthesize all this data in deliverables, hypotheses are created and are validated throughout the process, which after the defined solution we start for the creation of a structure mapping all points of need and relationship, validated, and built several levels of validation until we reach the final piece, so that the project is documented its structure, behavior, libraries and business model.
 
-### **Build, test and iterate**
+### Phases
 
-Description here
+Here’s a brief overview of our typical project process. We try to keep things moving fairly quickly and break projects out into phases with collected feedback/review at the end of each phase.
 
-### **Handoff**
+#### Immersion and research
+During this phase, we will understand the problem we are facing, gather information about the project, and discover the user's pain points and needs.
 
-Description here
+Briefing, Client interview, Duties and desires, Platforms map, Stackeholder interview
 
-### Plan and implement
+#### Synthesis
+We will analyze the information of the previous phase and synthesize them, finding opportunities, and understanding the problem in-depth.
 
-Description here
+Persona, Lean canvas, Value proposition, Heuristics, Hypotesis, User jorney, Storyboard
 
-### Quality assessment
+#### Ideate
+We will explore the possible solutions, understand the structure and evaluate them based on the framed problem.
 
-Description here
+Design principles, Top five, Co-creation session, Feedback, Sitemap, Carding sorting
 
-### Deploy
+#### Prototyping
+During the last phase, the solution begins to come to life, where it will be evaluated, iterated, delivered, and documented.
 
-Description here
+Wireframe, System design, Low fidelity prototype, High fidelity prototype, Handoff
 
-### Maintainance
+https://www.mobixtec.com/static/desingSide-c81c42b297f76fd0fd9c4f361b95e142.svg
 
-Description here
+## Development Process
 
+The front of development work in its first phases are working together with design in order to define and analyze aspects of the new product, after the final design delivery, the creation and planning of activities begins, where the next stages where the product will be sequenced it is built, tested and iterated to make the MVP.
+
+### Phases
+Here is a brief overview of our typical development process. We grow the product with steps that occur dynamically and that can come back if necessary.
+
+https://www.mobixtec.com/static/developmentSide-b094fad9219cfa5eb5730ca67507430c.svg
+
+#### Immersion and research
+This phase happens in parallel to the first design phase, where the development team defines and analyses aspects of the new product.
+
+Architecture definition, Technologies definition, Functional and Non-funcional requiments
+
+#### Synthesis
+We will analyze the information of the previous phase and synthesize them and create a work plan
+
+Work plan, Product definition
+
+#### Define
+This phase is where the project organization begins, we will analyze the project requirements according to the handoff document delivered in the last design phase, list the functionalities, create the activities, and manage the project.
+
+Features selection, Requirements analysis, Complexity metrics, Sprint, Performance evaluation
+
+#### Develop
+This phase is where the project is codified, revisions, corrections, and continuous work management are carried out.
+
+Code, Test implementation, Version control, Code review, Conflict and priority management
+
+#### Deliver
+It is at this stage that the project is delivered, alignments, testing and reporting are carried out.
+
+Homologation control and test, Production control, Continuous deploy, Product follow up
+
+#### Maintain
+In the last phase, there is a detection of things that need to be added or even corrected, checking the solution and planning improvements.
