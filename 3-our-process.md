@@ -1,7 +1,3 @@
----
-description: Description
----
-
 # Our Process
 
 The goal of Mobix is being related to validated concepting tools from market to persue the construction of serious applications solving client desires and user needs. In our process, our team works intertwined and alternates through each design and development phase, making the process stronger and more src. Bellow we will present the corresponding phases in isolated ways.
