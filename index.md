@@ -1,4 +1,7 @@
-# Why Choosing Mobix
+---
+layout: page
+title: Why Choosing Mobix
+---
 
 > _“For the things we have to learn before we can do them, we learn by doing them.” ― Aristotle, The Nicomachean Ethics._
 

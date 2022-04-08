@@ -1,6 +1,7 @@
-# Development Best Practices
-
-## Development Practices
+---
+layout: post
+title: Development Best Practices
+---
 
 ### Project Kickstart
 

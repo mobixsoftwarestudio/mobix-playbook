@@ -1,4 +1,7 @@
-# Our References
+---
+layout: post
+title: Our References
+---
 
 ## References
 

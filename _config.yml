@@ -1,1 +1,20 @@
-theme: jekyll-theme-slate
+# Dependencies
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Playbook
+description:      ''
+baseurl:          /
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/mobixsoftware/mobix-playbook

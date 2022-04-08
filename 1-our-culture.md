@@ -1,4 +1,7 @@
-# Culture
+---
+layout: post
+title: Culture
+---
 
 Mobix is an innovative software studio based in Recife, that builds easier and tailored solutions to people's needs to achieve a brighter future, by driving technologies that empower them.
 
