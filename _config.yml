@@ -1,17 +1,18 @@
+## This site is built using Poole + Hyde theme
+## https://github.com/poole/hyde
+
 # Dependencies
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
 
-# Setup
 title:            Playbook
 description:      ''
-baseurl:          /
-
+baseurl:          /mobix-playbook/
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Mobix Software'
+  url:            https://mobixsoftware.com
 
 # Custom vars
 version:          2.1.0

@@ -3,8 +3,6 @@ layout: post
 title: Our References
 ---
 
-## References
-
 Everything we wrote comes from our experiences, good practices exchanges, professional knowledge, and, especially, from books that inspired us.
 
 * **How to Win Friends and Influence People \(Dale Carnegie\)** - He says you can make someone want to do what you want them to by seeing the situation from the other person's point of view and “ arousing in the other person an eager want”. This is a Bible for us because we learn how to make people like you, win people over to your way of thinking, and change people without causing offense or arousing resentment.
