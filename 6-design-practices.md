@@ -1,4 +1,7 @@
-## Design Practices
+---
+layout: post
+title: Design Best Practices
+---
 
 #### Self-Management
 

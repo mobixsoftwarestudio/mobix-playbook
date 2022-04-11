@@ -1,6 +1,7 @@
-# Our References
-
-## References
+---
+layout: post
+title: Our References
+---
 
 Everything we wrote comes from our experiences, good practices exchanges, professional knowledge, and, especially, from books that inspired us.
 

@@ -1,0 +1,30 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h2>
+        <a href="{{ site.baseurl }}">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA0NSA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zLjgxMzk1IDE5Ljc1NjJDMy44MTM5NSAxOS43NTYyIDEuNzY4MjggMjAuODI2OSAxLjYyMjA4IDIzLjA2MDdDMS40NzQ4NCAyNS4zMDA3IDEuNjIyMDggMjYuMTI4NyAxLjYyMjA4IDI2LjUxNzRDMS42MjIwOCAyNi45MDYyIDEuOTYyODUgMjkuMjkwMiAzLjgxMzk1IDMwLjExNzFDNS42NjUwNSAzMC45NDUgMTQuNzcxMiAzNS43MTQxIDE0Ljc3MTIgMzUuNzE0MUw0Mi4xOTggNDkuNjAxQzQyLjE5OCA0OS42MDEgNDMuOTU2NSA1MC44MjQgNDQuNDkzOSA0OC45ODc0QzQ1LjAzMDMgNDcuMTUwOCA0NC45MTQ2IDQ0Ljg1ODIgNDQuNzYyMSA0My41MTk3QzQ0LjYwODYgNDIuMTgyMSA0My4zMDk3IDQxLjMzOTUgNDIuNzcyMiA0MS4wNzE2TDEwLjA4MjQgMjUuMDI4NkwyMC43MjQyIDE5Ljc1NzNMMTIuMTg3IDE1LjU2ODJMMy44MTM5NSAxOS43NTYyWk0yNC4yNDU1IDkuNDg3ODdMMzIuODU3MyAxMy44MDgzTDQyLjg4NTggOC44MzUzOUM0Mi44ODU4IDguODM1MzkgNDQuNTMyOSA4LjIyNTk5IDQ0LjcyMjIgNi4yNzQ4NkM0NC45MTM2IDQuMzI0NzkgNDQuOTc5OSAzLjcxMzI5IDQ0Ljg5MDUgMi42ODE1MUM0NC44MDExIDEuNjQ4NjggNDQuNTMyOSAtMC42ODU5NDYgNDIuNjk1NCAwLjE5NDUzMUM0MC44NTkxIDEuMDczOTYgMjQuMjQ1NSA5LjQ4Nzg3IDI0LjI0NTUgOS40ODc4N1oiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNDEuMTE1NSAzMC4yNDE5QzQxLjExNTUgMzAuMjQxOSA0My4xNjEyIDI5LjE3MzMgNDMuMzA3NCAyNi45MzY0QzQzLjQ1NDYgMjQuNjk2MyA0My4zMDc0IDIzLjg2ODQgNDMuMzA3NCAyMy40Nzk2QzQzLjMwNzQgMjMuMDg5OCA0Mi45NjY2IDIwLjcwNTggNDEuMTE1NSAxOS44ODFDMzkuMjY1NSAxOS4wNTUyIDMwLjE1ODMgMTQuMjg1MSAzMC4xNTgzIDE0LjI4NTFMMi43MzI1OCAwLjQwMDIzQzIuNzMyNTggMC40MDAyMyAwLjk3MDg4MiAtMC44MjQ4NzMgMC40MzU1MzYgMS4wMTE3M0MtMC4xMDA4NjIgMi44NDgzMyAwLjAxNDgzMTggNS4xMzk4OCAwLjE2NjI4NSA2LjQ3ODQ2QzAuMzIwODk0IDcuODE1OTkgMS42MjE5MiA4LjY2MDc0IDIuMTU3MjcgOC45MjY1NkwzNC44NDgxIDI0Ljk2NzRMMjQuMjA0MyAzMC4yNDE5TDMyLjc0MjUgMzQuNDMxTDQxLjExNTUgMzAuMjQxOVpNMjAuNjg0IDQwLjUxMTNMMTIuMDcyMiAzNi4xOTA5TDIuMDQzNjggNDEuMTYwNkMyLjA0MzY4IDQxLjE2MDYgMC4zOTY2MjEgNDEuNzcyMSAwLjIwNjI1MiA0My43MjY0QzAuMDE0ODMxOCA0NS42NzU0IC0wLjA0OTMyNTYgNDYuMjg2OSAwLjAzOTAyMjIgNDcuMzE2NkMwLjEyOTQ3NCA0OC4zNTA1IDAuMzk2NjIxIDUwLjY4NDEgMi4yMzQwNSA0OS44MDQ2QzQuMDcxNDcgNDguOTI0MiAyMC42ODQgNDAuNTExMyAyMC42ODQgNDAuNTExM1oiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" />
+          {{ site.title }}
+        </a>
+      </h2>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "post" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </nav>
+
+  </div>
+</div>

@@ -1,4 +1,7 @@
-# What We Do
+---
+layout: post
+title: What We Do
+---
 
 ## Our Services
 
