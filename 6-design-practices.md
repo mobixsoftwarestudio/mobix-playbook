@@ -32,6 +32,7 @@ Every meeting content has an agenda to build a single source of truth based on t
 ## Framework
 
 We use the double diamond created by [British Design Council](https://www.designcouncil.org.uk/our-work/news-opinion/double-diamond-universally-accepted-depiction-design-process/) as the basis of our process, which is divided into 4 phases described below:
+![design_process (1)](https://user-images.githubusercontent.com/96849644/179824380-86309705-36c1-430e-b230-dd4e792a605b.gif)
 
 #### 1. Immersion and Research
 
