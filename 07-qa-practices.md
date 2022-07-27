@@ -28,10 +28,7 @@ In Software Engineering, QA is based on requirements engineering, main and alter
 
 To know more about our management framework, [click here](https://www.mobixtec.com/process).
 
-
-GIF 1
-
-
+![process_eng (1)](https://user-images.githubusercontent.com/96849644/181298273-37bd0e18-560a-4776-a7bb-e3a1de7987ac.gif)
 
 The discovery is performed using the Design Thinking technique called *[Double Diamond](https://www.designorate.com/the-double-diamond-design-thinking-process-and-how-to-use-it/)*. In the first diamond, surveys are carried out with users to immerse themselves in the challenge faced by the client. At the end of the process, we deliver a summary of what was understood and defined one or more objectives.
 
@@ -60,17 +57,7 @@ At Mobix, we use three main tools to give support the testing process:
 
 Used for the management of the company, through Jira it is possible to identify which tasks are being carried out within a Sprint, and assess the status of each task. In that away, we were able to follow the deliveries and we were able to start the testing process.
 
-
-
-
-
-
-GIF 2
-
-
-
-
-
+![Depoy - Agile Board - Mobix (2) (1)](https://user-images.githubusercontent.com/96849644/181298509-3399efa9-654d-4689-b306-5073a1c14741.gif)
 
 There is a Kanban board that is **divided into 5 columns**, where each column represents a development status:
 
@@ -96,16 +83,7 @@ The platform works by dividing lines and columns, in which the lines contain the
 
 In the column of each development environment, there is a Jira integration. According to the task progress, the status is automatically updated on the Productboard. That is, when a task is delivered by the development team, the status is updated and the Product team can decide if a certain story is available for testing.
 
-
-
-
-
-GIF 3
-
-
-
-
-
+![Maracatec - Features (2) (1)](https://user-images.githubusercontent.com/96849644/181298558-ea0cf0c5-9fb8-4dc9-a786-e16613da555a.gif)
 
 There are **three columns**:
 
