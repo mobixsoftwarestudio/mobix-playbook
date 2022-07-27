@@ -21,7 +21,6 @@ Everything we wrote comes from our experiences, good practices exchanges, profes
 These references taught us something that lives on in our culture. Sometimes bringing us things we haven’t ever heard of, and other times just by asserting things we already had stumbled upon in our practice and use frequently in our day-to-day.
 
 
-
 ## What inspires us
 
 ### Books
@@ -69,6 +68,3 @@ Don't make me think: [https://drive.google.com/open?id=1vt9KcW5FViwHhxDiz4mBCdkr
 YCombinator: [https://playbook.samaltman.com/](https://playbook.samaltman.com/)
 
 Google: [https://rework.withgoogle.com/](https://rework.withgoogle.com/)
-
-
-
